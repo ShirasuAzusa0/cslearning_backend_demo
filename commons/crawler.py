@@ -36,6 +36,7 @@ class WebDriverCrawler:
     def get_search_html(self, id:str) -> str:
         # 打开网页
         self.driver.get(f'https://search.bilibili.com/all?&tid=0&page=1&keyword={id}&order=click')
+        self.driver.quit()
         # 刷新网页
         # driver.refresh()
         # 添加请求延迟
@@ -43,7 +44,7 @@ class WebDriverCrawler:
         # 获取网页的HTML
         html_str = self.driver.page_source
         # 关闭WebDriver
-        self.driver.quit()
+        # self.driver.quit()
         # 返回html源码
         return html_str
 
