@@ -1,5 +1,6 @@
 import time
 from selenium.webdriver.edge.options import Options
+from selenium.webdriver.edge.service import Service
 from selenium import webdriver
 from lxml import etree
 
@@ -17,7 +18,9 @@ class WebDriverCrawler:
         prefs = {"profile.managed_default_content_settings.images": 2}
         options.add_experimental_option('prefs', prefs)
         # 创建一个Edge WebDriver实例
-        self.driver = webdriver.Edge(options=options)
+        # self.driver = webdriver.Edge(options=options)
+        service = Service(executable_path="/root/msedgedriver")
+        self.driver = webdriver.Edge(service=service, options=options)
 
     def get_search_html(self, id:str) -> str:
         # 打开网页
