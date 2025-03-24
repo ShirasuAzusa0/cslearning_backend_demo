@@ -5,7 +5,7 @@ from contants import username, password
 # 连接Neo4j数据库
 username = username
 password = password
-graph = Graph("http://localhost:7474", auth=(username, password), name='azusa')
+graph = Graph("bolt://120.76.138.103:7687", auth=(username, password), name='neo4j')
 
 def create_node_1(label, id):
     query = f"MERGE (n:{label} {{id: $id}}) RETURN n"
