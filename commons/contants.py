@@ -16,7 +16,7 @@ name = "azusa"
 '''
 uri = "bolt://120.76.138.103:7687"
 username = "neo4j"
-password ="AzusaNeo4j"
+password ="neo4j"
 auth = (username, password)
 name = "neo4j"
 
