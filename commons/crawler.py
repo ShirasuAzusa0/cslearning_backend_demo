@@ -11,27 +11,24 @@ from services.crawler_service import CrawlerService
 
 class WebDriverCrawler:
     def __init__(self):
-        user_data_dir = f"/tmp/edge_{uuid.uuid4().hex}"
-        os.makedirs(user_data_dir, exist_ok=True)
+        # user_data_dir = f"/tmp/edge_{uuid.uuid4().hex}"
+        # os.makedirs(user_data_dir, exist_ok=True)
 
         # 创建EdgeOptions对象
         options = Options()
 
         # 指定唯一目录
-        options.add_argument(f"--user-data-dir={user_data_dir}")
+        # options.add_argument(f"--user-data-dir={user_data_dir}")
 
         # 设置headless模式（隐藏浏览器）
-        # options.add_argument('--headless')
-        options.add_argument('--headless=new')
+        options.add_argument('--headless')
         # 隐藏监听信息
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         # 禁止图片加载
         prefs = {"profile.managed_default_content_settings.images": 2}
         options.add_experimental_option('prefs', prefs)
         # 创建一个Edge WebDriver实例
-        # self.driver = webdriver.Edge(options=options)
-        service = Service(executable_path="/root/msedgedriver")
-        self.driver = webdriver.Edge(service=service, options=options)
+        self.driver = webdriver.Edge(options=options)
 
     def get_search_html(self, id:str) -> str:
         # 打开网页
