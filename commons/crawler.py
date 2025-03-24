@@ -24,6 +24,10 @@ class WebDriverCrawler:
         options.add_argument('--headless')
         # 隐藏监听信息
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
+
+        options.add_argument('--no-sandbox')  # 禁用沙盒模式，规避权限问题
+        options.add_argument('--disable-dev-shm-usage')  # 避免共享内存不足导致崩溃
+
         # 禁止图片加载
         prefs = {"profile.managed_default_content_settings.images": 2}
         options.add_experimental_option('prefs', prefs)
