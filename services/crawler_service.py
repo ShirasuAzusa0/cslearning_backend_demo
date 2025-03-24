@@ -1,4 +1,5 @@
-from sqlalchemy import VARCHAR, JSON, Select, asc
+from sqlalchemy import VARCHAR, JSON, asc
+from sqlalchemy.sql import Select
 
 from models.crawlerdatas_model import CrawlerDatasModel
 from models.crawlerids_model import CrawlerIdsModel
