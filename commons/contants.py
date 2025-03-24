@@ -2,7 +2,9 @@
 LOGIN_SECRET = "f3raesfdkncf34209r3tj"
 
 # MySQL配置
-MySQL_Config = 'mysql+mysqldb://root:Azusa1226!@127.0.0.1/postslist'
+# MySQL_Config = 'mysql+mysqldb://root:Azusa1226!@127.0.0.1/postslist'
+MySQL_Config = 'mysql+pymysql://root:Azusa1226!@127.0.0.1/postslist'
+
 
 # Neo4j配置
 '''
