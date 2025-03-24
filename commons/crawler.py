@@ -4,14 +4,25 @@ from selenium.webdriver.edge.service import Service
 from selenium import webdriver
 from lxml import etree
 
+import os
+import uuid
+
 from services.crawler_service import CrawlerService
 
 class WebDriverCrawler:
     def __init__(self):
+        user_data_dir = f"/tmp/edge_{uuid.uuid4().hex}"
+        os.makedirs(user_data_dir, exist_ok=True)
+
         # 创建EdgeOptions对象
         options = Options()
+
+        # 指定唯一目录
+        options.add_argument(f"--user-data-dir={user_data_dir}")
+
         # 设置headless模式（隐藏浏览器）
-        options.add_argument('--headless')
+        # options.add_argument('--headless')
+        options.add_argument('--headless=new')
         # 隐藏监听信息
         options.add_experimental_option('excludeSwitches', ['enable-logging'])
         # 禁止图片加载
