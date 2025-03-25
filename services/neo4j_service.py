@@ -1,6 +1,5 @@
 from flask import jsonify
-#from resources import app
-from main import app
+from resources import app
 
 class Neo4jService:
     # 获取所有节点json数据方法
