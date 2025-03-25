@@ -20,10 +20,10 @@ graph = Graph(Neo4j_Config[0], auth=Neo4j_Config[1], name=Neo4j_Config[2])
 # 将Neo4j驱动实例添加到Flask应用的配置中，以便在其他地方使用
 app.config['NEO4J_GRAPH'] = graph
 
-from resources import learningroute_resource
-from resources import attachment_resource
-from resources import posts_resource
-from resources import conversations_resource
-from resources import users_resource
-from resources import neo4j_resource
-from resources import categories_resource
+from resources import (learningroute_resource,
+attachment_resource,
+posts_resource,
+conversations_resource,
+users_resource,
+neo4j_resource,
+categories_resource)
