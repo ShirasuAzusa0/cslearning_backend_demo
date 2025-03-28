@@ -29,5 +29,18 @@ class ArticleResource(Resource):
             }
         }
 
+class PublicKeyResource(Resource):
+    # 获取公钥
+    def get(self):
+        public_key_path = utils.get_key_path().joinpath("public_key.pem")
+        with open(public_key_path, "r") as f:
+            public_key = f.read()
+            f.close()
+        return {
+            "msg": "success",
+            "key": public_key,
+        }
+
 api.add_resource(Attachment_resource, '/roadmap-attachments/<filename>')
 api.add_resource(ArticleResource, '/forum/KnowledgeGraph/Resources')
+api.add_resource(PublicKeyResource, '/login/publicKey')

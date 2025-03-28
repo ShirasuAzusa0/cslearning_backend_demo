@@ -24,10 +24,10 @@ def get_key_path():
 # 获取节点文章的路径
 def get_article_path(type, filename):
     home_path = Path(__file__).parent.parent
-    key_path = home_path.joinpath("attachments/node_article")
+    article_path = home_path.joinpath("attachments/node_article")
 
     # 遍历node_article目录下的所有子目录（直接+间接）
-    for subdir in key_path.rglob('*'):
+    for subdir in article_path.rglob('*'):
         if subdir.is_dir() and subdir.name == filename:
             articles = []
             for file in subdir.rglob('*'):
