@@ -12,7 +12,7 @@ def get_attachment_path():
         attachment_path.mkdir(parents=True)
 
     # 返回attachments目录的路径
-    return attachment_path
+    return attachment_path, attachment_path.relative_to(home_path.parent)
 
 def get_key_path():
     home_path = Path(__file__).parent.parent

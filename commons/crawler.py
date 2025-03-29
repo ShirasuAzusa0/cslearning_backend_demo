@@ -11,14 +11,14 @@ from services.crawler_service import CrawlerService
 
 class WebDriverCrawler:
     def __init__(self):
-        user_data_dir = f"/tmp/edge_{uuid.uuid4().hex}"
-        os.makedirs(user_data_dir, exist_ok=True)
+        #user_data_dir = f"/tmp/edge_{uuid.uuid4().hex}"
+        #os.makedirs(user_data_dir, exist_ok=True)
 
         # 创建EdgeOptions对象
         options = Options()
 
         # 指定唯一目录
-        options.add_argument(f"--user-data-dir={user_data_dir}")
+        #options.add_argument(f"--user-data-dir={user_data_dir}")
 
         # 设置headless模式（隐藏浏览器）
         options.add_argument('--headless')
