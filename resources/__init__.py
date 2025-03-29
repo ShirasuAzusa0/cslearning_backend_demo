@@ -2,14 +2,16 @@
 from flask import Flask
 from flask_restful import Api
 from flask_sqlalchemy import SQLAlchemy
+from flask_cors import CORS
 from py2neo import Graph
 
 from commons.contants import MySQL_Config, Neo4j_Config
 
 # 创建一个Flask应用实例app，在name为main时运行启动后端服务器
 app = Flask(__name__)
+# 全局设置接口支持跨域
+CORS(app)
 # 创建一个Flask-RESTful API实例与Flask应用关联，设置了前端调用的后端接口的入口
-#api = Api(app)
 api = Api(app)
 # 配置SQLAlchemy数据库的链接信息，指定了链接的数据库
 app.config['SQLALCHEMY_DATABASE_URI'] = MySQL_Config
