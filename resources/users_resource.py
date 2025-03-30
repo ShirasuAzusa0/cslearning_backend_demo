@@ -219,9 +219,34 @@ class UserPageResource(Resource):
         else:
             return {'status': 'fail', 'message': '找不到该用户', 'data': None},404
 
+# 管理员登录界面（暂时）
+class AdminLoginResource(Resource):
+    # 登录方法
+    def post(self):
+        account = request.json.get('account', None)
+        type = request.json.get('type', None)
+        password = request.json.get('password', None)
+        if type != 'admin':
+            return {'status': 'fail', 'msg': '非管理员，无权限登录', 'data': None},401
+        user_model = UsersService().login(account, password)
+        if user_model:
+            user_json = user_model.serialize_mode1()
+            # 生成一个JWT的token令牌
+            jwt_token = generate_token(user_json)
+            # 直接给前端返回token即可
+            return {
+                'status': 'success',
+                'msg': '登录成功',
+                'data': {
+                    'userId': str(user_model.id),
+                    'token': jwt_token
+                }
+            }
+
 api.add_resource(RegisterResource, '/register')
 api.add_resource(LoginResource, '/login')
 api.add_resource(LogoutResource, '/user/logout')
 api.add_resource(LogoffResource, '/user/logoff')
 api.add_resource(SettingResource, '/user/setting')
 api.add_resource(UserPageResource, '/user/profile/<string:userId>')
+api.add_resource(AdminLoginResource, '/login/admin')
