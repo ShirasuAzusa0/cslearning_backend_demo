@@ -74,3 +74,22 @@ class Neo4jService:
             node_list.append(node_data)
         return node_list
 
+    # 给出学习路径
+    def get_learning_path(self, start):
+        graph = app.config['NEO4J_GRAPH']
+        # 路径步长索引法，通过nodes(p)和relationships(p)获取路径中的节点与关系列表，结合索引标记步长顺序
+        query = '''
+            MATCH p=(c1:Course {id:$id})-[:学习路线*]->(c2)
+            WITH p, 
+                 nodes(p) AS pathNodes, 
+                 relationships(p) AS rels
+            UNWIND range(0, size(rels)-1) AS index
+            RETURN 
+              pathNodes[index].id AS startId,
+              pathNodes[index+1].id AS endId,
+              type(rels[index]) AS relationType,
+              index+1 AS stepOrder
+            ORDER BY stepOrder
+        '''
+        node_list = graph.run(query, id=start).data()
+        return node_list

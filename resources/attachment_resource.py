@@ -42,5 +42,5 @@ class PublicKeyResource(Resource):
         }
 
 api.add_resource(Attachment_resource, '/roadmap-attachments/<filename>')
-api.add_resource(ArticleResource, '/forum/KnowledgeGraph/Resources')
+api.add_resource(ArticleResource, '/learn/KnowledgeGraph/Resources')
 api.add_resource(PublicKeyResource, '/login/publicKey')

@@ -32,10 +32,16 @@ def get_article_path(type, filename):
             articles = []
             for file in subdir.rglob('*'):
                 if file.is_file() and ((type == 'Course' and file.name[0] != '0') or type in ['Part','de_Part'] and file.name[0] == '0'):
+                    original_path = Path(file)
+                    parts = original_path.parts
+                    start_index = parts.index('node_article')
+                    target_parts = parts[start_index:-1]
+                    file_name = original_path.stem
+                    target_path = Path(*target_parts) / file_name
                     articles.append(
                         {
-                            "name": str(file.name),
-                            "article": str(file)
+                            "name": str(file_name),
+                            "article": str(target_path)
                         }
                     )
             return articles

@@ -16,19 +16,21 @@ questions = [
     {'id': 14, 'topic': 'Vue3', 'difficulty': '高阶'},
     {'id': 15, 'topic': 'CSS3', 'difficulty': '高阶'},
     {'id': 16, 'topic': 'JavaScript', 'difficulty': '高阶'},
-    #{'id': 17, 'topic': '框架对比', 'difficulty': '综合应用'},
+    {'id': 17, 'topic': '框架对比', 'difficulty': '综合应用'},
     {'id': 18, 'topic': 'TypeScript', 'difficulty': '综合应用'},
     {'id': 19, 'topic': '性能优化', 'difficulty': '综合应用'},
-    {'id': 20, 'topic': '架构设计', 'difficulty': '综合应用'},
+    {'id': 20, 'topic': '架构设计', 'difficulty': '综合应用'}
 ]
 
 # 模拟用户答题数据（正确：True，错误：False）
+'''
 user_answers = {
     1: True, 2: False, 3: True, 4: False, 5: True,
     6: False, 7: True, 8: True, 9: False, 10: True,
     11: False, 12: True, 13: False, 14: True, 15: False,
-    16: True, 17: False, 18: True, 19: False, 20: True
+    16: True, 17: True, 18: False, 19: True, 20: False
 }
+'''
 
 # 新增外部数据权重（模拟数据）
 external_weights = {
@@ -39,13 +41,14 @@ external_weights = {
     'Vue3': {'trend': 0.6, 'resource': 0.6, 'demand': 0.4},
     'React': {'trend': 0.8, 'resource': 0.95, 'demand': 0.85},
     'Angular': {'trend': 0.3, 'resource': 0.5, 'demand': 0.35},
+    '框架对比': {'trend': 0.6, 'resource': 0.3, 'demand': 0.7},
     '性能优化': {'trend': 0.7, 'resource': 0.4, 'demand': 0.75},
     '架构设计': {'trend': 0.65, 'resource': 0.3, 'demand': 0.6}
 }
 
 
 # ================== 核心算法 ==================
-def generate_learning_path(use_enhanced=True):
+def generate_learning_path(user_answers, use_enhanced=True):
     # 知识点统计（基础模型逻辑）
     statistics = {}
     for q in questions:
@@ -56,7 +59,7 @@ def generate_learning_path(use_enhanced=True):
         if diff not in statistics[topic]:
             statistics[topic][diff] = {'correct': 0, 'total': 0}
         statistics[topic][diff]['total'] += 1
-        if user_answers.get(q['id'], False):
+        if user_answers['result'][q['id'] - 1].get('answer', False):
             statistics[topic][diff]['correct'] += 1
 
     # 计算正确率
@@ -107,7 +110,7 @@ def generate_learning_path(use_enhanced=True):
         difficulty_weight = {d: idx for idx, d in enumerate(difficulty_order)}
         return sorted(learning_path, key=lambda x: (difficulty_weight[x['difficulty']], x['rate']))
 
-
+'''
 # ================== 结果输出 ==================
 def print_results(path, model_name):
     print(f"\n【{model_name}模型输出】")
@@ -127,5 +130,5 @@ if __name__ == "__main__":
     enhanced_path = generate_learning_path(use_enhanced=True)
 
     # 对比输出
-    print_results(base_path, "基础")
     print_results(enhanced_path, "增强优化")
+'''
