@@ -29,7 +29,7 @@ class Neo4jCategoryResource(Resource):
 
 class Neo4jLearningPathResource(Resource):
     # 根据做题结果生成学习路径
-    def get(self):
+    def post(self):
         result = request.json
         res_list = generate_learning_path(result, use_enhanced=True)
         node_list = Neo4jService().get_learning_path(res_list[0]['topic'])
