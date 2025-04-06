@@ -1,4 +1,4 @@
-from sqlalchemy import VARCHAR, Select, asc
+from sqlalchemy import VARCHAR, Select, func, asc
 
 from models.users_model import UsersModel
 from resources import db
@@ -6,9 +6,17 @@ from datetime import datetime
 
 # 启用数据库服务的类，定义了对数据库的增、删、改、查等各类操作，并将结果返回
 class UsersService:
+    def get_total_user(self):
+        return db.session.query(func.count(UsersModel.id)).scalar()
+
+    def generate_userId(self):
+        num = self.get_total_user()
+        userId = 'user_' + str(num+1)
+        return userId
+
     def get_user_by_email(self, user_email:VARCHAR):
         # 使用db.session这一与数据库交互的对象，调用get方法从数据库中查找单一数据记录，并将其返回
-        return db.session.get(UsersModel, user_email)
+        return UsersModel.query.filter_by(email=user_email).first()
 
     def get_user_by_id(self, user_id:VARCHAR):
         # 使用db.session这一与数据库交互的对象，调用get方法根据主键（primary_key）从数据库中查找单一数据记录，并将其返回
@@ -35,8 +43,9 @@ class UsersService:
             return user_model
 
     # 注册方法
-    def register(self, user_model:UsersModel):
-        exist_user = self.get_user_by_id(user_model.id)
+    def signup(self, user_model:UsersModel):
+        # exist_user = self.get_user_by_id(user_model.id)
+        exist_user = self.get_user_by_email(user_model.email)
         # 若用户已经存在则抛出异常
         if exist_user:
             # raise Exception(f'User exists with email"{user_model.email}"')

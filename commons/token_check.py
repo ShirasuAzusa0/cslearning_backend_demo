@@ -19,7 +19,6 @@ def token_required(f):
                 return {'status':'fail', 'msg': 'User unauthorized'},401
         except Exception as e:
             return {'status':'fail', 'msg':f'{e}'},401
-            #return {'error': 'User unauthorized'},401
         result = f(*args, **kwargs)
         return result
     return wrapper

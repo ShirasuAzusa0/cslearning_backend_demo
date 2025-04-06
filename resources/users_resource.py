@@ -17,47 +17,56 @@ from cryptography.hazmat.primitives.asymmetric import padding
 import base64
 
 
-class RegisterResource(Resource):
+class SignupResource(Resource):
     def __init__(self):
         # 加载私钥
         self.private_key = load_private_key()
 
     # 处理注册请求
     def post(self):# 继承自flask-restful的Resource的类，定义了处理前端HTTP请求的方法（如GET、POST、PUT、DELETE）
-        id = request.args.get('id', None)
-        avatarUrl = request.args.get('avatarUrl', None)
-        userName = request.args.get('userName', None)
-        email = request.args.get('email', None)
-        password = request.args.get('password', None)
-        type = request.args.get('type', None)
+        userName = request.json.get('userName', None)
+        email = request.json.get('email', None)
+        password = request.json.get('password', None)
         # 通过私钥解密密码
         try:
             encrypted_password = base64.b64decode(password)  # 将Base64编码的密码字符串解码为字节数据
-            user_password = self.private_key.decrypt(  # 使用私钥对解码后的字节数据进行解密
+            user_password = self.private_key.decrypt(             # 使用私钥对解码后的字节数据进行解密
                 encrypted_password,
                 padding.PKCS1v15()
             ).decode('utf-8')  # 解密后的字节数据解码为UTF-8字符串
         except Exception as e:
             return {'status': 'fail', 'msg': f'解密失败：{e}'}, 400
 
-        user_model = UsersModel(id=id,
-                                avatarUrl=avatarUrl,
+        userId = UsersService().generate_userId()
+
+        user_model = UsersModel(id=userId,
+                                avatarUrl="https://avatars.githubusercontent.com/u/19370775",
                                 userName=userName,
                                 email=email,
-                                password=password,
-                                type=type,
+                                password=user_password,
+                                type='user',
                                 selfDescription='这个用户很懒,什么都没有留下',
                                 registerDate=datetime.now(),
                                 reply=0, topics=0, follower=0, following=0)
-        user_model = UsersService().register(user_model)
+        user_model = UsersService().signup(user_model)
         if user_model:
-            user_json = user_model.serialize_1()
+            user_json = user_model.serialize_mode1()
             # 生成一个JWT的token令牌
             jwt_token = generate_token(user_json)
             # 直接给前端返回token即可
-            return {'Authorization': jwt_token}
+            return {
+                'status': 'success',
+                'msg': '注册成功',
+                'data': {
+                    'userId': str(user_model.id),
+                    'token': jwt_token
+                }
+            }
         else:
-            return {"error":"User has existed"},412
+            return {
+                'status': 'fail',
+                'msg': '用户已存在'
+            },400
 
 class LoginResource(Resource):
     def __init__(self):
@@ -221,7 +230,7 @@ class UserPageResource(Resource):
 
 # 管理员登录界面（暂时）
 class AdminLoginResource(Resource):
-    # 登录方法
+    # 管理员登录方法
     def post(self):
         account = request.json.get('account', None)
         type = request.json.get('type', None)
@@ -243,7 +252,7 @@ class AdminLoginResource(Resource):
                 }
             }
 
-api.add_resource(RegisterResource, '/register')
+api.add_resource(SignupResource, '/login/signup')
 api.add_resource(LoginResource, '/login')
 api.add_resource(LogoutResource, '/user/logout')
 api.add_resource(LogoffResource, '/user/logoff')

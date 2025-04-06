@@ -14,7 +14,7 @@ class Attachment_resource(Resource):
         return send_file(file_path)
 
 class ArticleResource(Resource):
-    # 获取指定知识点的相关文章
+    # 获取指定知识点的相关文章和视频
     def get(self):
         type = request.args.get('type', None)
         id = request.args.get('id', None)
