@@ -148,23 +148,24 @@ class SettingResource(Resource):
         user_name = request.form.get('userName', None)
         user_description = request.form.get('selfDescription', None)
         user_password = request.form.get('password', None)
-        password_again = request.form.get('password_again', None)
+        # password_again = request.form.get('password_again', None)
 
         # 通过私钥解密密码
-        try:
-            encrypted_password = base64.b64decode(user_password)    # 将Base64编码的密码字符串解码为字节数据
-            user_password = self.private_key.decrypt(               # 使用私钥对解码后的字节数据进行解密
-                encrypted_password,
-                padding.PKCS1v15()
-            ).decode('utf-8')                                       # 解密后的字节数据解码为UTF-8字符串'''
+        if user_password != '':
+            try:
+                encrypted_password = base64.b64decode(user_password)    # 将Base64编码的密码字符串解码为字节数据
+                user_password = self.private_key.decrypt(               # 使用私钥对解码后的字节数据进行解密
+                    encrypted_password,
+                    padding.PKCS1v15()
+                ).decode('utf-8')                                       # 解密后的字节数据解码为UTF-8字符串'''
 
-           # encrypted_password = base64.b64decode(password_again)
-           # password_again = self.private_key.decrypt(
-           #     encrypted_password,
-           #     padding.PKCS1v15()
-           # ).decode('utf-8')
-        except Exception as e:
-            return {'status': 'fail', 'msg': f'解密失败：{e}'}, 400
+               # encrypted_password = base64.b64decode(password_again)
+               # password_again = self.private_key.decrypt(
+               #     encrypted_password,
+               #     padding.PKCS1v15()
+               # ).decode('utf-8')
+            except Exception as e:
+                return {'status': 'fail', 'msg': f'解密失败：{e}'}, 400
 
        # if user_password != password_again:
        #     return {'status': 'fail', 'msg': '两次输入的密码不一致'}, 400
@@ -196,12 +197,13 @@ class SettingResource(Resource):
         user_id = user_info.get('id', None)
         user_model = UsersService().update_user_data(user_id, avatar_path, user_email, user_name, user_description, user_password)
         if user_model:
+            '''
             # 构建用户修改信息字典
             res = {
                 'email': user_email,
                 'userName': user_name,
                 'selfDescription': user_description,
-                'password': user_password,
+                'password': '修改成功',
                 'avatarUrl': str(avatar_path)
             }
             # 构造返回数据模型
@@ -215,6 +217,12 @@ class SettingResource(Resource):
                 if value is not None:
                     result['data'][key] = value
             return result
+            '''
+            return {
+                'status': 'success',
+                'msg': '用户信息更新成功'
+            }
+
         else:
             return {'status': 'fail', 'msg':'用户信息更新失败'}, 404
 
