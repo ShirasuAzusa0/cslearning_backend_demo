@@ -134,7 +134,6 @@ class SettingResource(Resource):
         self.parser = reqparse.RequestParser()
         # 通过add_argument方法定义需要解析的参数
         self.parser.add_argument("avatar",  # 参数名称
-                                 required=True,  # 确保上述参数必须存在
                                  type=FileStorage,  # 文件存储类型
                                  location="files",  # 提取参数的位置，将数据转换成文件存储
                                  help="Please private avatar file")  # 请求中没有参数则报错的内容
@@ -148,53 +147,47 @@ class SettingResource(Resource):
         user_name = request.form.get('userName', None)
         user_description = request.form.get('selfDescription', None)
         user_password = request.form.get('password', None)
-        # password_again = request.form.get('password_again', None)
 
         # 通过私钥解密密码
-        if user_password != '':
+        if user_password != '' and user_password is not None:
             try:
                 encrypted_password = base64.b64decode(user_password)    # 将Base64编码的密码字符串解码为字节数据
                 user_password = self.private_key.decrypt(               # 使用私钥对解码后的字节数据进行解密
                     encrypted_password,
                     padding.PKCS1v15()
-                ).decode('utf-8')                                       # 解密后的字节数据解码为UTF-8字符串'''
+                ).decode('utf-8')                                       # 解密后的字节数据解码为UTF-8字符串
 
-               # encrypted_password = base64.b64decode(password_again)
-               # password_again = self.private_key.decrypt(
-               #     encrypted_password,
-               #     padding.PKCS1v15()
-               # ).decode('utf-8')
             except Exception as e:
                 return {'status': 'fail', 'msg': f'解密失败：{e}'}, 400
-
-       # if user_password != password_again:
-       #     return {'status': 'fail', 'msg': '两次输入的密码不一致'}, 400
 
         # 获取文件，通过self.parser.parse_args()解析请求参数并从中获取名为attachment的文件
         attachment_file = self.parser.parse_args().get("avatar")
         # 上传内容只允许为图片
         allowed_extensions = {'png', 'jpg', 'jpeg', 'gif'}
-        if not attachment_file or attachment_file.filename == '':
-            return {'status': 'fail', 'msg': 'No file part'}, 400
-        # 匹配文件拓展名
-        file_extension = attachment_file.filename.rsplit('.', 1)[1].lower()
-        # 检查文件拓展名是否为允许的图片格式
-        if file_extension not in allowed_extensions:
-            return {'status': 'fail', 'msg': 'Invalid file format'}, 400
-        # 提取文件名
-        # filename = attachment_file.filename
-        # 生成文件路径
-        # 不要传参传成(attachment_file,filename),会报错argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'FileStorage'
-        save_path, avatar_path = utils.get_attachment_path()
-        # 拼接绝对路径，用于保存头像文件
-        save_path = save_path.joinpath(attachment_file.filename)
-        # 相对路径，保存在数据库中和供前端调用
-        avatar_path = avatar_path.joinpath(attachment_file.filename)
-        # 将文件按当前路径保存
-        attachment_file.save(save_path)
+        if attachment_file:
+            # return {'status': 'fail', 'msg': 'No file part'}, 400
+            # 匹配文件拓展名
+            file_extension = attachment_file.filename.rsplit('.', 1)[1].lower()
+            # 检查文件拓展名是否为允许的图片格式
+            if file_extension not in allowed_extensions and file_extension is not None:
+                return {'status': 'fail', 'msg': 'Invalid file format'}, 400
+            # 提取文件名
+            # filename = attachment_file.filename
+            # 生成文件路径
+            # 不要传参传成(attachment_file,filename),会报错argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'FileStorage'
+            save_path, avatar_path = utils.get_attachment_path()
+            # 拼接绝对路径，用于保存头像文件
+            save_path = save_path.joinpath(attachment_file.filename)
+            # 相对路径，保存在数据库中和供前端调用
+            avatar_path = avatar_path.joinpath(attachment_file.filename)
+            # 将文件按当前路径保存
+            attachment_file.save(save_path)
+
         # 解析token获取用户id
         user_info = token_decode()
         user_id = user_info.get('id', None)
+        if not attachment_file:
+            avatar_path = None
         user_model = UsersService().update_user_data(user_id, avatar_path, user_email, user_name, user_description, user_password)
         if user_model:
             '''
