@@ -10,3 +10,7 @@ class CategoriesService:
     def get_all_tags(self):
         query = Select(CategoriesModel).order_by(asc(CategoriesModel.tagId))
         return db.session.scalars(query).all()
+
+    # 获取指定标签对应的帖子列表
+    def get_post_list_by_tagName(self, tag_name:VARCHAR):
+        return CategoriesModel.query.filter_by(tagName=tag_name).first()

@@ -1,5 +1,8 @@
 from pathlib import Path
 
+def save_avatar():
+    return "/static/avatar"
+
 def get_attachment_path():
     # 获取当前脚本文件（utils.py）的路径，并找到其父目录的父母录（在当前项目中是项目根目录，根据不同项目来调整）
     home_path = Path(__file__).parent.parent

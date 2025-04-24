@@ -24,6 +24,33 @@ class Neo4jService:
             node_list.append(node_data)
         return node_list
 
+    # 根据id获取与当前id对应的节点和与之关联的同级节点
+    def get_same_class_rel(self, id:str):
+        graph = app.config['NEO4J_GRAPH']
+        query = """
+            MATCH p=(c1:Course {id:"Flask"})-[*]->(c2)
+            WITH p, 
+                 nodes(p) AS pathNodes, 
+                 relationships(p) AS rels
+            UNWIND range(0, size(rels)-1) AS index
+            WITH 
+                pathNodes[index].id AS startId,
+                pathNodes[index+1].id AS endId,
+                type(rels[index]) AS relationType,
+                index+1 AS stepOrder
+            // 按起始节点、结束节点和关系类型分组，取最小步序
+            WITH startId, endId, relationType, min(stepOrder) AS stepOrder
+            // 再次按起始节点和结束节点分组，确保关系类型唯一
+            WITH startId, endId, collect([relationType, stepOrder]) AS typeSteps
+            UNWIND typeSteps AS ts
+            WITH startId, endId, ts[0] AS relationType, ts[1] AS stepOrder
+            // 最终返回唯一的关系组合
+            RETURN startId, endId, relationType, stepOrder
+            ORDER BY stepOrder
+        """
+        node_list = graph.run(query, id=id).data()
+        return node_list
+
     # 根据id查找出category类节点的所有层子节点
     def get_rel_by_type(self, id:str, type:str):
         graph = app.config['NEO4J_GRAPH']

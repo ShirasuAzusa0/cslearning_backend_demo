@@ -10,6 +10,7 @@ import uuid
 from services.crawler_service import CrawlerService
 
 class WebDriverCrawler:
+    '''
     def __init__(self):
         #user_data_dir = f"/tmp/edge_{uuid.uuid4().hex}"
         #os.makedirs(user_data_dir, exist_ok=True)
@@ -64,7 +65,7 @@ class WebDriverCrawler:
                 "url": str("https:" + url_list[i])
             })
         return video_list
-
+'''
     def video_crawler(self, id:str):
         video_list = []
         get_id = CrawlerService().get_data_by_id(id)

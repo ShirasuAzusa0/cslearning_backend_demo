@@ -175,11 +175,12 @@ class SettingResource(Resource):
             # filename = attachment_file.filename
             # 生成文件路径
             # 不要传参传成(attachment_file,filename),会报错argument should be a str or an os.PathLike object where __fspath__ returns a str, not 'FileStorage'
-            save_path, avatar_path = utils.get_attachment_path()
+            # save_path, avatar_path = utils.get_attachment_path()
             # 拼接绝对路径，用于保存头像文件
-            save_path = save_path.joinpath(attachment_file.filename)
+            # save_path = save_path.joinpath(attachment_file.filename)
+            save_path = "/static/avatar"
             # 相对路径，保存在数据库中和供前端调用
-            avatar_path = avatar_path.joinpath(attachment_file.filename)
+            avatar_path = "http://120.76.138.103:5001/avatar/" + attachment_file.filename
             # 将文件按当前路径保存
             attachment_file.save(save_path)
 
@@ -221,7 +222,7 @@ class SettingResource(Resource):
 
 class UserPageResource(Resource):
     # 获取用户主页信息
-    @ token_required
+    @token_required
     def get(self, userId: VARCHAR):
         user_model = UsersService().get_user_by_id(userId)
         if user_model is not None:

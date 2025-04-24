@@ -2,6 +2,10 @@ from sqlalchemy import VARCHAR, Enum, DATETIME, INT
 from sqlalchemy.orm import Mapped, mapped_column,relationship
 from resources import db
 
+from models.post_like_model import post_like
+from models.comment_like_model import comment_like
+from models.favorites_model import favorites
+
 # 数据库mysql映射类，该类的对象用来暂存从数据库中读取出来的数据，通过格式化为json数据后返回给前端
 class UsersModel(db.Model):
     __tablename__ = 'users'
@@ -18,8 +22,17 @@ class UsersModel(db.Model):
     follower: Mapped[INT] = mapped_column(INT, nullable=False)
     following: Mapped[INT] = mapped_column(INT, nullable=False)
 
-    # 在 UsersModel 中添加 posts 反向关系
-    posts = relationship("PostsModel", back_populates="author")
+    # 定义postsLiked成员变量与PostsModel映射类的关系（多对多关系）
+    postLiked = relationship("PostsModel", secondary=post_like, back_populates="userLiked")
+
+    # 定义commentsLiked成员变量与CommentsModel映射类的关系（多对多关系）
+    commentLiked = relationship("CommentsModel", secondary=comment_like, back_populates="userCommentLiked")
+
+    # 定义postsFavorite成员变量与PostsModel映射类的关系（多对多关系）
+    postFavorite = relationship("PostsModel", secondary=favorites, back_populates="userFavorite")
+
+    # 在 UsersModel 中添加 posts 反向关系，明确指定 posts 反向关系使用 authorId 外键
+    posts = relationship("PostsModel", foreign_keys="PostsModel.authorId", back_populates="author")
 
     # 在 UsersModel 中添加 comments 反向关系
     comments = relationship("CommentsModel", back_populates="author")

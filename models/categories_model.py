@@ -33,3 +33,9 @@ class CategoriesModel(db.Model):
             'postsCount': self.postsCount,
             'lastPostTime': self.lastPostTime.isoformat().replace('T',' ')
         }
+
+    def serialize_mode3(self):
+        return {
+            'tagName': self.tagName,
+            'posts': [post.serialize_mode1() for post in self.posts]
+        }
