@@ -72,7 +72,7 @@ class NewPostResource(Resource):
     def post(self):
         data = request.json.get('data', None)
         title = data.get('title', None)
-        tags = data.get('tags', None)
+        tags = data.get('tags', {"tagId": 0, "tagName": "通用"})
         content = data.get('content', None)
 
         postId = PostsService().generate_postId()
