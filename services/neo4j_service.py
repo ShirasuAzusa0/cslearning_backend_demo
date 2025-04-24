@@ -129,7 +129,11 @@ class Neo4jService:
             UNWIND range(0, size(rels)-1) AS index
             RETURN 
               pathNodes[index].id AS startId,
+              pathNodes[index].level AS startLV,
+              pathNodes[index].content AS startContent,
               pathNodes[index+1].id AS endId,
+              pathNodes[index+1].level AS endLV,
+              pathNodes[index+1].content AS endContent,
               type(rels[index]) AS relationType,
               index+1 AS stepOrder
             ORDER BY stepOrder

@@ -2,11 +2,14 @@ from datetime import datetime
 
 from sqlalchemy import VARCHAR, Select, select, asc, desc, func, exists
 
+from models import CategoriesModel
 from models.favorites_model import favorites
 from models.posts_model import PostsModel
 from models.post_like_model import post_like
 from models.post_categories_model import post_categories
 from resources import db
+from services.categories_service import CategoriesService
+
 
 # 启用数据库服务的类，定义了对数据库的增、删、改、查等各类操作，并将结果返回
 class PostsService:
@@ -36,6 +39,10 @@ class PostsService:
                 tagId=tag["tagId"]
             )
             db.session.execute(insert_stmt)
+            db.session.commit()
+            tag_model = CategoriesService().get_tag_by_id(tag["tagId"])
+            tag_model.lastPostTime = func.now()
+            tag_model.postsCount += 1
             db.session.commit()
         return new_post
 

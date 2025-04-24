@@ -1,4 +1,4 @@
-from sqlalchemy import VARCHAR, Select, asc
+from sqlalchemy import VARCHAR, INT, Select, asc
 
 from models.categories_model import CategoriesModel
 from resources import db
@@ -10,6 +10,9 @@ class CategoriesService:
     def get_all_tags(self):
         query = Select(CategoriesModel).order_by(asc(CategoriesModel.tagId))
         return db.session.scalars(query).all()
+
+    def get_tag_by_id(self, id:INT):
+        return db.session.get(CategoriesModel ,id)
 
     # 获取指定标签对应的帖子列表
     def get_post_list_by_tagName(self, tag_name:VARCHAR):
