@@ -35,17 +35,33 @@ class Neo4jService:
             UNWIND range(0, size(rels)-1) AS index
             WITH 
                 pathNodes[index].id AS startId,
+                pathNodes[index].content AS startContent,
+                pathNodes[index].level AS startLevel,
                 pathNodes[index+1].id AS endId,
+                pathNodes[index+1].content AS endContent,
+                pathNodes[index+1].level AS endLevel,
                 type(rels[index]) AS relationType,
                 index+1 AS stepOrder
-            // 按起始节点、结束节点和关系类型分组，取最小步序
-            WITH startId, endId, relationType, min(stepOrder) AS stepOrder
-            // 再次按起始节点和结束节点分组，确保关系类型唯一
-            WITH startId, endId, collect([relationType, stepOrder]) AS typeSteps
+            // 按起始节点、结束节点和关系类型分组，取最小步序及属性
+            WITH startId, endId, relationType, 
+                 min(stepOrder) AS stepOrder,
+                 min(startContent) AS startContent,  // 同一id属性值相同，min/max均可
+                 min(startLevel) AS startLevel,
+                 min(endContent) AS endContent,
+                 min(endLevel) AS endLevel
+            // 按起始结束节点分组，收集关系类型与步序组合
+            WITH startId, endId, 
+                 collect([relationType, stepOrder]) AS typeSteps,
+                 startContent, startLevel, endContent, endLevel
             UNWIND typeSteps AS ts
-            WITH startId, endId, ts[0] AS relationType, ts[1] AS stepOrder
-            // 最终返回唯一的关系组合
-            RETURN startId, endId, relationType, stepOrder
+            // 展开获取最终关系类型和步序
+            WITH startId, endId, 
+                 ts[0] AS relationType, 
+                 ts[1] AS stepOrder,
+                 startContent, startLevel, endContent, endLevel
+            // 返回结果并排序
+            RETURN startId, endId, relationType, stepOrder,
+                   startContent, startLevel, endContent, endLevel
             ORDER BY stepOrder
         """
         node_list = graph.run(query, id=id).data()
