@@ -28,7 +28,7 @@ class Neo4jService:
     def get_same_class_rel(self, id:str):
         graph = app.config['NEO4J_GRAPH']
         query = """
-            MATCH p=(c1:Course {id:"Flask"})-[*]->(c2)
+            MATCH p=(c1:Course {id:$id})-[*]->(c2)
             WITH p, 
                  nodes(p) AS pathNodes, 
                  relationships(p) AS rels
