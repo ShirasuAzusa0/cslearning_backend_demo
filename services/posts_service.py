@@ -31,9 +31,9 @@ class PostsService:
         db.session.commit()
         # 保存帖子的标签分类
         for tag in tags:
-            insert_stmt = post_categories.insert.values(
+            insert_stmt = post_categories.insert().values(
                 postId=new_post.postId,
-                tagId=tag
+                tagId=tag["tagId"]
             )
             db.session.execute(insert_stmt)
             db.session.commit()

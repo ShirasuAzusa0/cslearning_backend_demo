@@ -43,8 +43,8 @@ class PostsModel(db.Model):
             'title': str(self.title),
             'author': self.author.serialize_mode1() if self.author else None,
             'tags': [category.serialize_mode1() for category in self.categories],
-            'createdAt': self.createdAt.isoformat().replace('T',' '),
-            'lastCommentedAt': self.lastCommentedAt.isoformat().replace('T',' '),
+            'createdAt': self.createdAt.isoformat().replace('T',' ') if self.createdAt else None,
+            'lastCommentedAt': self.lastCommentedAt.isoformat().replace('T',' ') if self.lastCommentedAt else None,
             'lastCommentedUser': self.author.serialize_mode4() if self.author else None,
             "commentsCount": self.commentsCount
         }
