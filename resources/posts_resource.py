@@ -147,7 +147,7 @@ class LikesResource(Resource):
         user_info = token_decode()
         user_id = user_info.get('id', None)
         if type == 'post':
-            is_liked = PostsService().like_status_check(user_id, postId)
+            is_liked = PostsService().like_status_check(postId, user_id)
             likesCount = PostsService().set_likes_to_post(postId, is_liked)
         elif type == 'comment':
             is_liked = CommentsService().like_status_check(user_id, postId)
@@ -165,7 +165,7 @@ class LikesResource(Resource):
             res["commentId"] = commentId
         res["count"] = likesCount
 
-        if likesCount:
+        if likesCount is not None:
             return res
         else:
             return {

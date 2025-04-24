@@ -72,20 +72,18 @@ class PostsService:
     def like_data_update(self, is_liked:bool, user_id:VARCHAR, post_id:VARCHAR):
         if is_liked:
             # 删除点赞记录
-            delete_stmt = post_like.delete.where(
+            stmt = post_like.delete().where(
                 (post_like.c.userId == user_id) &
                 (post_like.c.postId == post_id)
             )
-            db.session.execute(delete_stmt)
-            db.session.commit()
         else:
             # 添加点赞记录
-            insert_stmt = post_like.insert().values(
+            stmt = post_like.insert().values(
                 userId=user_id,
                 postId=post_id
             )
-            db.session.execute(insert_stmt)
-            db.session.commit()
+        db.session.execute(stmt)
+        db.session.commit()
 
     # 检查是否已点赞
     def like_status_check(self, post_id:VARCHAR, user_id:VARCHAR):
@@ -104,10 +102,10 @@ class PostsService:
         if post_model:
             # 点赞
             if is_liked:
-                post_model.likesCount += 1
+                post_model.likesCount -= 1
             # 取消点赞
             else:
-                post_model.likesCount -= 1
+                post_model.likesCount += 1
             db.session.commit()
             return post_model.likesCount
         else:
@@ -117,27 +115,25 @@ class PostsService:
     def favorite_data_update(self, is_favorite:bool, user_id:VARCHAR, post_id:VARCHAR):
         if is_favorite:
             # 删除收藏记录
-            delete_stmt = favorites.delete.where(
+            stmt = favorites.delete().where(
                 (favorites.c.userId == user_id) &
                 (favorites.c.postId == post_id)
             )
-            db.session.execute(delete_stmt)
-            db.session.commit()
         else:
             # 添加收藏记录
-            insert_stmt = favorites.insert().values(
+            stmt = favorites.insert().values(
                 userId=user_id,
                 postId=post_id
             )
-            db.session.execute(insert_stmt)
-            db.session.commit()
+        db.session.execute(stmt)
+        db.session.commit()
 
     # 检查是否已收藏
-    def favorite_post_check(self, userId:VARCHAR, postId:VARCHAR):
+    def favorite_post_check(self, postId:VARCHAR, userId:VARCHAR,):
         query = db.session.query(
             exists().where(
-                (post_like.c.userId == userId) &
-                (post_like.c.postId == postId)
+                (favorites.c.userId == userId) &
+                (favorites.c.postId == postId)
             )
         ).scalar()
         self.favorite_data_update(query, userId, postId)
