@@ -1,5 +1,4 @@
 import jwt
-import redis
 from flask import request
 from flask_restful import Resource
 from sqlalchemy import VARCHAR
