@@ -162,8 +162,8 @@ class LikesResource(Resource):
             PostsService().like_data_update(is_liked, user_id, postId)
             likesCount = PostsService().set_likes_to_post(postId, is_liked)
         elif type == 'comment':
-            is_liked = CommentsService().like_status_check(user_id, postId)
-            CommentsService().like_data_update(is_liked, user_id, postId)
+            is_liked = CommentsService().like_status_check(user_id, commentId)
+            CommentsService().like_data_update(is_liked, user_id, commentId)
             likesCount = CommentsService().set_likes_to_comment(commentId, is_liked)
         else:
             return { "status": "fail", "msg": "type的类型错误" },412

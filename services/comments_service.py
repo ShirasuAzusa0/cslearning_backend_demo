@@ -9,6 +9,9 @@ class CommentsService:
     # 根据创建时间搜索
     pass
 
+    # 获取数据库中最后一个评论的id
+    def get_last_comment_id(self):
+        return db.session.query(func.max(CommentsModel.id)).scalar()
     # 通过Id查询评论
     def get_comment_by_id(self, commentId:VARCHAR):
         return db.session.get(CommentsModel, commentId)
@@ -21,6 +24,8 @@ class CommentsService:
     def generate_commentId(self):
         num = self.get_total_comments()
         commentId = 'comment_' + str(num + 1)
+        if self.get_comment_by_id(commentId):
+            commentId = self.get_last_comment_id()
         return commentId
 
     # 保存评论到数据库中
@@ -30,26 +35,24 @@ class CommentsService:
         return new_comment
 
     # 处理评论点赞数据
-    def like_data_update(self, is_liked:bool, user_id:VARCHAR, post_id:VARCHAR):
+    def like_data_update(self, is_liked:bool, user_id:VARCHAR, comment_id:VARCHAR):
         if is_liked:
             # 删除点赞记录
-            delete_stmt = comment_like.delete.where(
+            stmt = comment_like.delete().where(
                 (comment_like.c.userId == user_id) &
-                (comment_like.c.postId == post_id)
+                (comment_like.c.commentId == comment_id)
             )
-            db.session.execute(delete_stmt)
-            db.session.commit()
         else:
             # 添加点赞记录
-            insert_stmt = comment_like.insert().values(
+            stmt = comment_like.insert().values(
                 userId=user_id,
-                postId=post_id
+                commentId=comment_id
             )
-            db.session.execute(insert_stmt)
-            db.session.commit()
+        db.session.execute(stmt)
+        db.session.commit()
 
     # 检查评论是否被当前用户点赞
-    def like_status_check(self, comment_id:VARCHAR, user_id:VARCHAR):
+    def like_status_check(self, user_id:VARCHAR, comment_id:VARCHAR):
         query = db.session.query(
             exists().where(
                 (comment_like.c.userId == user_id) &
@@ -63,12 +66,9 @@ class CommentsService:
         comment_model = self.get_comment_by_id(commentId)
         if comment_model:
             if is_liked:
-                comment_model.likesCount += 1
-            else:
                 comment_model.likesCount -= 1
-            for key, value in comment_model.items():
-                if value is not None:
-                    setattr(comment_model, key, value)
+            else:
+                comment_model.likesCount += 1
             db.session.commit()
             return comment_model.likesCount
         else:
