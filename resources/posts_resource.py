@@ -18,14 +18,23 @@ from commons.token_decode import token_decode
 class PostResource(Resource):
     # 获取具体帖子内容
     def get(self, postId: VARCHAR):
+        userId = request.args.get("user_id", None)
         post = PostsService().get_post_by_id(postId=postId)
         if post is not None:
-            return {
+            res = {
                 'status': 'success',
                 'data': {
                     'posts': post.serialize_mode2()
                 }
             }
+            if userId == '':
+                return res
+            else:
+                res['data']['posts']['isFavorite'] = PostsService().favorite_post_check(postId, userId)
+                res['data']['posts']['isLiked'] = PostsService().like_status_check(postId, userId)
+                for comment in res['data']['posts']['comments']:
+                    comment['isLiked'] = CommentsService().like_status_check(comment['commentId'], userId)
+                return res
         else:
             return {
                 'status': 'fail',
@@ -150,9 +159,11 @@ class LikesResource(Resource):
         user_id = user_info.get('id', None)
         if type == 'post':
             is_liked = PostsService().like_status_check(postId, user_id)
+            PostsService().like_data_update(is_liked, user_id, postId)
             likesCount = PostsService().set_likes_to_post(postId, is_liked)
         elif type == 'comment':
             is_liked = CommentsService().like_status_check(user_id, postId)
+            CommentsService().like_data_update(is_liked, user_id, postId)
             likesCount = CommentsService().set_likes_to_comment(commentId, is_liked)
         else:
             return { "status": "fail", "msg": "type的类型错误" },412
@@ -183,6 +194,7 @@ class FavoritePostResource(Resource):
         user_info = token_decode()
         userId = user_info.get('id', None)
         is_favorite = PostsService().favorite_post_check(postId, userId)
+        PostsService().favorite_data_update(is_favorite, userId, postId)
         post_id = postId
         res = {"status": "success"}
         if post_id:

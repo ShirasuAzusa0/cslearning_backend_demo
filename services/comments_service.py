@@ -49,14 +49,13 @@ class CommentsService:
             db.session.commit()
 
     # 检查评论是否被当前用户点赞
-    def like_status_check(self, user_id:VARCHAR, post_id:VARCHAR):
+    def like_status_check(self, comment_id:VARCHAR, user_id:VARCHAR):
         query = db.session.query(
             exists().where(
                 (comment_like.c.userId == user_id) &
-                (comment_like.c.postId == post_id)
+                (comment_like.c.commentId == comment_id)
             )
         ).scalar()
-        self.like_data_update(query, user_id, post_id)
         return query
 
     # 点赞评论

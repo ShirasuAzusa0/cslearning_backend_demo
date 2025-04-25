@@ -100,7 +100,6 @@ class PostsService:
                 (post_like.c.postId == post_id)
             )
         ).scalar()
-        self.like_data_update(query, user_id, post_id)
         return query
 
     # 点赞帖子
@@ -143,7 +142,6 @@ class PostsService:
                 (favorites.c.postId == postId)
             )
         ).scalar()
-        self.favorite_data_update(query, userId, postId)
         return query
 
     # 获取用户收藏的帖子
