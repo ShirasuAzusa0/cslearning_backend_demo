@@ -178,7 +178,7 @@ class SettingResource(Resource):
             # save_path, avatar_path = utils.get_attachment_path()
             # 拼接绝对路径，用于保存头像文件
             # save_path = save_path.joinpath(attachment_file.filename)
-            save_path = "/static/avatar"
+            save_path = "/static/avatar" + attachment_file.filename
             # 相对路径，保存在数据库中和供前端调用
             avatar_path = "http://120.76.138.103:5001/avatar/" + attachment_file.filename
             # 将文件按当前路径保存
