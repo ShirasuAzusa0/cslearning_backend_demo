@@ -22,10 +22,19 @@ class PostsService:
     def get_total_posts(self):
         return db.session.query(func.count(PostsModel.postId)).scalar()
 
+    # 获取数据库中最后一条帖子数据
+    def get_last_post_id(self):
+        return db.session.query(func.max(PostsModel.postId)).scalar()
+
     # 生成帖子编号
     def generate_postId(self):
         num = self.get_total_posts()
         postId = 'post_' + str(num + 1)
+        if self.get_post_by_id(postId):
+            postId = self.get_last_post_id()
+            prefix, current_num = postId.split('_')
+            new_num = int(current_num) + 1
+            postId = prefix + '_' + str(new_num)
         return postId
 
     # 保存帖子到数据库中

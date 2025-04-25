@@ -11,7 +11,7 @@ class CommentsService:
 
     # 获取数据库中最后一个评论的id
     def get_last_comment_id(self):
-        return db.session.query(func.max(CommentsModel.id)).scalar()
+        return db.session.query(func.max(CommentsModel.commentId)).scalar()
     # 通过Id查询评论
     def get_comment_by_id(self, commentId:VARCHAR):
         return db.session.get(CommentsModel, commentId)
@@ -26,6 +26,9 @@ class CommentsService:
         commentId = 'comment_' + str(num + 1)
         if self.get_comment_by_id(commentId):
             commentId = self.get_last_comment_id()
+            prefix, current_num = commentId.split('_')
+            new_num = int(current_num) + 1
+            commentId = prefix + '_' + str(new_num)
         return commentId
 
     # 保存评论到数据库中
