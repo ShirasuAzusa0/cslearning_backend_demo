@@ -33,7 +33,7 @@ class PostResource(Resource):
                 res['data']['posts']['isFavorite'] = PostsService().favorite_post_check(postId, userId)
                 res['data']['posts']['isLiked'] = PostsService().like_status_check(postId, userId)
                 for comment in res['data']['posts']['comments']:
-                    comment['isLiked'] = CommentsService().like_status_check(comment['commentId'], userId)
+                    comment['isLiked'] = CommentsService().like_status_check(userId, comment['commentId'])
                 return res
         else:
             return {
