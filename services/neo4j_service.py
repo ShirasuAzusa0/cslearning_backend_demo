@@ -1,7 +1,20 @@
 from flask import jsonify
 from resources import app
+from flask_restful import reqparse
+from werkzeug.datastructures import FileStorage
+
+from commons.utils import get_learning_road_path
 
 class Neo4jService:
+    def __init__(self):
+        # 定义一个语法分析器parser，其值为RequestParser函数，用于处理请求参数的输入
+        self.parser = reqparse.RequestParser()
+        # 通过add_argument方法定义需要解析的参数
+        self.parser.add_argument("avatar",  # 参数名称
+                                 type=FileStorage,  # 文件存储类型
+                                 location="files",  # 提取参数的位置，将数据转换成文件存储
+                                 help="Please private avatar file")  # 请求中没有参数则报错的内容
+
     # 获取所有节点json数据方法
     def get_all_nodes(self):
         graph = app.config['NEO4J_GRAPH']
@@ -140,3 +153,13 @@ class Neo4jService:
         '''
         node_list = graph.run(query, id=start).data()
         return node_list
+
+    # 保存学习路径json数据
+    def save_json_data(self, filename:str, data):
+        with open(filename, 'w', encoding='utf-8') as json_file:
+            json_file.write(data)
+            json_file.close()
+        save_path = get_learning_road_path()
+        save_path = save_path + '/' + filename
+        attachment_file = self.parser.parse_args().get("avatar")
+        attachment_file.save(save_path)

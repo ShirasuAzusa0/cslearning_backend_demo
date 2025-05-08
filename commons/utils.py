@@ -24,6 +24,13 @@ def get_key_path():
         key_path.mkdir(parents=True)
     return key_path
 
+def get_learning_road_path():
+    home_path = Path(__file__).parent.parent
+    road_path = home_path.joinpath("attachments/LearningPath")
+    if not road_path.exists():
+        road_path.mkdir(parents=True)
+    return road_path
+
 # 获取节点文章的路径
 def get_article_path(type, filename):
     home_path = Path(__file__).parent.parent
