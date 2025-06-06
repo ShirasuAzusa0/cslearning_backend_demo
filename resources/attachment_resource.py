@@ -45,7 +45,7 @@ class PopularArticleResource(Resource):
             },
             {
                 "name": "学习Java Script",
-                "article": "node_article\\结点文章\\前端\\前端基础核心入门\\Java Script ES6\\0.JavaScript（ES6）介绍文档"
+                "article": "node_article\\结点文章\\前端\\前端基础核心入门\\Java Script ES6\\0.JavaScript (ES6+) 介绍文档"
             },
             {
                 "name": "学习TypeScript",
