@@ -42,6 +42,7 @@ class Neo4jLearningPathResource(Resource):
         node_list = Neo4jService().get_learning_path(res_list[0]['topic'])
         if node_list is None:
             return {'status': 'fail', 'msg': 'fail to generate the learning path'}, 400
+        user_id = request.args.get('user_id', type=str)
         filename = user_id + "_LearningPath.json"
         Neo4jService().save_json_data(filename, node_list)
         return node_list

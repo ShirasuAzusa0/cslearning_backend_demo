@@ -1,3 +1,6 @@
+import json
+import shutil
+from pathlib import Path
 from flask import jsonify
 from resources import app
 from flask_restful import reqparse
@@ -157,9 +160,24 @@ class Neo4jService:
     # 保存学习路径json数据
     def save_json_data(self, filename:str, data):
         with open(filename, 'w', encoding='utf-8') as json_file:
-            json_file.write(data)
+            #json_file.write(data)
+            json.dump(data, json_file, ensure_ascii=False)
             json_file.close()
         save_path = get_learning_road_path()
-        save_path = save_path + '/' + filename
-        attachment_file = self.parser.parse_args().get("avatar")
-        attachment_file.save(save_path)
+        save_path = save_path / filename
+        #attachment_file = self.parser.parse_args().get("LearningPath")
+        #attachment_file.save(save_path)
+        # 1. 确定当前脚本所在目录
+        current_dir = Path(__file__).resolve().parent
+
+        # 2. 构造目标目录：上一级/attachments/LearningPath
+        target_dir = current_dir.parent / "attachments" / "LearningPath"
+
+        # 3. 如果目标目录不存在，就创建（包括所有父级）
+        target_dir.mkdir(parents=True, exist_ok=True)
+
+        # 4. 目标文件全路径
+        target_file = target_dir / filename
+
+        # 5. 将刚才写入的本地文件移动到目标目录
+        shutil.move(str(filename), str(target_file))
