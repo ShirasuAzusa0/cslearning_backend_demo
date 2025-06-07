@@ -61,5 +61,5 @@ class PostsModel(db.Model):
             "commentsCount": self.commentsCount,
             "likesCount": self.likesCount,
             "content": str(self.content),
-            "comments": [comment.serialize() for comment in self.comments]
+            "comments": [comment.serialize() for comment in sorted(self.comments, key=lambda comment: comment.createdAt)]
         }
