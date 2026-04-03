@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "安装",
+            "info": "使用pip install fastapi命令安装FastAPI框架。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "使用pip install fastapi命令安装FastAPI框架。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Uvicorn",
+            "info": "ASGI服务器，用于生产环境运行FastAPI应用，可通过pip install uvicorn[standard]安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Hello World示例",
+            "info": "FastAPI的第一个示例程序，通过@app.get装饰器定义路由，返回JSON响应。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

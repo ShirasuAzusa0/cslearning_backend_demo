@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "谁会使用 Rust",
+            "info": "Rust适用于多种开发者群体，包括开发者团队、学生、公司、开源开发者、重视速度和稳定性的开发者。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "谁会使用 Rust",
+            "info": "Rust适用于多种开发者群体，包括开发者团队、学生、公司、开源开发者、重视速度和稳定性的开发者。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "开发者团队",
+            "info": "Rust的编译器检查有助于大型团队协作，减少bug，提供现代化开发工具如Cargo、Rustfmt、Rust Language Server。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Cargo",
+            "info": "Rust内置的依赖管理器和构建工具，能轻松增加、编译和管理依赖。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Rustfmt",
+            "info": "Rust的代码格式化工具，确保开发者遵循一致的代码风格。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Rust Language Server",
+            "info": "为集成开发环境（IDE）提供强大的代码补全和内联错误信息功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Rust目标",
+            "info": "Rust最重要的目标是消除数十年来开发者不得不做的权衡：安全与生产力，速度与人机交互的顺畅度。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "本书结构",
+            "info": "《Rust程序设计语言》包含概念章节和项目章节，帮助读者系统学习Rust。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

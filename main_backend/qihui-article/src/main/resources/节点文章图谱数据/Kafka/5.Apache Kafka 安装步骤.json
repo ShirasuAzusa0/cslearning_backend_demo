@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式发布-订阅消息系统和一个强大的队列，可以处理大量的数据，并使你能够将消息从一个端点传递到另一个端点。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "安装步骤",
+            "info": "在机器上安装Java、ZooKeeper和Apache Kafka的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装步骤",
+            "info": "在机器上安装Java、ZooKeeper和Apache Kafka的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "验证Java安装",
+            "info": "使用java -version命令验证Java是否已安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装步骤",
+            "info": "在机器上安装Java、ZooKeeper和Apache Kafka的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "ZooKeeper框架安装",
+            "info": "下载ZooKeeper、提取tar文件、创建配置文件、启动服务器和CLI的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装步骤",
+            "info": "在机器上安装Java、ZooKeeper和Apache Kafka的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Apache Kafka安装",
+            "info": "下载Kafka、解压tar文件、启动服务器和停止服务器的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

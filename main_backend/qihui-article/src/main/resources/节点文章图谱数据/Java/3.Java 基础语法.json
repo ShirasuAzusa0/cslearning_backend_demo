@@ -1,0 +1,262 @@
+[
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "标识符",
+            "info": "Java中用于给类、变量、方法等命名的字符序列，必须以字母、美元符或下划线开头。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "访问控制修饰符",
+            "info": "Java修饰符的一种，用于控制类、方法和属性的访问权限，包括private、protected、public、default。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "非访问控制修饰符",
+            "info": "Java修饰符的一种，包括final、abstract、static、synchronized等，用于控制类的其他特性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "局部变量",
+            "info": "在方法、构造方法或语句块中定义的变量，生命周期仅在该方法或代码块内。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "成员变量",
+            "info": "定义在类中、方法体之外的变量，在创建对象时实例化，也称为实例变量。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "类变量",
+            "info": "声明为static的变量，属于类而非实例，所有对象共享同一份副本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "数组",
+            "info": "Java中的一种数据结构，用于存储固定大小的同类型元素，是引用数据类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "枚举",
+            "info": "Java 5.0引入的特性，用于定义一组固定的常量，可以增强代码的类型安全性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "单行注释",
+            "info": "Java注释的一种，以//开头，用于单行代码的说明。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "多行注释",
+            "info": "Java注释的一种，以/*开头，以*/结尾，用于多行代码的说明。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "文档注释",
+            "info": "Java注释的一种，以/**开头，以*/结尾，用于生成API文档。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "继承",
+            "info": "Java面向对象特性之一，允许一个类从另一个类获得属性和方法，使用extends关键字。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "接口",
+            "info": "Java中的抽象类型，用于定义一组抽象方法，类通过implements关键字实现接口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，Flask基于其开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "relationship": {
+            "info": "基于其开发",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "SQLAlchemy",
+            "info": "Python的ORM库，Flask可通过扩展支持MySQL、MongoDB等数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLAlchemy",
+            "info": "Python的ORM库，Flask可通过扩展支持MySQL、MongoDB等数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Flask可通过SQLAlchemy连接。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLAlchemy",
+            "info": "Python的ORM库，Flask可通过扩展支持MySQL、MongoDB等数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，Flask可通过SQLAlchemy连接。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，Flask可通过Flask-RESTful扩展构建。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可通过Flask-RESTful扩展构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，Flask应用可借助其实现容器化部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，Flask应用可借助其实现高效云原生部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现云原生部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "pip",
+            "info": "Python包管理工具，Flask依赖其管理第三方库（如Jinja2模板引擎）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "依赖其管理模块",
+            "type": "工具依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Jinja2",
+            "info": "Flask使用的模板引擎，用于渲染HTML页面。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

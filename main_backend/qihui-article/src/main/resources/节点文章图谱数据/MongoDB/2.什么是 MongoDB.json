@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "数据库",
+            "info": "存储数据的容器，类似于关系型数据库中的数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "集合",
+            "info": "数据库中的一个集合，类似于关系型数据库中的表。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "文档",
+            "info": "集合中的一个数据记录，类似于关系型数据库中的行，以 BSON 格式存储。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "GridFS",
+            "info": "MongoDB内置的功能，用于存储和检索大于 BSON 文档大小限制的文件，如图片和视频。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

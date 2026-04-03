@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "提供了用于创建和管理WebSocket连接，以及可以通过该连接发送和接收数据的API。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "构造函数",
+            "info": "`new WebSocket(url[, protocols])`，用于创建一个新的WebSocket对象。",
+            "level": null,
+            "type1": "前端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "提供了用于创建和管理WebSocket连接，以及可以通过该连接发送和接收数据的API。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "属性",
+            "info": "WebSocket对象的属性，如binaryType, bufferedAmount, extensions, protocol, readyState, url等。",
+            "level": null,
+            "type1": "前端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "提供了用于创建和管理WebSocket连接，以及可以通过该连接发送和接收数据的API。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "方法",
+            "info": "WebSocket对象的方法，如close()和send(data)。",
+            "level": null,
+            "type1": "前端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "提供了用于创建和管理WebSocket连接，以及可以通过该连接发送和接收数据的API。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "事件",
+            "info": "WebSocket对象的事件，如open, close, error, message。",
+            "level": null,
+            "type1": "前端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "MySQL",
+            "info": "一个开源关系型数据库管理系统（RDBMS），以高性能、可靠性和易用性著称，支持事务处理、复杂查询和海量数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装MySQL的方法，包括Linux/UNIX、Windows。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装MySQL的方法，包括Linux/UNIX、Windows。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Linux/UNIX 上安装 MySQL",
+            "info": "使用RPM包或yum命令在Linux/UNIX上安装MySQL。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装MySQL的方法，包括Linux/UNIX、Windows。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Windows 上安装 MySQL",
+            "info": "下载MySQL zip包，解压后配置my.ini文件，初始化并启动MySQL服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装MySQL的方法，包括Linux/UNIX、Windows。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "验证 MySQL 安装",
+            "info": "使用mysqladmin工具检查服务器版本，使用mysql命令连接到MySQL服务器执行SQL命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

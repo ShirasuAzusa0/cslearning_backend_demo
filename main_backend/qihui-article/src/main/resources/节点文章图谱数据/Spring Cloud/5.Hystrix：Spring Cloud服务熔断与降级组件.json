@@ -1,0 +1,242 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Hystrix",
+            "info": "一款优秀的服务容错与保护组件，也是 Spring Cloud 中最重要的组件之一。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Hystrix",
+            "info": "一款优秀的服务容错与保护组件，也是 Spring Cloud 中最重要的组件之一。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "服务降级",
+            "info": "Hystrix提供的功能，能够保证当前服务不受其他服务故障的影响。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "服务降级",
+            "info": "Hystrix提供的功能，能够保证当前服务不受其他服务故障的影响。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "fallbackMethod",
+            "info": "@HystrixCommand注解的属性，用于指定降级方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "服务降级",
+            "info": "Hystrix提供的功能，能够保证当前服务不受其他服务故障的影响。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "@DefaultProperties",
+            "info": "为所有业务方法指定一个全局的回退方法的注解。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Hystrix",
+            "info": "一款优秀的服务容错与保护组件，也是 Spring Cloud 中最重要的组件之一。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "服务熔断",
+            "info": "为了应对雪崩效应而出现的一种微服务链路保护机制。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "服务熔断",
+            "info": "为了应对雪崩效应而出现的一种微服务链路保护机制。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "circuitBreaker.enabled",
+            "info": "Hystrix配置项，用于是否开启熔断器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "服务熔断",
+            "info": "为了应对雪崩效应而出现的一种微服务链路保护机制。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "metrics.rollingStats.timeInMilliseconds",
+            "info": "Hystrix配置项，用于设置统计时间窗。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "服务熔断",
+            "info": "为了应对雪崩效应而出现的一种微服务链路保护机制。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "circuitBreaker.requestVolumeThreshold",
+            "info": "Hystrix配置项，用于设置统计时间窗内请求次数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "服务熔断",
+            "info": "为了应对雪崩效应而出现的一种微服务链路保护机制。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "circuitBreaker.sleepWindowInMilliseconds",
+            "info": "Hystrix配置项，用于设置休眠时间窗口期。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "服务熔断",
+            "info": "为了应对雪崩效应而出现的一种微服务链路保护机制。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "circuitBreaker.errorThresholdPercentage",
+            "info": "Hystrix配置项，用于设置在统计时间窗口期以内请求失败率达到多少时进入熔断状态。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Hystrix",
+            "info": "一款优秀的服务容错与保护组件，也是 Spring Cloud 中最重要的组件之一。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Hystrix Dashboard",
+            "info": "Hystrix提供的准实时的调用监控功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Hystrix Dashboard",
+            "info": "Hystrix提供的准实时的调用监控功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "@EnableHystrixDashboard",
+            "info": "开启 Hystrix 监控功能的注解。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

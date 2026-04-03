@@ -1,0 +1,162 @@
+[
+    {
+        "startNode": {
+            "name": "Echo + Fiber",
+            "info": "Go语言生态中两大高性能Web框架，Echo以简洁灵活著称，Fiber基于fasthttp强调极速响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Go",
+            "info": "由Google开发的高性能编程语言，以简洁语法、高效编译和原生并发支持为核心优势。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "relationship": {
+            "info": "基于其开发",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo + Fiber",
+            "info": "Go语言生态中两大高性能Web框架，Echo以简洁灵活著称，Fiber基于fasthttp强调极速响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Gin",
+            "info": "Go生态中的轻量级Web框架，与Echo、Fiber共同推动Go生态的Web开发标准化。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "竞争关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo + Fiber",
+            "info": "Go语言生态中两大高性能Web框架，Echo以简洁灵活著称，Fiber基于fasthttp强调极速响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，可集成支撑数据存储需求。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可集成实现数据存储",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo + Fiber",
+            "info": "Go语言生态中两大高性能Web框架，Echo以简洁灵活著称，Fiber基于fasthttp强调极速响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，可集成支撑数据缓存需求。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可集成实现数据缓存",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo + Fiber",
+            "info": "Go语言生态中两大高性能Web框架，Echo以简洁灵活著称，Fiber基于fasthttp强调极速响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，Echo和Fiber均支持构建。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "支持构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo + Fiber",
+            "info": "Go语言生态中两大高性能Web框架，Echo以简洁灵活著称，Fiber基于fasthttp强调极速响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "WebSocket",
+            "info": "一种基于TCP的双向通信协议，可适配实时交互服务。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "支持构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo + Fiber",
+            "info": "Go语言生态中两大高性能Web框架，Echo以简洁灵活著称，Fiber基于fasthttp强调极速响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可通过其实现容器化部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo + Fiber",
+            "info": "Go语言生态中两大高性能Web框架，Echo以简洁灵活著称，Fiber基于fasthttp强调极速响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，可满足云原生架构要求。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现云原生部署",
+            "type": "部署方式"
+        }
+    }
+]

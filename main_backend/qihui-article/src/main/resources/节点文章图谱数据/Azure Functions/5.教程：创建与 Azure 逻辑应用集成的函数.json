@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "在逻辑应用设计器中与 Azure 逻辑应用集成，可以利用 Functions 的计算能力来与其他 Azure 服务和第三方服务进行协调。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Azure 逻辑应用",
+            "info": "Azure 的逻辑应用服务，可与 Azure Functions 集成创建工作流。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "可集成",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "在逻辑应用设计器中与 Azure 逻辑应用集成，可以利用 Functions 的计算能力来与其他 Azure 服务和第三方服务进行协调。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Azure AI 服务",
+            "info": "Azure 的人工智能服务，本教程中使用文本分析 API 检测已发布推文的情绪。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "可集成",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "在逻辑应用设计器中与 Azure 逻辑应用集成，可以利用 Functions 的计算能力来与其他 Azure 服务和第三方服务进行协调。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "HTTP 触发器",
+            "info": "在逻辑应用设计器中通过 Azure Functions 连接器选择 HTTP 触发的函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

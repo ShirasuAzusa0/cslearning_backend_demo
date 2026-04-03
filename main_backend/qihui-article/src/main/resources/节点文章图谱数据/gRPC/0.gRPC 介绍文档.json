@@ -1,0 +1,242 @@
+[
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种常见的API设计风格，与gRPC互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "技术对比"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "GraphQL",
+            "info": "一种API查询语言，与gRPC互补。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "技术对比"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "WebSocket",
+            "info": "一种网络通信协议，可结合gRPC实现实时双向通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可结合实现实时双向通信",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Django",
+            "info": "一个Python后端框架，可通过插件（如gRPC-gateway）集成gRPC，简化服务间调用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可集成",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Flask",
+            "info": "一个Python后端框架，可通过插件（如gRPC-gateway）集成gRPC，简化服务间调用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可集成",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Express.js",
+            "info": "一个Node.js后端框架，可通过插件（如gRPC-gateway）集成gRPC，简化服务间调用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可集成",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，gRPC可从其中获取数据，并优化序列化效率。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "从中获取数据，优化传输效率",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，gRPC可从其中获取数据，并优化序列化效率。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "从中获取数据，优化传输效率",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，可用于缓存gRPC服务的高频响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可借助其缓存高频响应",
+            "type": "性能优化"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Kafka",
+            "info": "一种分布式消息队列，可处理异步gRPC调用产生的消息流。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可处理其产生的异步消息流",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可用于封装gRPC服务。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其容器化封装",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，可实现gRPC服务的负载均衡与自动扩缩容。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其进行编排，实现负载均衡",
+            "type": "部署方式"
+        }
+    }
+]

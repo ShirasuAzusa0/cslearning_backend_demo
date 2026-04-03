@@ -1,0 +1,382 @@
+[
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "byte",
+            "info": "Java基本数据类型之一，8位有符号整数，范围-128到127，默认值0。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "short",
+            "info": "Java基本数据类型之一，16位有符号整数，范围-32768到32767，默认值0。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "int",
+            "info": "Java基本数据类型之一，32位有符号整数，范围-2^31到2^31-1，整型字面量的默认类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "long",
+            "info": "Java基本数据类型之一，64位有符号整数，范围-2^63到2^63-1，数值后需加L或l。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "float",
+            "info": "Java基本数据类型之一，32位单精度浮点数，数值后需加F或f。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "double",
+            "info": "Java基本数据类型之一，64位双精度浮点数，浮点字面量的默认类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "char",
+            "info": "Java基本数据类型之一，16位Unicode字符，范围\\u0000到\\uffff。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "boolean",
+            "info": "Java基本数据类型之一，只有true和false两个取值，默认值false。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Byte",
+            "info": "byte基本数据类型的包装类，提供了将byte包装为对象的方法和常量。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Short",
+            "info": "short基本数据类型的包装类，提供了将short包装为对象的方法和常量。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Integer",
+            "info": "int基本数据类型的包装类，提供了将int包装为对象的方法和常量。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Long",
+            "info": "long基本数据类型的包装类，提供了将long包装为对象的方法和常量。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Float",
+            "info": "float基本数据类型的包装类，提供了将float包装为对象的方法和常量。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Double",
+            "info": "double基本数据类型的包装类，提供了将double包装为对象的方法和常量。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Character",
+            "info": "char基本数据类型的包装类，提供了将char包装为对象的方法和常量。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Boolean",
+            "info": "boolean基本数据类型的包装类，提供了将boolean包装为对象的方法和常量。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "自动类型转换",
+            "info": "数据类型转换的一种，当小范围类型向大范围类型转换时自动发生，如int转long。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "强制类型转换",
+            "info": "数据类型转换的一种，当大范围类型向小范围类型转换时需要显式指定，可能导致精度丢失。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "final",
+            "info": "Java关键字，用于修饰常量，表示该变量的值一旦初始化后不可改变。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

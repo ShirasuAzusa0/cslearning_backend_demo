@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源、轻量级、高性能的分布式消息中间件，实现了高可伸缩性和优雅的Publish/Subscribe模型，使用Golang语言开发。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "基于主题的消息传递",
+            "info": "NATS关于发布和收听消息的核心机制，主题只是一串字符，形成了发布者和订阅者可以用来互相查找的名称。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "基于主题的消息传递",
+            "info": "NATS关于发布和收听消息的核心机制，主题只是一串字符，形成了发布者和订阅者可以用来互相查找的名称。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "主题层次结构",
+            "info": "字符`.`用于创建主题层次结构，例如time.us、time.us.east等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "基于主题的消息传递",
+            "info": "NATS关于发布和收听消息的核心机制，主题只是一串字符，形成了发布者和订阅者可以用来互相查找的名称。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "通配符",
+            "info": "NATS提供了两个通配符：*匹配单个令牌，>匹配一个或多个令牌且只能出现在主题末尾。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源、轻量级、高性能的分布式消息中间件，实现了高可伸缩性和优雅的Publish/Subscribe模型，使用Golang语言开发。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "发布与的订阅",
+            "info": "NATS为一对多通信实现发布-订阅消息分发模型，发布者在主题上发送消息，监听该主题的任何活动订阅者都会收到该消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源、轻量级、高性能的分布式消息中间件，实现了高可伸缩性和优雅的Publish/Subscribe模型，使用Golang语言开发。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "请求-回复",
+            "info": "NATS通过其核心通信机制，发布和订阅支持请求-回复模式，发布者对给定主题发布请求，响应者听取该主题并将回复发送给回复主题。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源、轻量级、高性能的分布式消息中间件，实现了高可伸缩性和优雅的Publish/Subscribe模型，使用Golang语言开发。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "队列订阅和可扩展性",
+            "info": "NATS提供称为分布式队列的内置负载平衡功能，使用队列订户将平衡一组订户的消息传递，可以用于提供应用程序容错和扩展工作负载处理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "队列订阅和可扩展性",
+            "info": "NATS提供称为分布式队列的内置负载平衡功能，使用队列订户将平衡一组订户的消息传递，可以用于提供应用程序容错和扩展工作负载处理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "队列组",
+            "info": "具有相同队列名称的所有订户构成队列组，每个消息仅由一个消息使用，不需要配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源、轻量级、高性能的分布式消息中间件，实现了高可伸缩性和优雅的Publish/Subscribe模型，使用Golang语言开发。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "应答",
+            "info": "在最多一次语义的系统中，可以通过将发布事件或数据流转换为具有确认消息或ACK的概念的请求-答复来确保消息传递。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源、轻量级、高性能的分布式消息中间件，实现了高可伸缩性和优雅的Publish/Subscribe模型，使用Golang语言开发。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "序列",
+            "info": "解决一对多消息丢失问题的模式，在消息中包含序列id，接收方可以检查序列ID以查看是否遗漏了任何内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

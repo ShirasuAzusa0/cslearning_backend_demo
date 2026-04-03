@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "下载 Istio",
+            "info": "从Istio发布页面下载安装文件或使用curl自动下载并获取最新版本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "istioctl",
+            "info": "Istio的命令行工具，用于配置和管理Istio。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "demo 配置文件",
+            "info": "一组适合测试的默认设置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Kubernetes Gateway API CRD",
+            "info": "Kubernetes Gateway API的自定义资源定义，大多数Kubernetes集群上不会默认安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Bookinfo 示例应用",
+            "info": "Istio的示例应用程序，用于演示Istio的功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Bookinfo 示例应用",
+            "info": "Istio的示例应用程序，用于演示Istio的功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "productpage",
+            "info": "Bookinfo应用的服务之一，作为前端页面。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Bookinfo 示例应用",
+            "info": "Istio的示例应用程序，用于演示Istio的功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "reviews",
+            "info": "Bookinfo应用的服务之一，有多个版本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Bookinfo 示例应用",
+            "info": "Istio的示例应用程序，用于演示Istio的功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "ratings",
+            "info": "Bookinfo应用的服务之一，提供评分功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Kiali",
+            "info": "Istio的遥测应用之一，用于可视化网格。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

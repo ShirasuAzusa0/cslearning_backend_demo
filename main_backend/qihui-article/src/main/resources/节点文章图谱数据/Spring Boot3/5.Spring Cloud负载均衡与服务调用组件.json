@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于Spring Boot实现的微服务框架，是微服务架构下的一站式解决方案，专注于全局微服务的协调和治理工作。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Netflix Ribbon",
+            "info": "Spring Cloud Netflix中的客户端负载均衡和服务调用组件，基于Netflix Ribbon实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud Netflix Ribbon",
+            "info": "Spring Cloud Netflix中的客户端负载均衡和服务调用组件，基于Netflix Ribbon实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "负载均衡",
+            "info": "将用户的请求平摊分配到多个服务器上运行，分为服务端负载均衡和客户端负载均衡。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "负载均衡",
+            "info": "将用户的请求平摊分配到多个服务器上运行，分为服务端负载均衡和客户端负载均衡。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "服务端负载均衡",
+            "info": "在客户端和服务端之间建立一个独立的负载均衡服务器（如Nginx），由负载均衡服务器转发请求。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "负载均衡",
+            "info": "将用户的请求平摊分配到多个服务器上运行，分为服务端负载均衡和客户端负载均衡。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "客户端负载均衡",
+            "info": "将负载均衡逻辑以代码形式封装到客户端上，客户端从服务注册中心获取服务端清单后进行负载均衡。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud Netflix Ribbon",
+            "info": "Spring Cloud Netflix中的客户端负载均衡和服务调用组件，基于Netflix Ribbon实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "IRule",
+            "info": "Ribbon中定义负载均衡策略的接口，有7个默认实现类。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "IRule",
+            "info": "Ribbon中定义负载均衡策略的接口，有7个默认实现类。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "RoundRobinRule",
+            "info": "线性轮询策略，按照一定的顺序依次选取服务实例，是Ribbon的默认策略。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "IRule",
+            "info": "Ribbon中定义负载均衡策略的接口，有7个默认实现类。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "RandomRule",
+            "info": "随机选取一个服务实例的策略。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud Netflix Ribbon",
+            "info": "Spring Cloud Netflix中的客户端负载均衡和服务调用组件，基于Netflix Ribbon实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "RestTemplate",
+            "info": "Spring家族中用于消费第三方REST服务的请求框架，可与Ribbon配合实现服务调用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RestTemplate",
+            "info": "Spring家族中用于消费第三方REST服务的请求框架，可与Ribbon配合实现服务调用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "@LoadBalanced",
+            "info": "在客户端使用RestTemplate请求服务端时，开启负载均衡（Ribbon）的注解。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

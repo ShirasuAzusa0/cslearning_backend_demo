@@ -1,0 +1,162 @@
+[
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "RPC类型",
+            "info": "gRPC支持的四种服务方法类型：简单RPC、服务器端流式RPC、客户端流式RPC、双向流式RPC。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RPC类型",
+            "info": "gRPC支持的四种服务方法类型：简单RPC、服务器端流式RPC、客户端流式RPC、双向流式RPC。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "简单RPC",
+            "info": "客户端向服务器发送一个请求，并等待一个响应，如同普通的函数调用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RPC类型",
+            "info": "gRPC支持的四种服务方法类型：简单RPC、服务器端流式RPC、客户端流式RPC、双向流式RPC。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "服务器端流式RPC",
+            "info": "客户端发送一个请求，服务器返回一个消息流供客户端读取。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RPC类型",
+            "info": "gRPC支持的四种服务方法类型：简单RPC、服务器端流式RPC、客户端流式RPC、双向流式RPC。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "客户端流式RPC",
+            "info": "客户端写入一个消息流并将其发送给服务器，等待服务器读取并返回响应。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RPC类型",
+            "info": "gRPC支持的四种服务方法类型：简单RPC、服务器端流式RPC、客户端流式RPC、双向流式RPC。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "双向流式RPC",
+            "info": "客户端和服务器都可以独立地向对方发送消息流。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "生成客户端和服务器代码",
+            "info": "使用Protocol Buffer编译器protoc和gRPC C++插件，从.proto文件生成服务端和客户端的接口代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "创建服务器",
+            "info": "实现生成的服务接口，并运行gRPC服务器以监听和处理客户端请求。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "创建客户端",
+            "info": "创建存根（stub），并通过存根调用服务器上的远程方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

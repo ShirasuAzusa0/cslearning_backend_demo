@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "应用启动",
+            "info": "ASP.NET Core应用的启动过程，包括Program.cs中的WebApplication创建和配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "应用启动",
+            "info": "ASP.NET Core应用的启动过程，包括Program.cs中的WebApplication创建和配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "WebApplication",
+            "info": "ASP.NET Core推荐的主机类型，行为类似于.NET泛型主机，需要较少的回调进行配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Startup类",
+            "info": "配置应用服务和请求管道的类，包含ConfigureServices和Configure方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Startup类",
+            "info": "配置应用服务和请求管道的类，包含ConfigureServices和Configure方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "ConfigureServices",
+            "info": "Startup类中的可选方法，用于配置应用的服务，将服务添加到DI容器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Startup类",
+            "info": "配置应用服务和请求管道的类，包含ConfigureServices和Configure方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Configure",
+            "info": "Startup类中的方法，用于创建应用的请求处理管道，通过添加中间件组件实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "IStartupFilter",
+            "info": "用于在应用的中间件管道开头或末尾配置中间件的接口，无需显式调用Use方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "IHostingStartup",
+            "info": "允许在启动时从外部程序集向应用添加增强功能的接口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

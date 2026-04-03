@@ -1,0 +1,242 @@
+[
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "类",
+            "info": "Java中对象的蓝图或模板，定义了对象的属性和方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "对象",
+            "info": "Java中类的实例，具有状态（属性）和行为（方法）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "封装",
+            "info": "Java面向对象特性之一，将对象的状态私有化，通过公共方法进行访问。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "继承",
+            "info": "Java面向对象特性之一，允许一个类从另一个类获得属性和方法，使用extends关键字。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "多态",
+            "info": "Java面向对象特性之一，对象可以表现为多种形态，主要通过方法重载和方法重写实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "多态",
+            "info": "Java面向对象特性之一，对象可以表现为多种形态，主要通过方法重载和方法重写实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "方法重载",
+            "info": "同一个类中可以有多个同名方法，但参数列表不同，用于实现编译时多态。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "多态",
+            "info": "Java面向对象特性之一，对象可以表现为多种形态，主要通过方法重载和方法重写实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "方法重写",
+            "info": "子类重新定义父类中已有的方法，用于实现运行时多态，使用@Override注解。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "抽象类",
+            "info": "使用abstract关键字修饰的类，不能实例化，可以包含抽象方法和具体方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "接口",
+            "info": "使用interface关键字定义，只包含抽象方法和常量，类通过implements实现接口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "构造方法",
+            "info": "与类名相同的特殊方法，用于创建并初始化对象，如果没有定义则编译器提供默认构造方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "包",
+            "info": "用于对类和接口进行分类管理的机制，使用package关键字定义。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "import语句",
+            "info": "用于导入其他包中的类，使编译器能够找到它们，可以导入单个类或使用*导入全部。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

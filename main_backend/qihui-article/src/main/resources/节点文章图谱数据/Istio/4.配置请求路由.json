@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Virtual Service",
+            "info": "Istio中用于定义路由规则的资源，可以配置将请求动态路由到微服务的多个版本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Virtual Service",
+            "info": "Istio中用于定义路由规则的资源，可以配置将请求动态路由到微服务的多个版本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Destination Rule",
+            "info": "Istio中定义子集（subset）的资源，与Virtual Service配合使用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Virtual Service",
+            "info": "Istio中用于定义路由规则的资源，可以配置将请求动态路由到微服务的多个版本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "subset",
+            "info": "Destination Rule中定义的服务版本，如v1、v2、v3。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

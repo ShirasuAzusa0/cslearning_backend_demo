@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Continuous Query",
+            "info": "在数据库内部自动周期性跑着的InfluxQL查询，需要在SELECT语句中使用一个函数，并且一定包括一个GROUP BY time()语句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Retention Policy",
+            "info": "InfluxDB数据架构的一部分，描述了InfluxDB保存数据的时间。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Retention Policy",
+            "info": "InfluxDB数据架构的一部分，描述了InfluxDB保存数据的时间。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "CREATE RETENTION POLICY",
+            "info": "用于创建保留策略的InfluxQL语句，例如CREATE RETENTION POLICY \"two_hours\" ON \"food_data\" DURATION 2h REPLICATION 1 DEFAULT。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Continuous Query",
+            "info": "在数据库内部自动周期性跑着的InfluxQL查询，需要在SELECT语句中使用一个函数，并且一定包括一个GROUP BY time()语句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "CREATE CONTINUOUS QUERY",
+            "info": "用于创建连续查询的InfluxQL语句，例如CREATE CONTINUOUS QUERY \"cq_30m\" ON \"food_data\" BEGIN SELECT mean(\"website\") AS \"mean_website\",mean(\"phone\") AS \"mean_phone\" INTO \"a_year\".\"downsampled_orders\" FROM \"orders\" GROUP BY time(30m) END。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "ALTS身份验证",
+            "info": "应用程序层传输安全，一种由Google开发的相互身份验证和传输加密系统，用于保护gRPC通信。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ALTS身份验证",
+            "info": "应用程序层传输安全，一种由Google开发的相互身份验证和传输加密系统，用于保护gRPC通信。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "ALTS凭据",
+            "info": "gRPC客户端和服务器使用ALTS凭据（AltsCredentials, AltsServerCredentials）来启用ALTS安全传输。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ALTS身份验证",
+            "info": "应用程序层传输安全，一种由Google开发的相互身份验证和传输加密系统，用于保护gRPC通信。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "服务器授权",
+            "info": "ALTS允许客户端在建立连接前设置预期的服务器服务帐户，以验证服务器身份。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ALTS身份验证",
+            "info": "应用程序层传输安全，一种由Google开发的相互身份验证和传输加密系统，用于保护gRPC通信。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "客户端授权",
+            "info": "服务器连接成功后，可以使用AltsClientAuthzCheck等工具，根据客户端的服务帐户信息进行授权检查。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

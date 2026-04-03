@@ -1,0 +1,22 @@
+[
+  {
+    "startNode": {
+      "name": "属性",
+      "info": "WebSocket对象的属性，如binaryType, bufferedAmount, extensions, protocol, readyState, url等。",
+      "level": null,
+      "type1": "前端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "bufferedAmount",
+      "info": "一个只读属性，返回已通过send()放入队列但还未被发送到网络中的数据的字节数。",
+      "level": null,
+      "type1": "前端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "MySQL",
+            "info": "一个开源关系型数据库管理系统（RDBMS），以高性能、可靠性和易用性著称，支持事务处理、复杂查询和海量数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MySQL 管理",
+            "info": "MySQL服务器的启动与关闭、用户设置、配置文件配置及管理命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL 管理",
+            "info": "MySQL服务器的启动与关闭、用户设置、配置文件配置及管理命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "启动及关闭 MySQL 服务器",
+            "info": "在Windows、Linux、Mac OS系统下启动和关闭MySQL服务的方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL 管理",
+            "info": "MySQL服务器的启动与关闭、用户设置、配置文件配置及管理命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "MySQL 用户设置",
+            "info": "创建用户、授权权限、刷新权限、查看用户权限、撤销权限、删除用户、修改用户密码、修改用户主机等操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL 用户设置",
+            "info": "创建用户、授权权限、刷新权限、查看用户权限、撤销权限、删除用户、修改用户密码、修改用户主机等操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "CREATE USER",
+            "info": "创建新用户的SQL命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL 用户设置",
+            "info": "创建用户、授权权限、刷新权限、查看用户权限、撤销权限、删除用户、修改用户密码、修改用户主机等操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "GRANT",
+            "info": "授予用户权限的SQL命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL 用户设置",
+            "info": "创建用户、授权权限、刷新权限、查看用户权限、撤销权限、删除用户、修改用户密码、修改用户主机等操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "FLUSH PRIVILEGES",
+            "info": "刷新权限使更改生效的SQL命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL 用户设置",
+            "info": "创建用户、授权权限、刷新权限、查看用户权限、撤销权限、删除用户、修改用户密码、修改用户主机等操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "REVOKE",
+            "info": "撤销用户权限的SQL命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL 用户设置",
+            "info": "创建用户、授权权限、刷新权限、查看用户权限、撤销权限、删除用户、修改用户密码、修改用户主机等操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "DROP USER",
+            "info": "删除用户的SQL命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL 管理",
+            "info": "MySQL服务器的启动与关闭、用户设置、配置文件配置及管理命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "管理MySQL的命令",
+            "info": "常用管理命令，包括USE、SHOW DATABASES、SHOW TABLES、SHOW COLUMNS、SHOW INDEX、SHOW TABLE STATUS。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

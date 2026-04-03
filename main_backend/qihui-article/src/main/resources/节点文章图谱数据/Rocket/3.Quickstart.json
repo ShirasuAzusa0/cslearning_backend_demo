@@ -1,0 +1,22 @@
+[
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Running Examples",
+            "info": "克隆Rocket仓库并运行examples目录中的示例，如hello示例。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

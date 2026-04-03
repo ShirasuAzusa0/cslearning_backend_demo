@@ -1,0 +1,162 @@
+[
+  {
+    "startNode": {
+      "name": "类型系统",
+      "info": "GraphQL的核心概念，用于描述可以查询的数据，包括对象类型、标量类型等。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "对象类型",
+      "info": "Schema中最基本的组件，表示一种可从服务上获取的对象，包含多个字段。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "类型系统",
+      "info": "GraphQL的核心概念，用于描述可以查询的数据，包括对象类型、标量类型等。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "标量类型",
+      "info": "表示查询的叶子节点，是具体的数据类型，如Int、String、Boolean等。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "类型系统",
+      "info": "GraphQL的核心概念，用于描述可以查询的数据，包括对象类型、标量类型等。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "枚举类型",
+      "info": "一种特殊的标量，其值被限制在一个特定的可选值集合内。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "类型系统",
+      "info": "GraphQL的核心概念，用于描述可以查询的数据，包括对象类型、标量类型等。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "列表和非空",
+      "info": "类型修饰符，用于定义字段返回值的列表属性以及值是否可以为空。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "类型系统",
+      "info": "GraphQL的核心概念，用于描述可以查询的数据，包括对象类型、标量类型等。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "接口",
+      "info": "一个抽象类型，指定了一组字段，实现该接口的对象类型必须包含这些字段。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "类型系统",
+      "info": "GraphQL的核心概念，用于描述可以查询的数据，包括对象类型、标量类型等。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "联合类型",
+      "info": "一种抽象类型，表示一个返回类型可以是几种具体对象类型中的一种。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "类型系统",
+      "info": "GraphQL的核心概念，用于描述可以查询的数据，包括对象类型、标量类型等。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "输入类型",
+      "info": "一种特殊的对象类型，可以作为参数传递给字段，在变更中尤其有用。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "类型系统",
+      "info": "GraphQL的核心概念，用于描述可以查询的数据，包括对象类型、标量类型等。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "查询和变更类型",
+      "info": "Schema中的两个特殊类型，作为所有查询和变更操作的入口。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  }
+]

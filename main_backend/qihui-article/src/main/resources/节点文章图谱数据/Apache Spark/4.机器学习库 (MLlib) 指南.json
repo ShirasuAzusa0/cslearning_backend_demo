@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "MLlib",
+            "info": "Spark的机器学习库，提供ML算法、特征化、管道、持久化和实用程序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MLlib",
+            "info": "Spark的机器学习库，提供ML算法、特征化、管道、持久化和实用程序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "基于DataFrame的API",
+            "info": "Spark 2.0后MLlib的主要API，位于spark.ml包中。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MLlib",
+            "info": "Spark的机器学习库，提供ML算法、特征化、管道、持久化和实用程序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "基于RDD的API",
+            "info": "位于spark.mllib包中，现在处于维护模式，仅进行错误修复。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

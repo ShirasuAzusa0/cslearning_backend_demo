@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Spring Boot目标",
+            "info": "Spring Boot的主要目标：更快的入门体验、开箱即用、提供非功能特性、无代码生成和XML配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "系统要求",
+            "info": "Spring Boot的系统要求：Java SDK v17或更高版本，Maven 3.6.3+或Gradle 7.x/8.x。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "安装",
+            "info": "Spring Boot的安装方式，包括Java开发者安装（Maven/Gradle）和Spring Boot CLI安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "Spring Boot的安装方式，包括Java开发者安装（Maven/Gradle）和Spring Boot CLI安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Maven安装",
+            "info": "使用Maven构建Spring Boot项目，需要继承spring-boot-starter-parent并添加starter依赖。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "Spring Boot的安装方式，包括Java开发者安装（Maven/Gradle）和Spring Boot CLI安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Gradle安装",
+            "info": "使用Gradle构建Spring Boot项目，需要应用org.springframework.boot插件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "第一个应用",
+            "info": "创建第一个Spring Boot应用，包含@SpringBootApplication注解、@RestController和main方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "第一个应用",
+            "info": "创建第一个Spring Boot应用，包含@SpringBootApplication注解、@RestController和main方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "@SpringBootApplication",
+            "info": "Spring Boot的核心注解，组合了@SpringBootConfiguration、@EnableAutoConfiguration和@ComponentScan。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "第一个应用",
+            "info": "创建第一个Spring Boot应用，包含@SpringBootApplication注解、@RestController和main方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "@RestController",
+            "info": "Spring MVC注解，表示该类是一个Web控制器，返回的结果直接响应给客户端。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "第一个应用",
+            "info": "创建第一个Spring Boot应用，包含@SpringBootApplication注解、@RestController和main方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "SpringApplication",
+            "info": "Spring Boot的引导类，通过run方法启动应用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Gin",
+            "info": "Go语言生态中高性能的轻量级Web框架，以极简设计和高并发处理能力著称，适用于构建API服务、微服务及高吞吐量应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Gin特性",
+            "info": "Gin的核心特性，包括快速、支持中间件、Crash处理、JSON验证、路由组、错误管理、内置渲染、可扩展性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Gin特性",
+            "info": "Gin的核心特性，包括快速、支持中间件、Crash处理、JSON验证、路由组、错误管理、内置渲染、可扩展性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "基于Radix树的路由",
+            "info": "Gin使用基于Radix树的路由，小内存占用，没有反射，可预测的API性能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Gin特性",
+            "info": "Gin的核心特性，包括快速、支持中间件、Crash处理、JSON验证、路由组、错误管理、内置渲染、可扩展性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "中间件支持",
+            "info": "Gin支持中间件，HTTP请求可以由一系列中间件和最终操作来处理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Gin特性",
+            "info": "Gin的核心特性，包括快速、支持中间件、Crash处理、JSON验证、路由组、错误管理、内置渲染、可扩展性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Crash处理",
+            "info": "Gin可以catch一个发生在HTTP请求中的panic并recover它，确保服务器始终可用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Gin特性",
+            "info": "Gin的核心特性，包括快速、支持中间件、Crash处理、JSON验证、路由组、错误管理、内置渲染、可扩展性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "路由组",
+            "info": "Gin支持路由组，更好地组织路由，可以无限制地嵌套而不降低性能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Gin特性",
+            "info": "Gin的核心特性，包括快速、支持中间件、Crash处理、JSON验证、路由组、错误管理、内置渲染、可扩展性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "内置渲染",
+            "info": "Gin为JSON、XML和HTML渲染提供了易于使用的API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

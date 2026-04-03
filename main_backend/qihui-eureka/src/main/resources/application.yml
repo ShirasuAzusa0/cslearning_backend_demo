@@ -1,0 +1,13 @@
+server:
+  port: 8280
+  address: 127.0.0.1
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:8280/eureka
+spring:
+  application:
+    name: qihui-eureka
+

@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个开源的内存数据库，遵守BSD协议，提供了一个高性能的键值存储系统，常用于缓存、消息队列、会话存储等应用场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "CONFIG",
+            "info": "Redis的配置命令，用于查看或设置配置项。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CONFIG",
+            "info": "Redis的配置命令，用于查看或设置配置项。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "CONFIG GET",
+            "info": "获取指定配置项的值，使用*可获取所有配置项。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CONFIG",
+            "info": "Redis的配置命令，用于查看或设置配置项。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "CONFIG SET",
+            "info": "修改指定配置项的值。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个开源的内存数据库，遵守BSD协议，提供了一个高性能的键值存储系统，常用于缓存、消息队列、会话存储等应用场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "redis.conf",
+            "info": "Redis的配置文件，位于Redis安装目录下，包含daemonize、port、bind、timeout、loglevel、databases等配置项。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

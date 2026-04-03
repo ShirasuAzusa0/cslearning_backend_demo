@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Go",
+            "info": "由Google开发的高性能编程语言，以简洁语法、高效编译和原生并发支持为核心优势，广泛应用于微服务、云原生及基础设施开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "开发工具配置",
+            "info": "配置编辑器（如VS Code）和相关工具以进行Go语言开发。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "开发工具配置",
+            "info": "配置编辑器（如VS Code）和相关工具以进行Go语言开发。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "VS Code",
+            "info": "一款流行的轻量级代码编辑器，可通过安装插件支持Go语言开发。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "VS Code",
+            "info": "一款流行的轻量级代码编辑器，可通过安装插件支持Go语言开发。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Go插件",
+            "info": "VS Code中用于Go语言开发的扩展插件，提供代码提示、自动补全等功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "开发工具配置",
+            "info": "配置编辑器（如VS Code）和相关工具以进行Go语言开发。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Go语言开发工具包",
+            "info": "为Go开发提供代码提示、自动补全等功能的一系列工具，可通过VS Code的Install/Update Tools命令安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

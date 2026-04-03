@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于Chrome V8引擎的JavaScript运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "安装Node",
+            "info": "在不同操作系统上安装Node.js和NPM包管理器的方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装Node",
+            "info": "在不同操作系统上安装Node.js和NPM包管理器的方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Windows安装",
+            "info": "在Windows操作系统上通过安装包安装Node.js的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装Node",
+            "info": "在不同操作系统上安装Node.js和NPM包管理器的方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "macOS安装",
+            "info": "在macOS操作系统上通过安装包安装Node.js的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装Node",
+            "info": "在不同操作系统上安装Node.js和NPM包管理器的方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Ubuntu安装",
+            "info": "在Ubuntu Linux操作系统上通过包管理器安装Node.js的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于Chrome V8引擎的JavaScript运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "NPM",
+            "info": "Node Package Manager，Node.js的默认包管理工具，用于获取和管理依赖包。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Express应用生成器",
+            "info": "用于生成Express应用骨架的工具，可通过npm install express-generator -g全局安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "微软推出的无服务器计算服务，属于云原生技术栈，支持按需执行代码片段（函数），无需管理底层基础设施。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，Azure Functions支持容器化部署，可通过Docker封装函数。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "支持容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "微软推出的无服务器计算服务，属于云原生技术栈，支持按需执行代码片段（函数），无需管理底层基础设施。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，可利用Kubernetes实现弹性扩缩容。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可利用其实现弹性扩缩容",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "微软推出的无服务器计算服务，属于云原生技术栈，支持按需执行代码片段（函数），无需管理底层基础设施。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "AWS Lambda",
+            "info": "亚马逊提供的无服务器计算服务，与Azure Functions同为无服务器计算服务。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "同为无服务器计算服务",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "微软推出的无服务器计算服务，属于云原生技术栈，支持按需执行代码片段（函数），无需管理底层基础设施。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Istio",
+            "info": "服务网格工具，在复杂微服务架构中可管理服务间通信，Azure Functions可作为轻量级服务组件嵌入其中。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "可作为轻量级服务组件嵌入",
+            "type": "技术集成"
+        }
+    }
+]

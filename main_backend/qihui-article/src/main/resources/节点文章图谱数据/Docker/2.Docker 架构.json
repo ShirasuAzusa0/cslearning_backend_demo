@@ -1,0 +1,202 @@
+[
+    {
+        "startNode": {
+            "name": "Docker",
+            "info": "一个开源的应用容器引擎，基于 Go 语言并遵从 Apache2.0 协议开源。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Docker 架构",
+            "info": "基于客户端-服务器模式的架构，其中包括多个关键组件，确保容器化应用的高效构建、管理和运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker 架构",
+            "info": "基于客户端-服务器模式的架构，其中包括多个关键组件，确保容器化应用的高效构建、管理和运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Docker 客户端",
+            "info": "用户与 Docker 守护进程交互的命令行界面（CLI）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker 架构",
+            "info": "基于客户端-服务器模式的架构，其中包括多个关键组件，确保容器化应用的高效构建、管理和运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Docker 守护进程",
+            "info": "Docker 架构的核心，负责管理容器生命周期、构建镜像、分发镜像等任务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker 架构",
+            "info": "基于客户端-服务器模式的架构，其中包括多个关键组件，确保容器化应用的高效构建、管理和运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Docker 容器",
+            "info": "Docker 的执行环境，它是轻量级、独立且可执行的软件包。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker 架构",
+            "info": "基于客户端-服务器模式的架构，其中包括多个关键组件，确保容器化应用的高效构建、管理和运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Docker 镜像",
+            "info": "容器的只读模板，包含了应用程序运行所需的操作系统、运行时、库、环境变量和应用代码等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker 架构",
+            "info": "基于客户端-服务器模式的架构，其中包括多个关键组件，确保容器化应用的高效构建、管理和运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Docker 仓库",
+            "info": "用来存储 Docker 镜像的地方，最常用的公共仓库是 Docker Hub。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker 架构",
+            "info": "基于客户端-服务器模式的架构，其中包括多个关键组件，确保容器化应用的高效构建、管理和运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Docker Compose",
+            "info": "一个用于定义和运行多容器 Docker 应用的工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker 架构",
+            "info": "基于客户端-服务器模式的架构，其中包括多个关键组件，确保容器化应用的高效构建、管理和运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Docker Swarm",
+            "info": "Docker 提供的集群管理和调度工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker 架构",
+            "info": "基于客户端-服务器模式的架构，其中包括多个关键组件，确保容器化应用的高效构建、管理和运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Docker 网络",
+            "info": "允许容器之间相互通信，并与外部世界进行连接。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker 架构",
+            "info": "基于客户端-服务器模式的架构，其中包括多个关键组件，确保容器化应用的高效构建、管理和运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Docker 卷",
+            "info": "一种数据持久化机制，允许数据在容器之间共享，并且独立于容器的生命周期。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

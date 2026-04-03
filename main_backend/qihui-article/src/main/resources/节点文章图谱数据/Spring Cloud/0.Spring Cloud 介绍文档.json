@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 的微服务框架，提供配置管理、服务发现、断路器、API 网关等工具，简化分布式系统的开发与治理。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，与Spring Cloud协同优化模块解耦。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "协同关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 的微服务框架，提供配置管理、服务发现、断路器、API 网关等工具，简化分布式系统的开发与治理。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "CQRS + Event Sourcing",
+            "info": "一种事件驱动架构，与Spring Cloud结合实现事件驱动架构。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "协同关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 的微服务框架，提供配置管理、服务发现、断路器、API 网关等工具，简化分布式系统的开发与治理。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，可集成处理分布式数据分析任务。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "可集成处理数据分析",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 的微服务框架，提供配置管理、服务发现、断路器、API 网关等工具，简化分布式系统的开发与治理。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Boot3",
+            "info": "简化Java应用开发的框架，与Spring Cloud深度整合，快速搭建微服务基础设施。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "深度整合",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 的微服务框架，提供配置管理、服务发现、断路器、API 网关等工具，简化分布式系统的开发与治理。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可通过Docker容器化服务。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其容器化服务",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 的微服务框架，提供配置管理、服务发现、断路器、API 网关等工具，简化分布式系统的开发与治理。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，结合Kubernetes实现服务编排与弹性伸缩。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现服务编排",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 的微服务框架，提供配置管理、服务发现、断路器、API 网关等工具，简化分布式系统的开发与治理。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式流处理平台，可集成实现服务间异步通信与事件流处理。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可集成实现异步通信",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 的微服务框架，提供配置管理、服务发现、断路器、API 网关等工具，简化分布式系统的开发与治理。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，用于存储事务数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可存储事务数据",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 的微服务框架，提供配置管理、服务发现、断路器、API 网关等工具，简化分布式系统的开发与治理。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL文档存储数据库，支持灵活文档存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可支持灵活文档存储",
+            "type": "数据源"
+        }
+    }
+]

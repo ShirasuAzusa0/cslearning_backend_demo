@@ -1,0 +1,162 @@
+[
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个高性能的内存数据库，支持多种数据结构（如字符串、哈希、列表），主要用于缓存、会话管理和实时数据处理，兼具高并发与低延迟特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，与Redis互补，用于持久化存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个高性能的内存数据库，支持多种数据结构（如字符串、哈希、列表），主要用于缓存、会话管理和实时数据处理，兼具高并发与低延迟特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL文档存储数据库，与Redis协同覆盖多样化数据场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "协同关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个高性能的内存数据库，支持多种数据结构（如字符串、哈希、列表），主要用于缓存、会话管理和实时数据处理，兼具高并发与低延迟特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "InfluxDB",
+            "info": "一种时序数据库，与Redis协同覆盖多样化数据场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "协同关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个高性能的内存数据库，支持多种数据结构（如字符串、哈希、列表），主要用于缓存、会话管理和实时数据处理，兼具高并发与低延迟特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "Memcached",
+            "info": "一种内存缓存系统，Redis可作为替代，支持更复杂数据结构。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "替代关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个高性能的内存数据库，支持多种数据结构（如字符串、哈希、列表），主要用于缓存、会话管理和实时数据处理，兼具高并发与低延迟特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式流处理平台，Redis可与之配合实现轻量级消息队列和实时通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可配合实现",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个高性能的内存数据库，支持多种数据结构（如字符串、哈希、列表），主要用于缓存、会话管理和实时数据处理，兼具高并发与低延迟特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，Redis可与之配合实现轻量级消息队列和实时通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可配合实现",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个高性能的内存数据库，支持多种数据结构（如字符串、哈希、列表），主要用于缓存、会话管理和实时数据处理，兼具高并发与低延迟特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可通过Docker快速部署Redis。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其快速部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个高性能的内存数据库，支持多种数据结构（如字符串、哈希、列表），主要用于缓存、会话管理和实时数据处理，兼具高并发与低延迟特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，结合Kubernetes实现集群管理，保障高可用性和弹性扩展。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现集群管理",
+            "type": "部署方式"
+        }
+    }
+]

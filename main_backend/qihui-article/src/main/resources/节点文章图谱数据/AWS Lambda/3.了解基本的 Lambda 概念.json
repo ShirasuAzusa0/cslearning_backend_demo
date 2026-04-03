@@ -1,0 +1,242 @@
+[
+    {
+        "startNode": {
+            "name": "AWS Lambda",
+            "info": "您可以使用 AWS Lambda 运行代码而无需预置或管理服务器。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Lambda 函数",
+            "info": "用来创建应用程序的基本构建块，是一段代码，为响应事件而运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Lambda 函数",
+            "info": "用来创建应用程序的基本构建块，是一段代码，为响应事件而运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "处理程序",
+            "info": "当函数为响应事件而运行时，Lambda 会运行该函数的处理程序函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Lambda 函数",
+            "info": "用来创建应用程序的基本构建块，是一段代码，为响应事件而运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "部署包",
+            "info": "将函数代码及其依赖项捆绑到一起的归档文件，支持 .zip 文件归档和容器映像。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "AWS Lambda",
+            "info": "您可以使用 AWS Lambda 运行代码而无需预置或管理服务器。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "执行环境",
+            "info": "Lambda 为您管理的安全、隔离的环境，负责管理运行函数所需的流程和资源。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行环境",
+            "info": "Lambda 为您管理的安全、隔离的环境，负责管理运行函数所需的流程和资源。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "运行时",
+            "info": "特定于语言的环境，可用于在 Lambda 与您的函数之间中继事件信息和响应。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "AWS Lambda",
+            "info": "您可以使用 AWS Lambda 运行代码而无需预置或管理服务器。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "触发器",
+            "info": "配置函数以便为响应特定事件而运行，其他 AWS 服务可以通过在特定事件发生时将事件对象推送到 Lambda 来直接调用您的函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "AWS Lambda",
+            "info": "您可以使用 AWS Lambda 运行代码而无需预置或管理服务器。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "事件源映射",
+            "info": "一种特殊类型的 Lambda 资源，它会持续轮询流或队列以检查是否有新事件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "AWS Lambda",
+            "info": "您可以使用 AWS Lambda 运行代码而无需预置或管理服务器。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "事件对象",
+            "info": "JSON 格式文档，包含函数要处理的事件数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "AWS Lambda",
+            "info": "您可以使用 AWS Lambda 运行代码而无需预置或管理服务器。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Lambda 权限",
+            "info": "您的函数访问其他 AWS 服务所需的权限，以及其他用户和 AWS 服务访问您的函数所需的权限。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Lambda 权限",
+            "info": "您的函数访问其他 AWS 服务所需的权限，以及其他用户和 AWS 服务访问您的函数所需的权限。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "执行角色",
+            "info": "一种特殊的 AWS Identity and Access Management（IAM）角色，用于向 Lambda 函数授予访问 AWS 服务和资源的权限。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Lambda 权限",
+            "info": "您的函数访问其他 AWS 服务所需的权限，以及其他用户和 AWS 服务访问您的函数所需的权限。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "基于资源的策略",
+            "info": "在 IAM 中，基于资源的策略附加到资源（在本例中为您的 Lambda 函数），并且指定了有权访问资源的用户以及此类用户可以执行的操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Lambda 权限",
+            "info": "您的函数访问其他 AWS 服务所需的权限，以及其他用户和 AWS 服务访问您的函数所需的权限。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "基于身份的策略",
+            "info": "与用户关联的 IAM 策略，用于授予访问权限。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

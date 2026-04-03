@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "lifecycle",
+            "info": "Rocket处理请求的四个阶段：Routing, Validation, Processing, Response。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "route",
+            "info": "Rocket应用的核心，由a set of parameters to match an incoming request against和a handler to process the request组成。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "mounting",
+            "info": "使用mount方法将路由挂载到特定的base path下，使Rocket能够识别路由。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "launching",
+            "info": "使用#[launch]或#[rocket::main]属性启动Rocket服务器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Futures and Async",
+            "info": "Rocket使用Rust Future进行并发，路由处理函数可以是async fn，支持.await异步操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

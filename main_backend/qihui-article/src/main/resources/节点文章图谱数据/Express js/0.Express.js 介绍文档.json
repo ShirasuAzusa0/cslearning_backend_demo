@@ -1,0 +1,162 @@
+[
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Node.js",
+            "info": "基于Chrome V8引擎的JavaScript运行时环境，专为高性能服务器端应用设计，Express基于其开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "relationship": {
+            "info": "基于其开发",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Express可通过中间件（如mongoose）连接。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，Express可通过中间件（如mongoose）连接。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，Express原生支持其构建。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "原生支持构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "WebSocket",
+            "info": "一种基于TCP的双向通信协议，Express可通过Socket.io实现实时通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可通过Socket.io实现",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "npm",
+            "info": "Node Package Manager，Express依赖其管理模块。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "构建工程化_包管理"
+        },
+        "relationship": {
+            "info": "依赖其管理模块",
+            "type": "工具依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，Express应用可借助其实现容器化部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，Express应用可借助其实现高效云原生部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现云原生部署",
+            "type": "部署方式"
+        }
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "/query",
+            "info": "InfluxDB的HTTP接口查询路径，通过发送GET请求到/query路径，并设置URL的db参数为目标数据库，q参数为查询语句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "/query",
+            "info": "InfluxDB的HTTP接口查询路径，通过发送GET请求到/query路径，并设置URL的db参数为目标数据库，q参数为查询语句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "epoch",
+            "info": "查询参数，用于设置返回Unix格式的时间戳，可选值为[h,m,s,ms,u,ns]。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "/query",
+            "info": "InfluxDB的HTTP接口查询路径，通过发送GET请求到/query路径，并设置URL的db参数为目标数据库，q参数为查询语句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "chunked",
+            "info": "查询参数，设置为true开启分块，使返回的数据是流式的batch。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

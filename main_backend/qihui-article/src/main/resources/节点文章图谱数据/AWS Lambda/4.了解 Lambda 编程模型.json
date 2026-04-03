@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "AWS Lambda",
+            "info": "您可以使用 AWS Lambda 运行代码而无需预置或管理服务器。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "编程模型",
+            "info": "对所有运行时都通用的编程模型，定义了代码和 Lambda 系统之间的接口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "编程模型",
+            "info": "对所有运行时都通用的编程模型，定义了代码和 Lambda 系统之间的接口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "处理程序",
+            "info": "在函数配置中定义的入口点。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "编程模型",
+            "info": "对所有运行时都通用的编程模型，定义了代码和 Lambda 系统之间的接口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "上下文",
+            "info": "运行时传递给处理程序的对象，包含函数名和请求 ID 等信息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "startNode": {
+            "name": "Neo4j",
+            "info": "一个高性能的图数据库，专注于存储和查询高度关联的数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "连接的数据",
+            "info": "数据与数据间的关系，图数据库主要用于存储更多的连接数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

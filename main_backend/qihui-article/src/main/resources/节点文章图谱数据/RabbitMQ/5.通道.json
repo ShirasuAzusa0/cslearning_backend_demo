@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "通道",
+            "info": "共享单个TCP连接的轻量级连接，用于在AMQP 0-9-1连接上进行多路复用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "通道",
+            "info": "共享单个TCP连接的轻量级连接，用于在AMQP 0-9-1连接上进行多路复用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "打开通道",
+            "info": "应用程序在成功打开连接后立即打开通道，使用conn.createChannel()等方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "通道",
+            "info": "共享单个TCP连接的轻量级连接，用于在AMQP 0-9-1连接上进行多路复用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "通道异常",
+            "info": "由于协议异常导致的通道关闭，如重新声明现有队列属性不匹配、访问无权访问的资源、绑定不存在的队列等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "通道",
+            "info": "共享单个TCP连接的轻量级连接，用于在AMQP 0-9-1连接上进行多路复用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "每个连接的最大通道数",
+            "info": "可以同时在连接上打开的最大通道数量，由客户端和服务器在连接时协商，使用channel_max配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "通道",
+            "info": "共享单个TCP连接的轻量级连接，用于在AMQP 0-9-1连接上进行多路复用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "监控",
+            "info": "当前打开的通道数量和通道打开/关闭速率是系统的重要指标，可用于检测通道泄漏和高通道流失率。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "监控",
+            "info": "当前打开的通道数量和通道打开/关闭速率是系统的重要指标，可用于检测通道泄漏和高通道流失率。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "通道泄漏",
+            "info": "应用程序重复打开通道而不关闭它们，最终使节点耗尽RAM和CPU资源。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "通道",
+            "info": "共享单个TCP连接的轻量级连接，用于在AMQP 0-9-1连接上进行多路复用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "流控制",
+            "info": "发布消息的通道可能会超过系统的其他部分的速度，此时流控制将应用于发布通道，进而应用于连接。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

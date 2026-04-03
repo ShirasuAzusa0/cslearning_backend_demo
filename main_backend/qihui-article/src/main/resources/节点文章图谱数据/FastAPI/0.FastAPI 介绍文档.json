@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，FastAPI基于其开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "relationship": {
+            "info": "基于其开发",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Pydantic",
+            "info": "FastAPI基于的数据验证库，用于实现类型注解和数据验证。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，FastAPI可通过SQLAlchemy集成，支持同步/异步数据操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可集成实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，FastAPI可通过MongoEngine集成，支持同步/异步数据操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可集成实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，FastAPI原生支持其构建。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "原生支持构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "GraphQL",
+            "info": "一种API查询语言，FastAPI可通过Strawberry库扩展支持。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可通过Strawberry扩展",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，FastAPI应用可借助其实现容器化部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，FastAPI应用可借助其实现高可用云原生部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现云原生部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "pip",
+            "info": "Python包管理工具，FastAPI依赖其管理模块。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "依赖其管理模块",
+            "type": "工具依赖"
+        }
+    }
+]

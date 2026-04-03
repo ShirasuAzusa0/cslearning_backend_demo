@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "MySQL",
+            "info": "最流行的关系型数据库管理系统，在 WEB 应用方面是最好的 RDBMS 应用软件之一。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "RDBMS术语",
+            "info": "关系数据库管理系统相关的术语，包括数据库、数据表、列、行、冗余、主键、外键、复合键、索引、参照完整性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RDBMS术语",
+            "info": "关系数据库管理系统相关的术语，包括数据库、数据表、列、行、冗余、主键、外键、复合键、索引、参照完整性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "主键",
+            "info": "主键是唯一的。一个数据表中只能包含一个主键。你可以使用主键来查询数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RDBMS术语",
+            "info": "关系数据库管理系统相关的术语，包括数据库、数据表、列、行、冗余、主键、外键、复合键、索引、参照完整性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "外键",
+            "info": "外键用于关联两个表。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RDBMS术语",
+            "info": "关系数据库管理系统相关的术语，包括数据库、数据表、列、行、冗余、主键、外键、复合键、索引、参照完整性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "索引",
+            "info": "使用索引可快速访问数据库表中的特定信息。索引是对数据库表中一列或多列的值进行排序的一种结构。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

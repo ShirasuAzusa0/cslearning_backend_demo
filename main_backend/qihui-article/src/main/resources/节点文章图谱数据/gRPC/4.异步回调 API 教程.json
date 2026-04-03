@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "异步回调API",
+            "info": "gRPC提供的一种基于回调的、更易用的异步API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "异步回调API",
+            "info": "gRPC提供的一种基于回调的、更易用的异步API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "一元RPC (回调)",
+            "info": "使用回调API实现的一元RPC，通过ServerUnaryReactor和Client回调函数处理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "异步回调API",
+            "info": "gRPC提供的一种基于回调的、更易用的异步API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "服务器端流式RPC (回调)",
+            "info": "使用回调API实现的服务器端流式RPC，通过ServerWriteReactor处理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "异步回调API",
+            "info": "gRPC提供的一种基于回调的、更易用的异步API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "客户端流式RPC (回调)",
+            "info": "使用回调API实现的客户端流式RPC，通过ClientWriteReactor处理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "异步回调API",
+            "info": "gRPC提供的一种基于回调的、更易用的异步API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "双向流式RPC (回调)",
+            "info": "使用回调API实现的双向流式RPC，通过ClientBidiReactor和ServerBidiReactor处理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

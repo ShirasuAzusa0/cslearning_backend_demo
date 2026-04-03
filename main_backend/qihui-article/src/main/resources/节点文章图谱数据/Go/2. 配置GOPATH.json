@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Go",
+            "info": "由Google开发的高性能编程语言，以简洁语法、高效编译和原生并发支持为核心优势，广泛应用于微服务、云原生及基础设施开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "GOPATH",
+            "info": "Go语言的一个环境变量，用于指明Go项目的存放路径，包含了src、pkg、bin三个核心子目录。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "GOPATH",
+            "info": "Go语言的一个环境变量，用于指明Go项目的存放路径，包含了src、pkg、bin三个核心子目录。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "项目目录结构",
+            "info": "基于GOPATH的Go项目标准目录结构，包含src（源代码）、pkg（包文件）、bin（可执行文件）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "项目目录结构",
+            "info": "基于GOPATH的Go项目标准目录结构，包含src（源代码）、pkg（包文件）、bin（可执行文件）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "适合个人开发者的结构",
+            "info": "适用于个人开发者的Go项目目录组织方式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "项目目录结构",
+            "info": "基于GOPATH的Go项目标准目录结构，包含src（源代码）、pkg（包文件）、bin（可执行文件）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "目前流行的项目结构",
+            "info": "当前流行的Go项目结构，通常使用域名或GitHub用户名作为包名前缀，以避免冲突。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "项目目录结构",
+            "info": "基于GOPATH的Go项目标准目录结构，包含src（源代码）、pkg（包文件）、bin（可执行文件）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "适合企业开发者的结构",
+            "info": "适用于企业开发者的Go项目目录组织方式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

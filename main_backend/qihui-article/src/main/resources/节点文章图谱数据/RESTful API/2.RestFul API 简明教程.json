@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于REST构建的API，通过URL+Http Method就能知道其用途，通过HTTP状态码就能知道请求结果。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "API设计规范",
+            "info": "设计和构建RESTful API时应遵循的一系列规则和最佳实践。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "API设计规范",
+            "info": "设计和构建RESTful API时应遵循的一系列规则和最佳实践。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "动作",
+            "info": "使用标准的HTTP方法（GET, POST, PUT, DELETE, PATCH）来操作资源，并遵循其语义。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "API设计规范",
+            "info": "设计和构建RESTful API时应遵循的一系列规则和最佳实践。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "路径（接口命名）",
+            "info": "接口的URL命名规范，如使用名词复数、中划线、版本化等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "API设计规范",
+            "info": "设计和构建RESTful API时应遵循的一系列规则和最佳实践。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "过滤信息",
+            "info": "通过URL参数（如?state=active&page=1）来对查询结果进行过滤、分页和排序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "API设计规范",
+            "info": "设计和构建RESTful API时应遵循的一系列规则和最佳实践。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "状态码",
+            "info": "使用HTTP标准状态码（如200, 201, 400, 404, 500）来表示请求的结果。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于REST构建的API，通过URL+Http Method就能知道其用途，通过HTTP状态码就能知道请求结果。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "HATEOAS",
+            "info": "Hypermedia as the Engine of Application State的缩写，REST架构风格的极致，即在返回结果中提供链接，引导客户端进行下一步操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

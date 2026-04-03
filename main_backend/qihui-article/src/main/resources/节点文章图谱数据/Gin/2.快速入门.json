@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Gin",
+            "info": "Go语言生态中高性能的轻量级Web框架，以极简设计和高并发处理能力著称，适用于构建API服务、微服务及高吞吐量应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "安装",
+            "info": "使用go get -u github.com/gin-gonic/gin命令安装Gin框架。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Gin",
+            "info": "Go语言生态中高性能的轻量级Web框架，以极简设计和高并发处理能力著称，适用于构建API服务、微服务及高吞吐量应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Hello World示例",
+            "info": "Gin的第一个示例程序，通过gin.Default()创建引擎，使用r.GET定义路由，返回JSON响应。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

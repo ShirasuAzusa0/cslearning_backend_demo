@@ -1,0 +1,202 @@
+[
+  {
+    "startNode": {
+      "name": "查询",
+      "info": "GraphQL的核心操作，用于从服务端获取数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "字段",
+      "info": "GraphQL请求的基本单元，用于指定对象上的特定信息。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "查询",
+      "info": "GraphQL的核心操作，用于从服务端获取数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "参数",
+      "info": "可以传递给字段，以实现更精细的数据获取或转换。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "查询",
+      "info": "GraphQL的核心操作，用于从服务端获取数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "别名",
+      "info": "允许重命名查询结果中的字段，避免冲突。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "查询",
+      "info": "GraphQL的核心操作，用于从服务端获取数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "片段",
+      "info": "可复用的字段单元，用于构建复杂的查询。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "查询",
+      "info": "GraphQL的核心操作，用于从服务端获取数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "操作名称",
+      "info": "为查询或变更提供有意义的名称，便于调试和日志记录。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "查询",
+      "info": "GraphQL的核心操作，用于从服务端获取数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "变量",
+      "info": "将动态值从查询中抽离出来，作为单独的字典传递。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "查询",
+      "info": "GraphQL的核心操作，用于从服务端获取数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "指令",
+      "info": "附着在字段上，动态地改变查询的执行结构，如@include和@skip。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "变更",
+      "info": "GraphQL的核心操作，用于修改服务端数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "变更中的多个字段",
+      "info": "一个变更中可以包含多个字段，它们会按顺序线性执行。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "查询",
+      "info": "GraphQL的核心操作，用于从服务端获取数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "内联片段",
+      "info": "在处理接口或联合类型时，用于访问具体类型上的字段。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "查询",
+      "info": "GraphQL的核心操作，用于从服务端获取数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "元字段",
+      "info": "如__typename，在运行时提供类型信息，帮助客户端处理不同类型的数据。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  }
+]

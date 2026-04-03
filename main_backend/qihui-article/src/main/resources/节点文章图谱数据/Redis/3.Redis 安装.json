@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个开源的内存数据库，遵守BSD协议，提供了一个高性能的键值存储系统，常用于缓存、消息队列、会话存储等应用场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装Redis的方法，包括Windows、Linux源码安装、Ubuntu apt命令安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装Redis的方法，包括Windows、Linux源码安装、Ubuntu apt命令安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Windows下安装",
+            "info": "下载Redis-x64-xxx.zip压缩包，解压后运行redis-server.exe redis.windows.conf启动服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装Redis的方法，包括Windows、Linux源码安装、Ubuntu apt命令安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Linux源码安装",
+            "info": "使用wget下载Redis源码，解压后执行make命令编译，启动redis-server服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装Redis的方法，包括Windows、Linux源码安装、Ubuntu apt命令安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Ubuntu apt命令安装",
+            "info": "使用sudo apt update和sudo apt install redis-server命令安装Redis。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

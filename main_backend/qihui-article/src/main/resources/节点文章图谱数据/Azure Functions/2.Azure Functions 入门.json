@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "可将系统的逻辑实现为事件驱动、可直接使用的代码块，这些代码块称为函数。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "创建第一个函数",
+            "info": "在不到五分钟的时间内完成快速入门文章，创建并部署第一个函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "可将系统的逻辑实现为事件驱动、可直接使用的代码块，这些代码块称为函数。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "自定义处理程序",
+            "info": "使用自定义处理程序可以开发使用 Rust、Go 和其他语言开发的函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

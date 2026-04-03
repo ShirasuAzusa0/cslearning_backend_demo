@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "/write",
+            "info": "InfluxDB的HTTP接口写入路径，通过POST数据到/write路径往InfluxDB写数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "/write",
+            "info": "InfluxDB的HTTP接口写入路径，通过POST数据到/write路径往InfluxDB写数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Line Protocol",
+            "info": "POST请求体格式，包含measurement、tags、fields和timestamp，是写入InfluxDB的数据格式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "/write",
+            "info": "InfluxDB的HTTP接口写入路径，通过POST数据到/write路径往InfluxDB写数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "无模式设计",
+            "info": "InfluxDB是一个无模式的数据库，可以在任意时间添加measurement、tags和fields。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

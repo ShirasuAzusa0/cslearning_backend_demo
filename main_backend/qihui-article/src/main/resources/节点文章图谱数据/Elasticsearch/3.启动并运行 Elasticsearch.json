@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一个开源的分布式搜索和分析引擎，基于 Lucene 构建，支持实时数据检索、日志分析和全文搜索，适用于大数据场景。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "安装",
+            "info": "在Elasticsearch服务中创建托管部署或在本地Linux、macOS或Windows机器上设置多节点Elasticsearch集群。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在Elasticsearch服务中创建托管部署或在本地Linux、macOS或Windows机器上设置多节点Elasticsearch集群。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Elastic Cloud",
+            "info": "Elasticsearch服务，提供三节点的Elasticsearch集群、Kibana以及APM。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在Elasticsearch服务中创建托管部署或在本地Linux、macOS或Windows机器上设置多节点Elasticsearch集群。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "cURL",
+            "info": "用于与Elasticsearch交互的命令行工具，可以提交HTTP请求。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

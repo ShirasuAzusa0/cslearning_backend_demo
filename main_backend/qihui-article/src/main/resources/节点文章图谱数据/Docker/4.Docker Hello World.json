@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Docker",
+            "info": "一个开源的应用容器引擎，基于 Go 语言并遵从 Apache2.0 协议开源。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "docker run",
+            "info": "命令，用于在容器内运行一个应用程序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "docker run",
+            "info": "命令，用于在容器内运行一个应用程序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "-i -t",
+            "info": "参数，-i允许对容器内的标准输入进行交互，-t在新容器内指定一个伪终端或终端。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "docker run",
+            "info": "命令，用于在容器内运行一个应用程序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "-d",
+            "info": "参数，让容器在后台运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "docker run",
+            "info": "命令，用于在容器内运行一个应用程序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "docker ps",
+            "info": "命令，查看正在运行的容器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "docker run",
+            "info": "命令，用于在容器内运行一个应用程序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "docker logs",
+            "info": "命令，查看容器内的标准输出。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "docker run",
+            "info": "命令，用于在容器内运行一个应用程序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "docker stop",
+            "info": "命令，停止容器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

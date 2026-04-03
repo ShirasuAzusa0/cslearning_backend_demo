@@ -1,0 +1,262 @@
+[
+    {
+        "startNode": {
+            "name": "AWS Lambda",
+            "info": "您可以使用 AWS Lambda 运行代码而无需预置或管理服务器。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "环境变量",
+            "info": "使用环境变量来调整函数的行为，而无需更新代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "版本",
+            "info": "使用版本管理函数部署，例如，可将新函数用于 beta 测试，而这不会影响稳定生产版本的用户。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "容器映像",
+            "info": "使用 AWS 提供的基本映像或备用基本映像为 Lambda 函数创建容器映像。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Lambda 层",
+            "info": "为库和其他依赖项打包，以减少部署存档的大小，并加快代码部署速度。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Lambda 扩展",
+            "info": "通过监控、可观测性、安全性和监管工具增强 Lambda 函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "函数 URL",
+            "info": "向 Lambda 函数添加专用 HTTP（S）端点。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "响应流式处理",
+            "info": "配置 Lambda 函数 URL 以将响应负载从 Node.js 函数流式传输回客户端。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "并发和扩展控制",
+            "info": "对生产应用程序的扩展和响应能力进行精细控制。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "代码签名",
+            "info": "确认只有已获批准的开发人员才能发布 Lambda 函数中未经更改的可信代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "私有联网",
+            "info": "为资源（如数据库、缓存实例或内部服务）创建专用网络。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "文件系统",
+            "info": "配置函数以将 Amazon Elastic File System（Amazon EFS）挂载到本地目录。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主要特征",
+            "info": "帮助您开发可扩展、安全且易于扩展的 Lambda 应用程序的关键功能，包括环境变量、版本、容器映像、Lambda 层、Lambda 扩展、函数 URL、响应流式处理、并发和扩展控制、代码签名、私有联网、文件系统、Lambda SnapStart。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Lambda SnapStart",
+            "info": "Lambda SnapStart 可以提供低至次秒级的启动性能，通常无需更改函数代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Amazon Aurora",
+            "info": "一个与MySQL和PostgreSQL兼容的完全托管的关系数据库引擎。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "创建 Aurora PostgreSQL 数据库集群",
+            "info": "使用轻松创建或标准创建来创建Aurora PostgreSQL数据库集群。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建 Aurora PostgreSQL 数据库集群",
+            "info": "使用轻松创建或标准创建来创建Aurora PostgreSQL数据库集群。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "轻松创建",
+            "info": "通过AWS Management Console创建私有Aurora PostgreSQL数据库集群的方式，可以仅指定数据库引擎类型、数据库实例大小和数据库集群标识符。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建 Aurora PostgreSQL 数据库集群",
+            "info": "使用轻松创建或标准创建来创建Aurora PostgreSQL数据库集群。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "连接到 Aurora PostgreSQL 数据库集群",
+            "info": "使用psql命令行客户端连接到Aurora PostgreSQL数据库集群的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建 Aurora PostgreSQL 数据库集群",
+            "info": "使用轻松创建或标准创建来创建Aurora PostgreSQL数据库集群。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "创建 EC2 实例",
+            "info": "创建将用于连接到数据库的Amazon EC2实例。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

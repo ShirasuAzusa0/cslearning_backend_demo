@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "环境配置",
+            "info": "Java开发环境的搭建，包括JDK的下载、安装和环境变量（JAVA_HOME, PATH, CLASSPATH）的设置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "JDK",
+            "info": "Java开发工具包，是Java开发和运行的核心，包含了JRE、编译器（javac）和工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Java IDE",
+            "info": "用于Java开发的集成开发环境，如IntelliJ IDEA、Eclipse、NetBeans、VS Code等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

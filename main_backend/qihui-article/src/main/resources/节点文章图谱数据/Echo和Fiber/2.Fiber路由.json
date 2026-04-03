@@ -1,0 +1,142 @@
+[
+  {
+    "startNode": {
+      "name": "Fiber",
+      "info": "基于fasthttp的Go Web框架，强调极速响应，适用于高并发场景。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "路由",
+      "info": "Fiber框架的核心功能，用于注册绑定到特定HTTP方法的路由。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "路由",
+      "info": "Fiber框架的核心功能，用于注册绑定到特定HTTP方法的路由。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "处理程序",
+      "info": "注册绑定到特定HTTP方法的路由，包括Get、Post、Put、Delete、Use等方法。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "路由",
+      "info": "Fiber框架的核心功能，用于注册绑定到特定HTTP方法的路由。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "路径",
+      "info": "路由路径可以是字符串或字符串模式，定义了可以进行请求的端点。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "路由",
+      "info": "Fiber框架的核心功能，用于注册绑定到特定HTTP方法的路由。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "参数",
+      "info": "路由中的动态元素，包括命名参数(:name)和未命名参数(*、+)，可使用Params函数检索。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "参数",
+      "info": "路由中的动态元素，包括命名参数(:name)和未命名参数(*、+)，可使用Params函数检索。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "约束",
+      "info": "路由参数约束，如int、bool、guid、minLen、maxLen、range、regex等。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "路由",
+      "info": "Fiber框架的核心功能，用于注册绑定到特定HTTP方法的路由。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "中间件",
+      "info": "用于对请求或响应进行更改的函数，通过Use方法注册，支持挂载路径限制。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "路由",
+      "info": "Fiber框架的核心功能，用于注册绑定到特定HTTP方法的路由。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "分组",
+      "info": "使用Group方法组织路由，创建具有共同前缀的路由组。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  }
+]

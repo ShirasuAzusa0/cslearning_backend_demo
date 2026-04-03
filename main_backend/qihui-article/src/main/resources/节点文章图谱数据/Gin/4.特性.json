@@ -1,0 +1,22 @@
+[
+    {
+        "startNode": {
+            "name": "Gin",
+            "info": "Go语言生态中高性能的轻量级Web框架，以极简设计和高并发处理能力著称，适用于构建API服务、微服务及高吞吐量应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "稳定特性",
+            "info": "Gin v1的稳定特性，包括零分配路由、最快的http路由器和框架、完整的单元测试支持、实战考验、API冻结。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

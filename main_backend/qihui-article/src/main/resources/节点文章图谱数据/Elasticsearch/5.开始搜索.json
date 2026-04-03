@@ -1,0 +1,202 @@
+[
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一种分布式文档存储，提供一种简单、一致的 REST API，用于管理集群以及索引和搜索数据。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "_search",
+            "info": "Elasticsearch的搜索端点，用于向该端点发送请求来搜索数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "_search",
+            "info": "Elasticsearch的搜索端点，用于向该端点发送请求来搜索数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "query",
+            "info": "搜索请求中的查询参数，使用Elasticsearch的查询DSL指定搜索条件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "query",
+            "info": "搜索请求中的查询参数，使用Elasticsearch的查询DSL指定搜索条件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "match_all",
+            "info": "查询DSL中的一种查询类型，匹配索引中的所有文档。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "query",
+            "info": "搜索请求中的查询参数，使用Elasticsearch的查询DSL指定搜索条件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "match",
+            "info": "查询DSL中的一种查询类型，用于在字段中搜索指定词语。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "query",
+            "info": "搜索请求中的查询参数，使用Elasticsearch的查询DSL指定搜索条件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "match_phrase",
+            "info": "查询DSL中的一种查询类型，用于执行短语搜索而不是匹配单独的词语。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "query",
+            "info": "搜索请求中的查询参数，使用Elasticsearch的查询DSL指定搜索条件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "bool",
+            "info": "查询DSL中的一种复合查询类型，包含must、should、must_not等子句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "bool",
+            "info": "查询DSL中的一种复合查询类型，包含must、should、must_not等子句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "must",
+            "info": "bool查询中的子句，文档必须匹配的条件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "bool",
+            "info": "查询DSL中的一种复合查询类型，包含must、should、must_not等子句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "must_not",
+            "info": "bool查询中的子句，文档必须不匹配的条件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "bool",
+            "info": "查询DSL中的一种复合查询类型，包含must、should、must_not等子句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "filter",
+            "info": "bool查询中的子句，用于包含或排除基于结构化数据的文档，不影响文档分数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "filter",
+            "info": "bool查询中的子句，用于包含或排除基于结构化数据的文档，不影响文档分数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "range",
+            "info": "过滤器类型，用于限定数值范围。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

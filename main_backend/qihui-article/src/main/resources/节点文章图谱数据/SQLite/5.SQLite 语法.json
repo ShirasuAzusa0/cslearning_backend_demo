@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个进程内的库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "SQLite 语法",
+            "info": "SQLite遵循一套独特的称为语法的规则和准则，包括大小写敏感性、注释、SQLite语句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite 语法",
+            "info": "SQLite遵循一套独特的称为语法的规则和准则，包括大小写敏感性、注释、SQLite语句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "大小写敏感性",
+            "info": "SQLite是不区分大小写的，但GLOB和glob在SQLite的语句中有不同的含义。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite 语法",
+            "info": "SQLite遵循一套独特的称为语法的规则和准则，包括大小写敏感性、注释、SQLite语句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "注释",
+            "info": "SQLite注释以两个连续的-字符开始，或使用C风格注释/* */。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

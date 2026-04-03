@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "handler",
+            "info": "Actix中的请求处理函数，使用异步函数，接受零个或多个可从请求中提取的参数，并返回可以转换为HttpResponse的类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "handler",
+            "info": "Actix中的请求处理函数，使用异步函数，接受零个或多个可从请求中提取的参数，并返回可以转换为HttpResponse的类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Responder",
+            "info": "一个trait，实现了它的类型可以被handler返回，并转换为HttpResponse。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "handler",
+            "info": "Actix中的请求处理函数，使用异步函数，接受零个或多个可从请求中提取的参数，并返回可以转换为HttpResponse的类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "响应自定义类型",
+            "info": "通过为自定义类型实现Responder trait，可以直接从handler返回该类型作为响应。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "handler",
+            "info": "Actix中的请求处理函数，使用异步函数，接受零个或多个可从请求中提取的参数，并返回可以转换为HttpResponse的类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "流式响应体",
+            "info": "通过HttpResponse的streaming()方法，可以异步生成响应体，body必须实现Stream<Item=Bytes, Error=Error>。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "handler",
+            "info": "Actix中的请求处理函数，使用异步函数，接受零个或多个可从请求中提取的参数，并返回可以转换为HttpResponse的类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Either",
+            "info": "一个枚举类型，允许将两种不同的响应类型组合成单一类型，用于处理差异化返回类型的情况。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

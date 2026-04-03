@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Flask特点",
+            "info": "Flask的核心特性，包括轻量级和简洁、灵活性、可扩展性、内置开发服务器、RESTful支持。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Flask适用场景",
+            "info": "Flask的典型应用领域，包括小型项目、原型开发、微服务、API开发、教育和学习、内部工具等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Flask组成",
+            "info": "Flask的核心组成部分，包括Flask应用实例、路由和视图函数、模板系统、请求和响应。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Hello World示例",
+            "info": "Flask的第一个示例程序，通过@app.route装饰器定义路由，返回Hello World。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

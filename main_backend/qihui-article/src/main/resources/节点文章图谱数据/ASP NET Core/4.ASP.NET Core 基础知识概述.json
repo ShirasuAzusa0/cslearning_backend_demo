@@ -1,0 +1,262 @@
+[
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Program.cs",
+            "info": "ASP.NET Core应用的启动代码文件，用于配置服务和请求处理管道。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "依赖关系注入",
+            "info": "ASP.NET Core内置的依赖注入框架，使配置的服务在整个应用中可用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "中间件",
+            "info": "构成请求处理管道的组件，每个组件在HttpContext上执行操作并调用下一个中间件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "主机",
+            "info": "封装应用所有资源（HTTP服务器、中间件、日志记录、DI、配置）的对象。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "主机",
+            "info": "封装应用所有资源（HTTP服务器、中间件、日志记录、DI、配置）的对象。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Kestrel",
+            "info": "ASP.NET Core的跨平台Web服务器实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "配置",
+            "info": "从配置提供程序的有序集中将设置作为名称/值对的框架。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "环境",
+            "info": "执行环境（Development、Staging、Production），通过ASPNETCORE_ENVIRONMENT环境变量设置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "日志记录",
+            "info": "支持各种内置和第三方日志记录提供程序的日志记录API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "路由",
+            "info": "将传入请求映射到应用程序中特定终结点的机制。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "错误处理",
+            "info": "内置的错误处理功能，包括开发人员异常页、自定义错误页等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "IHttpClientFactory",
+            "info": "用于创建HttpClient实例的实现，管理HttpClientHandler的池和生存期。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "内容根",
+            "info": "指向托管应用的可执行文件、编译程序集和应用内容文件的基路径。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Web 根",
+            "info": "公用静态资源文件的基路径，默认为{content root}/wwwroot。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

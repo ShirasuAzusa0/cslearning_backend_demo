@@ -1,0 +1,302 @@
+[
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "模板",
+            "info": "MTV中的T，负责如何把页面（html）展示给用户，用于分离文档的表现形式和内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "模板",
+            "info": "MTV中的T，负责如何把页面（html）展示给用户，用于分离文档的表现形式和内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "变量",
+            "info": "模板中使用双括号{{ variable }}语法，用于输出视图传递的数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "模板",
+            "info": "MTV中的T，负责如何把页面（html）展示给用户，用于分离文档的表现形式和内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "过滤器",
+            "info": "模板中使用管道符|语法，可以在变量被显示前修改它。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "过滤器",
+            "info": "模板中使用管道符|语法，可以在变量被显示前修改它。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "default",
+            "info": "过滤器，为变量提供一个默认值。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "过滤器",
+            "info": "模板中使用管道符|语法，可以在变量被显示前修改它。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "length",
+            "info": "过滤器，返回对象的长度。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "过滤器",
+            "info": "模板中使用管道符|语法，可以在变量被显示前修改它。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "safe",
+            "info": "过滤器，将字符串标记为安全，不需要转义。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "模板",
+            "info": "MTV中的T，负责如何把页面（html）展示给用户，用于分离文档的表现形式和内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "标签",
+            "info": "模板中使用{% tag %}语法，用于实现逻辑控制，如条件判断和循环。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "标签",
+            "info": "模板中使用{% tag %}语法，用于实现逻辑控制，如条件判断和循环。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "if/else",
+            "info": "模板标签，用于条件判断。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "标签",
+            "info": "模板中使用{% tag %}语法，用于实现逻辑控制，如条件判断和循环。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "for",
+            "info": "模板标签，用于在序列上迭代。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "标签",
+            "info": "模板中使用{% tag %}语法，用于实现逻辑控制，如条件判断和循环。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "include",
+            "info": "模板标签，用于在模板中包含其他模板的内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "模板",
+            "info": "MTV中的T，负责如何把页面（html）展示给用户，用于分离文档的表现形式和内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "模板继承",
+            "info": "通过extends和block标签实现模板复用，减少冗余内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "模板继承",
+            "info": "通过extends和block标签实现模板复用，减少冗余内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "extends",
+            "info": "模板标签，用于子模板继承父模板。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "模板继承",
+            "info": "通过extends和block标签实现模板复用，减少冗余内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "block",
+            "info": "模板标签，用于父模板中预留区域，供子模板填充内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "模板",
+            "info": "MTV中的T，负责如何把页面（html）展示给用户，用于分离文档的表现形式和内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "自定义标签和过滤器",
+            "info": "通过创建templatetags目录和py文件，利用@register.filter和@register.simple_tag装饰器自定义模板功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "模板",
+            "info": "MTV中的T，负责如何把页面（html）展示给用户，用于分离文档的表现形式和内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "静态文件配置",
+            "info": "通过STATIC_URL和STATICFILES_DIRS配置静态文件目录，使用{% static %}标签引用静态文件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

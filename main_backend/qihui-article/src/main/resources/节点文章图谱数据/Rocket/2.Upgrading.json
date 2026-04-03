@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Upgrading",
+            "info": "从Rocket v0.4迁移到v0.5的指南，涵盖Crate Organization、Stable and Async Support、Configuration、Routing、Forms等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Upgrading",
+            "info": "从Rocket v0.4迁移到v0.5的指南，涵盖Crate Organization、Stable and Async Support、Configuration、Routing、Forms等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Crate Organization",
+            "info": "v0.5改进了模块结构和crate生态，rocket_contrib已被deprecated，需迁移到rocket_dyn_templates、rocket_sync_db_pools等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Upgrading",
+            "info": "从Rocket v0.4迁移到v0.5的指南，涵盖Crate Organization、Stable and Async Support、Configuration、Routing、Forms等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Stable and Async Support",
+            "info": "v0.5可在Rust stable上编译，核心完全异步，需使用rocket::build()代替rocket::ignite()，使用#[launch]或#[rocket::main]入口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Upgrading",
+            "info": "从Rocket v0.4迁移到v0.5的指南，涵盖Crate Organization、Stable and Async Support、Configuration、Routing、Forms等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Configuration",
+            "info": "v0.5配置系统完全重做，需将ROCKET_ENV替换为ROCKET_PROFILE，将ROCKET_LOG替换为ROCKET_LOG_LEVEL等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Upgrading",
+            "info": "从Rocket v0.4迁移到v0.5的指南，涵盖Crate Organization、Stable and Async Support、Configuration、Routing、Forms等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Routing",
+            "info": "v0.5路由更改包括Default Ranking更精确、Multi-segment route parameters匹配零个或多个段、Parameters always percent-decoded等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

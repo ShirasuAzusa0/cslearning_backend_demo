@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "连接",
+            "info": "通过标准 URI 语法连接到 MongoDB 服务器的方式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "连接",
+            "info": "通过标准 URI 语法连接到 MongoDB 服务器的方式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "mongodb://",
+            "info": "MongoDB URI 连接字符串的协议头。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "连接",
+            "info": "通过标准 URI 语法连接到 MongoDB 服务器的方式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "mongosh",
+            "info": "MongoDB Shell 命令行工具，用于连接 MongoDB 服务器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

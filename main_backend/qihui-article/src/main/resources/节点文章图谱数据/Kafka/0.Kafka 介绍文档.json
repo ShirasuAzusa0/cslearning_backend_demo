@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式流处理平台，专为高吞吐量、低延迟的实时数据流设计，支持发布-订阅模型和持久化日志存储。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，作为轻量级缓存与Kafka互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式流处理平台，专为高吞吐量、低延迟的实时数据流设计，支持发布-订阅模型和持久化日志存储。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "RabbitMQ",
+            "info": "传统消息队列，与Kafka互补。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式流处理平台，专为高吞吐量、低延迟的实时数据流设计，支持发布-订阅模型和持久化日志存储。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可通过Docker容器化Kafka集群。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式流处理平台，专为高吞吐量、低延迟的实时数据流设计，支持发布-订阅模型和持久化日志存储。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，结合Kubernetes实现弹性扩展与故障恢复。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现弹性扩展",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式流处理平台，专为高吞吐量、低延迟的实时数据流设计，支持发布-订阅模型和持久化日志存储。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Kafka可与之协同，实时捕获数据库变更事件（CDC）。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可协同实现CDC",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式流处理平台，专为高吞吐量、低延迟的实时数据流设计，支持发布-订阅模型和持久化日志存储。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，Kafka可与之协同，实时捕获数据库变更事件（CDC）。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可协同实现CDC",
+            "type": "技术集成"
+        }
+    }
+]

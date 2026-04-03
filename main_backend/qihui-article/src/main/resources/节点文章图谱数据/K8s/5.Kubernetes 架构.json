@@ -1,0 +1,202 @@
+[
+    {
+        "startNode": {
+            "name": "K8s",
+            "info": "开源的容器编排平台，用于自动化部署、扩展和管理容器化应用，是云原生技术的核心组件。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "控制平面",
+            "info": "集群的控制平面组件，包括kube-apiserver、etcd、kube-scheduler、kube-controller-manager、cloud-controller-manager。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "K8s",
+            "info": "开源的容器编排平台，用于自动化部署、扩展和管理容器化应用，是云原生技术的核心组件。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "节点",
+            "info": "Kubernetes中的工作机器，托管着组成应用负载的Pod。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "K8s",
+            "info": "开源的容器编排平台，用于自动化部署、扩展和管理容器化应用，是云原生技术的核心组件。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Pod",
+            "info": "表示你的集群上一组正在运行的容器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "控制平面",
+            "info": "集群的控制平面组件，包括kube-apiserver、etcd、kube-scheduler、kube-controller-manager、cloud-controller-manager。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "kube-apiserver",
+            "info": "API服务器，负责公开Kubernetes API，处理接受请求的工作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "控制平面",
+            "info": "集群的控制平面组件，包括kube-apiserver、etcd、kube-scheduler、kube-controller-manager、cloud-controller-manager。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "etcd",
+            "info": "一致且高可用的键值存储，用作Kubernetes所有集群数据的后台数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "控制平面",
+            "info": "集群的控制平面组件，包括kube-apiserver、etcd、kube-scheduler、kube-controller-manager、cloud-controller-manager。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "kube-scheduler",
+            "info": "负责监视新创建的、未指定运行节点的Pods，并选择节点来让Pod在上面运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "控制平面",
+            "info": "集群的控制平面组件，包括kube-apiserver、etcd、kube-scheduler、kube-controller-manager、cloud-controller-manager。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "kube-controller-manager",
+            "info": "负责运行控制器进程，包括Node控制器、Job控制器、EndpointSlice控制器、ServiceAccount控制器等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "节点组件",
+            "info": "在每个节点上运行，维护运行的Pod并提供Kubernetes运行时环境。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "kubelet",
+            "info": "会在集群中每个节点上运行，保证容器都运行在Pod中。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "节点组件",
+            "info": "在每个节点上运行，维护运行的Pod并提供Kubernetes运行时环境。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "kube-proxy",
+            "info": "集群中每个节点上所运行的网络代理，实现Kubernetes服务概念的一部分。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "节点组件",
+            "info": "在每个节点上运行，维护运行的Pod并提供Kubernetes运行时环境。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "容器运行时",
+            "info": "使Kubernetes能够有效运行容器的基础组件，负责管理Kubernetes环境中容器的执行和生命周期。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

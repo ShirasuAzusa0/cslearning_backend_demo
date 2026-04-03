@@ -1,0 +1,36 @@
+{
+  "1":{
+    "HTML5": 0,
+    "CSS3": 0,
+    "Java Script ES6": 0,
+    "ESLint和Prettier": 0
+  },
+  "2": {
+    "TypeScript": 0,
+    "React": 0,
+    "Vue3": 0,
+    "Angular": 0,
+    "Vite前端": 0,
+    "Webpack": 0,
+    "Rollup": 0,
+    "npm": 0,
+    "yarn": 0,
+    "pnpm": 0
+  },
+  "3": {
+    "Redux": 0,
+    "Pinia": 0,
+    "Zustand": 0,
+    "RxJS": 0,
+    "Tailwind CSS": 0,
+    "Element Plus": 0,
+    "Next.js": 0,
+    "Nuxt.js": 0,
+    "Astro": 0
+  },
+  "4": {
+    "qiankun": 0,
+    "Module Federation": 0,
+    "WebAssembly": 0
+  }
+}

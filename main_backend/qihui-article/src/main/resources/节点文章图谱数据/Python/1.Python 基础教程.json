@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，广泛用于后端开发、数据分析、AI等领域。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Python概述",
+            "info": "Python语言的基本介绍，包括其解释型、面向对象的特点以及Python 2和Python 3的版本差异。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，广泛用于后端开发、数据分析、AI等领域。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "第一个Python程序",
+            "info": "经典的Hello World程序，展示了如何在Python中输出文本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

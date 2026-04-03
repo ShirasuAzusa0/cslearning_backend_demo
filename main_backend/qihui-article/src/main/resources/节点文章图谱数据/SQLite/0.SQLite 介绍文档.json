@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个轻量级、嵌入式关系型数据库，无需独立服务器，适用于移动端、桌面应用及小型 Web 项目，以低开销和零配置著称，支持标准 SQL 语法。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种服务端关系型数据库，与SQLite互补，适用于不同规模场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个轻量级、嵌入式关系型数据库，无需独立服务器，适用于移动端、桌面应用及小型 Web 项目，以低开销和零配置著称，支持标准 SQL 语法。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种文档型数据库，与SQLite对比，体现结构化数据存储的差异。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "对比关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个轻量级、嵌入式关系型数据库，无需独立服务器，适用于移动端、桌面应用及小型 Web 项目，以低开销和零配置著称，支持标准 SQL 语法。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Django",
+            "info": "Python生态中的全栈Web框架，默认支持SQLite，用于快速原型开发或测试环境。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "默认支持",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个轻量级、嵌入式关系型数据库，无需独立服务器，适用于移动端、桌面应用及小型 Web 项目，以低开销和零配置著称，支持标准 SQL 语法。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，默认支持SQLite，用于快速原型开发或测试环境。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "默认支持",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个轻量级、嵌入式关系型数据库，无需独立服务器，适用于移动端、桌面应用及小型 Web 项目，以低开销和零配置著称，支持标准 SQL 语法。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，可结合SQLite为轻量级应用提供本地数据存储支持。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可结合提供数据存储",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个轻量级、嵌入式关系型数据库，无需独立服务器，适用于移动端、桌面应用及小型 Web 项目，以低开销和零配置著称，支持标准 SQL 语法。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "GraphQL",
+            "info": "一种API查询语言，可结合SQLite为轻量级应用提供本地数据存储支持。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可结合提供数据存储",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个轻量级、嵌入式关系型数据库，无需独立服务器，适用于移动端、桌面应用及小型 Web 项目，以低开销和零配置著称，支持标准 SQL 语法。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可通过Docker打包含SQLite的应用，简化开发环境配置。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其打包含SQLite的应用",
+            "type": "部署方式"
+        }
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "设计理念",
+            "info": "三层架构的核心设计理念是关注点分离（Separation of Concerns, SoC），旨在将不同的功能区分开来，以降低系统各部分之间的依赖性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Controller",
+            "info": "控制层位于架构的最前端，负责接收用户的输入，并将请求转发给相应的服务层处理，最后返回处理结果给用户。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Service",
+            "info": "业务逻辑层，承担处理应用程序核心业务逻辑的任务，解释用户的请求，执行必要的业务计算，调用数据访问层进行数据持久化操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "DAO",
+            "info": "数据访问层，与数据库或其他持久化存储方式直接交互，执行具体的数据库操作，如增删查改（CRUD）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Go示例",
+            "info": "通过Go语言示例展示Controller、Service、DAO三层架构的实现，包括用户模型定义、DAO层、Service层和Controller层。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Go示例",
+            "info": "通过Go语言示例展示Controller、Service、DAO三层架构的实现，包括用户模型定义、DAO层、Service层和Controller层。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "model",
+            "info": "在model/user.go中定义用户的数据模型，包含ID、Name、Email字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Go示例",
+            "info": "通过Go语言示例展示Controller、Service、DAO三层架构的实现，包括用户模型定义、DAO层、Service层和Controller层。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "UserDao",
+            "info": "在dao/userDao.go中实现用户的数据访问对象，定义CreateUser和GetUserByID方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Go示例",
+            "info": "通过Go语言示例展示Controller、Service、DAO三层架构的实现，包括用户模型定义、DAO层、Service层和Controller层。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "UserService",
+            "info": "在service/userService.go中实现用户的业务逻辑，定义CreateUser和GetUserByID方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "npm",
+            "info": "Node Package Manager，Node.js的默认包管理工具，允许开发者管理项目的依赖库和工具。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "构建工程化_包管理"
+        },
+        "endNode": {
+            "name": "包管理",
+            "info": "NPM的核心功能，帮助安装、更新、删除项目所需的第三方库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "npm",
+            "info": "Node Package Manager，Node.js的默认包管理工具，允许开发者管理项目的依赖库和工具。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "构建工程化_包管理"
+        },
+        "endNode": {
+            "name": "版本管理",
+            "info": "NPM支持语义化版本控制，允许锁定特定版本或选择最新版本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "npm",
+            "info": "Node Package Manager，Node.js的默认包管理工具，允许开发者管理项目的依赖库和工具。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "构建工程化_包管理"
+        },
+        "endNode": {
+            "name": "本地安装",
+            "info": "将包安装到当前项目的node_modules目录中，用于项目依赖。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "npm",
+            "info": "Node Package Manager，Node.js的默认包管理工具，允许开发者管理项目的依赖库和工具。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "构建工程化_包管理"
+        },
+        "endNode": {
+            "name": "全局安装",
+            "info": "将包安装在系统级别目录中，用于命令行工具和项目生成器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "npm",
+            "info": "Node Package Manager，Node.js的默认包管理工具，允许开发者管理项目的依赖库和工具。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "构建工程化_包管理"
+        },
+        "endNode": {
+            "name": "package.json",
+            "info": "Node.js项目的核心配置文件，包含项目的元数据、依赖、脚本等信息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "package.json",
+            "info": "Node.js项目的核心配置文件，包含项目的元数据、依赖、脚本等信息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "dependencies",
+            "info": "package.json中的字段，列出项目运行所需的所有依赖包及其版本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "package.json",
+            "info": "Node.js项目的核心配置文件，包含项目的元数据、依赖、脚本等信息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "devDependencies",
+            "info": "package.json中的字段，列出只在开发过程中需要的依赖包及其版本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "package.json",
+            "info": "Node.js项目的核心配置文件，包含项目的元数据、依赖、脚本等信息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "scripts",
+            "info": "package.json中的字段，定义可通过npm run执行的命令行脚本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "npm",
+            "info": "Node Package Manager，Node.js的默认包管理工具，允许开发者管理项目的依赖库和工具。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "构建工程化_包管理"
+        },
+        "endNode": {
+            "name": "npm命令",
+            "info": "NPM提供的各种命令行工具，如install、update、uninstall、init、publish等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

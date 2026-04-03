@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "GraphQL",
+            "info": "一个用于 API 的查询语言，是一个使用基于类型系统来执行查询的服务端运行时。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "建模",
+            "info": "使用GraphQL，可以将业务领域通过定义schema建模成一张图。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "GraphQL",
+            "info": "一个用于 API 的查询语言，是一个使用基于类型系统来执行查询的服务端运行时。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "共同语言",
+            "info": "将GraphQL schema视为团队和用户之间沟通的共同语言，命名至关重要。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "GraphQL",
+            "info": "一个用于 API 的查询语言，是一个使用基于类型系统来执行查询的服务端运行时。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "业务逻辑层",
+            "info": "真正的业务逻辑、验证和授权应放在专门的业务逻辑层，而非GraphQL层。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "GraphQL",
+            "info": "一个用于 API 的查询语言，是一个使用基于类型系统来执行查询的服务端运行时。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "使用旧有的数据",
+            "info": "构建GraphQL schema应基于客户端如何使用数据，而非镜像旧有的数据库schema。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "GraphQL",
+            "info": "一个用于 API 的查询语言，是一个使用基于类型系统来执行查询的服务端运行时。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "一次一步",
+            "info": "建议一次只构建一个场景所需的schema部分，并频繁验证。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

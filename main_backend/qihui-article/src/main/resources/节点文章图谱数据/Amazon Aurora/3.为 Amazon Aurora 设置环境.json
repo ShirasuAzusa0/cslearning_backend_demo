@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Amazon Aurora",
+            "info": "一个与MySQL和PostgreSQL兼容的完全托管的关系数据库引擎。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "设置环境",
+            "info": "首次使用Amazon Aurora前需要完成的任务，包括注册AWS账户、创建具有管理访问权限的用户、授权以编程方式访问、确定要求、创建安全组。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "设置环境",
+            "info": "首次使用Amazon Aurora前需要完成的任务，包括注册AWS账户、创建具有管理访问权限的用户、授权以编程方式访问、确定要求、创建安全组。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "注册 AWS 账户",
+            "info": "创建AWS账户的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "设置环境",
+            "info": "首次使用Amazon Aurora前需要完成的任务，包括注册AWS账户、创建具有管理访问权限的用户、授权以编程方式访问、确定要求、创建安全组。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "创建具有管理访问权限的用户",
+            "info": "保护AWS账户根用户并创建管理用户的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "设置环境",
+            "info": "首次使用Amazon Aurora前需要完成的任务，包括注册AWS账户、创建具有管理访问权限的用户、授权以编程方式访问、确定要求、创建安全组。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "确定要求",
+            "info": "在创建数据库集群之前需要考虑的资源要求、VPC、子网和安全组、高可用性、IAM策略、开放端口、AWS区域。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "设置环境",
+            "info": "首次使用Amazon Aurora前需要完成的任务，包括注册AWS账户、创建具有管理访问权限的用户、授权以编程方式访问、确定要求、创建安全组。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "创建 VPC 安全组",
+            "info": "提供对VPC中数据库集群的访问的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

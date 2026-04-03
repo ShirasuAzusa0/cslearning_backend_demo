@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "交互式API文档",
+            "info": "FastAPI自动生成的API文档，基于OpenAPI规范，支持Swagger UI和ReDoc两种交互式界面。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "交互式API文档",
+            "info": "FastAPI自动生成的API文档，基于OpenAPI规范，支持Swagger UI和ReDoc两种交互式界面。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Swagger UI",
+            "info": "交互式API文档的一种风格，通过访问/docs路径查看，提供直观的用户界面和API测试功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "交互式API文档",
+            "info": "FastAPI自动生成的API文档，基于OpenAPI规范，支持Swagger UI和ReDoc两种交互式界面。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "ReDoc",
+            "info": "交互式API文档的一种风格，通过访问/redoc路径查看，具有清晰简洁的外观和良好的可视化体验。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

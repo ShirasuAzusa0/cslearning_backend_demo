@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "CQRS + Event Sourcing",
+            "info": "CQRS（命令查询职责分离）将数据读写操作分离，Event Sourcing（事件溯源）通过记录事件序列而非直接修改状态来维护数据。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "CQRS",
+            "info": "命令查询责任分离，将读取数据（查询）和写入数据（命令）的操作分开的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS",
+            "info": "命令查询责任分离，将读取数据（查询）和写入数据（命令）的操作分开的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "优点",
+            "info": "CQRS的优点包括：可扩展性、灵活性、提高可维护性、增强安全性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS",
+            "info": "命令查询责任分离，将读取数据（查询）和写入数据（命令）的操作分开的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "缺点",
+            "info": "CQRS的缺点包括：复杂性增加、学习路线、最终一致性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS",
+            "info": "命令查询责任分离，将读取数据（查询）和写入数据（命令）的操作分开的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "示例",
+            "info": "使用Spring Boot应用程序实现CQRS的任务管理，包括Command实体类、Command模块、Command Handler、查询dto、查询Handler和REST API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "示例",
+            "info": "使用Spring Boot应用程序实现CQRS的任务管理，包括Command实体类、Command模块、Command Handler、查询dto、查询Handler和REST API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Task",
+            "info": "Command实体类，包含id、title、completed字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "示例",
+            "info": "使用Spring Boot应用程序实现CQRS的任务管理，包括Command实体类、Command模块、Command Handler、查询dto、查询Handler和REST API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "CreateTaskCommand",
+            "info": "Command模块，包含title字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "示例",
+            "info": "使用Spring Boot应用程序实现CQRS的任务管理，包括Command实体类、Command模块、Command Handler、查询dto、查询Handler和REST API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "TaskCommandHandler",
+            "info": "Command Handler，处理CreateTaskCommand，保存Task到数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "示例",
+            "info": "使用Spring Boot应用程序实现CQRS的任务管理，包括Command实体类、Command模块、Command Handler、查询dto、查询Handler和REST API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "TaskDTO",
+            "info": "查询dto，包含id、title、completed字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "示例",
+            "info": "使用Spring Boot应用程序实现CQRS的任务管理，包括Command实体类、Command模块、Command Handler、查询dto、查询Handler和REST API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "TaskQueryHandler",
+            "info": "查询Handler，处理查询请求，返回TaskDTO列表。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装InfluxDB的方法，包括Debian/Ubuntu、RedHat/CentOS、MAC OS X。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装InfluxDB的方法，包括Debian/Ubuntu、RedHat/CentOS、MAC OS X。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Debain & Ubuntu",
+            "info": "Debian和Ubuntu用户可以用apt-get包管理来安装最新版本的InfluxDB。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装InfluxDB的方法，包括Debian/Ubuntu、RedHat/CentOS、MAC OS X。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "RedHat & CentOS",
+            "info": "RedHat和CentOS用户可以用yum包管理来安装最新版本的InfluxDB。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装InfluxDB的方法，包括Debian/Ubuntu、RedHat/CentOS、MAC OS X。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "MAC OS X",
+            "info": "OS X 10.8或者更高版本的用户，可以使用Homebrew来安装InfluxDB。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装InfluxDB的方法，包括Debian/Ubuntu、RedHat/CentOS、MAC OS X。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "配置",
+            "info": "InfluxDB的配置文件位于/etc/influxdb/influxdb.conf，可以通过-config参数或环境变量INFLUXDB_CONFIG_PATH指定自定义配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

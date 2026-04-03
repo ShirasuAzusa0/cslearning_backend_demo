@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "relationship": {
+            "info": "基于其开发",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的Web框架，与Rocket互补：Actix强调性能，Rocket注重开发效率。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Diesel",
+            "info": "Rust的ORM库，Rocket可通过其连接MySQL、Redis等数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Diesel",
+            "info": "Rust的ORM库，Rocket可通过其连接MySQL、Redis等数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Rocket可通过Diesel连接。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Diesel",
+            "info": "Rust的ORM库，Rocket可通过其连接MySQL、Redis等数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，Rocket可通过Diesel连接。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，Rocket原生支持其构建。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "原生支持构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "WebSocket",
+            "info": "一种基于TCP的双向通信协议，Rocket可结合异步特性扩展实时通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可扩展实现实时通信",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，Rocket应用可借助其实现容器化部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，Rocket应用可借助其实现高可用、可扩展的云原生部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现云原生部署",
+            "type": "部署方式"
+        }
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个面向文档的 NoSQL 数据库，支持灵活的数据模型（JSON 格式）、水平扩展和高并发读写，适用于实时分析、内容管理和大数据场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，与MongoDB互补，提供结构化数据存储能力。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个面向文档的 NoSQL 数据库，支持灵活的数据模型（JSON 格式）、水平扩展和高并发读写，适用于实时分析、内容管理和大数据场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，与MongoDB协同，覆盖多样化数据需求。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "协同关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个面向文档的 NoSQL 数据库，支持灵活的数据模型（JSON 格式）、水平扩展和高并发读写，适用于实时分析、内容管理和大数据场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，与MongoDB协同，覆盖多样化数据需求。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "协同关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个面向文档的 NoSQL 数据库，支持灵活的数据模型（JSON 格式）、水平扩展和高并发读写，适用于实时分析、内容管理和大数据场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，通过Docker容器化部署MongoDB。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个面向文档的 NoSQL 数据库，支持灵活的数据模型（JSON 格式）、水平扩展和高并发读写，适用于实时分析、内容管理和大数据场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，结合Kubernetes实现自动化扩展与高可用性。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现自动化扩展",
+            "type": "部署方式"
+        }
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "MySQL",
+            "info": "一个开源关系型数据库管理系统（RDBMS），以高性能、可靠性和易用性著称，支持事务处理、复杂查询和海量数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一个面向文档的NoSQL数据库，与MySQL互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL",
+            "info": "一个开源关系型数据库管理系统（RDBMS），以高性能、可靠性和易用性著称，支持事务处理、复杂查询和海量数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，与MySQL互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL",
+            "info": "一个开源关系型数据库管理系统（RDBMS），以高性能、可靠性和易用性著称，支持事务处理、复杂查询和海量数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，扩展了特定场景的支持。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "扩展特定场景支持",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL",
+            "info": "一个开源关系型数据库管理系统（RDBMS），以高性能、可靠性和易用性著称，支持事务处理、复杂查询和海量数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Elasticsearch",
+            "info": "一个开源的分布式搜索和分析引擎，扩展了特定场景的支持。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "扩展特定场景支持",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL",
+            "info": "一个开源关系型数据库管理系统（RDBMS），以高性能、可靠性和易用性著称，支持事务处理、复杂查询和海量数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可借助Docker实现快速部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现快速部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MySQL",
+            "info": "一个开源关系型数据库管理系统（RDBMS），以高性能、可靠性和易用性著称，支持事务处理、复杂查询和海量数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，可结合Kubernetes实现弹性扩展与高可用集群。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现弹性扩展",
+            "type": "部署方式"
+        }
+    }
+]

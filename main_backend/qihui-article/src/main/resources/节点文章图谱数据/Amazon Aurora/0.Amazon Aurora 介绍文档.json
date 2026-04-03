@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Amazon Aurora",
+            "info": "AWS提供的关系型云数据库服务，兼容MySQL和PostgreSQL，具备高可用性、自动扩展及低延迟特性，专为云原生场景优化。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Amazon Aurora兼容MySQL。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "兼容关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Amazon Aurora",
+            "info": "AWS提供的关系型云数据库服务，兼容MySQL和PostgreSQL，具备高可用性、自动扩展及低延迟特性，专为云原生场景优化。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "PostgreSQL",
+            "info": "一种开源关系型数据库，Amazon Aurora兼容PostgreSQL。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "兼容关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Amazon Aurora",
+            "info": "AWS提供的关系型云数据库服务，兼容MySQL和PostgreSQL，具备高可用性、自动扩展及低延迟特性，专为云原生场景优化。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL文档存储数据库，与Amazon Aurora互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Amazon Aurora",
+            "info": "AWS提供的关系型云数据库服务，兼容MySQL和PostgreSQL，具备高可用性、自动扩展及低延迟特性，专为云原生场景优化。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，与Amazon Aurora互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Amazon Aurora",
+            "info": "AWS提供的关系型云数据库服务，兼容MySQL和PostgreSQL，具备高可用性、自动扩展及低延迟特性，专为云原生场景优化。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "AWS Lambda",
+            "info": "亚马逊提供的无服务器计算服务，可与Amazon Aurora无缝协同。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可无缝协同",
+            "type": "技术集成"
+        }
+    }
+]

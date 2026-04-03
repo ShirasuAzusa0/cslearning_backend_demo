@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式发布-订阅消息系统和一个强大的队列，可以处理大量的数据，并使你能够将消息从一个端点传递到另一个端点。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "Cluster Architecture",
+            "info": "Kafka集群的架构图和各组件说明。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Cluster Architecture",
+            "info": "Kafka集群的架构图和各组件说明。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Broker",
+            "info": "Kafka集群通常由多个代理组成以保持负载平衡，无状态，使用ZooKeeper维护集群状态。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Cluster Architecture",
+            "info": "Kafka集群的架构图和各组件说明。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "ZooKeeper",
+            "info": "用于管理和协调Kafka代理，通知生产者和消费者代理的存在或失败。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Cluster Architecture",
+            "info": "Kafka集群的架构图和各组件说明。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Producers",
+            "info": "将数据推送给经纪人，当新代理启动时自动向该新代理发送消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Cluster Architecture",
+            "info": "Kafka集群的架构图和各组件说明。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Consumers",
+            "info": "通过使用分区偏移来维护已经消耗了多少消息，向代理发出异步拉取请求。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

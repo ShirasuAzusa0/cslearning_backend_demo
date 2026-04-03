@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Docker",
+            "info": "开源的容器化平台，允许开发者将应用及其依赖打包为轻量级、可移植的容器，确保环境一致性并简化部署流程。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，Docker提供容器运行环境，Kubernetes负责容器集群的编排、扩缩容及管理。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker",
+            "info": "开源的容器化平台，允许开发者将应用及其依赖打包为轻量级、可移植的容器，确保环境一致性并简化部署流程。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Azure Functions",
+            "info": "微软推出的无服务器计算服务，支持容器化部署，Docker可封装函数代码。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可封装函数代码",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker",
+            "info": "开源的容器化平台，允许开发者将应用及其依赖打包为轻量级、可移植的容器，确保环境一致性并简化部署流程。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "AWS Lambda",
+            "info": "亚马逊提供的无服务器计算服务，支持容器化部署，Docker可封装函数代码。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可封装函数代码",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker",
+            "info": "开源的容器化平台，允许开发者将应用及其依赖打包为轻量级、可移植的容器，确保环境一致性并简化部署流程。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Istio",
+            "info": "服务网格工具，管理微服务间通信，Docker容器化是微服务架构的底层支撑。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "是微服务架构的底层支撑",
+            "type": "技术依赖"
+        }
+    }
+]

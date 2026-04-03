@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Hello, world!",
+            "info": "Rust的第一个示例程序，通过println!宏输出Hello, world!。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Hello, world!",
+            "info": "Rust的第一个示例程序，通过println!宏输出Hello, world!。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "main",
+            "info": "Rust可执行程序中第一个运行的函数，是程序的入口点。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Hello, world!",
+            "info": "Rust的第一个示例程序，通过println!宏输出Hello, world!。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "println!",
+            "info": "Rust中的宏，用于将文本打印到标准输出。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Hello, world!",
+            "info": "Rust的第一个示例程序，通过println!宏输出Hello, world!。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "rustc",
+            "info": "Rust的编译器，用于将.rs源文件编译成可执行文件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Hello, world!",
+            "info": "Rust的第一个示例程序，通过println!宏输出Hello, world!。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "rustfmt",
+            "info": "Rust的代码格式化工具，确保开发者遵循一致的代码风格。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

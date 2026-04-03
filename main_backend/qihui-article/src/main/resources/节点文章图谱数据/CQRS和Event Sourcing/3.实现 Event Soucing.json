@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "CQRS + Event Sourcing",
+            "info": "CQRS（命令查询职责分离）将数据读写操作分离，Event Sourcing（事件溯源）通过记录事件序列而非直接修改状态来维护数据。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Event Sourcing",
+            "info": "通过记录事件序列而非直接修改状态来维护数据，适用于高并发、审计追踪和复杂业务逻辑场景。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Event Sourcing",
+            "info": "通过记录事件序列而非直接修改状态来维护数据，适用于高并发、审计追踪和复杂业务逻辑场景。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Axon",
+            "info": "一个Event Sourcing和CQRS框架，提供了EmbeddedEventStore，默认使用JPA存储事件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Axon",
+            "info": "一个Event Sourcing和CQRS框架，提供了EmbeddedEventStore，默认使用JPA存储事件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Aggregate",
+            "info": "使用@Aggregate注解定义，包含@AggregateIdentifier标识符，以及CommandHandler和EventSourcingHandler。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Axon",
+            "info": "一个Event Sourcing和CQRS框架，提供了EmbeddedEventStore，默认使用JPA存储事件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Command",
+            "info": "使用@TargetAggregateIdentifier注解标识目标聚合根，通过CommandGateway发送。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Axon",
+            "info": "一个Event Sourcing和CQRS框架，提供了EmbeddedEventStore，默认使用JPA存储事件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Event",
+            "info": "使用@TargetAggregateIdentifier注解标识目标聚合根，通过AggregateLifecycle.apply发布。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Axon",
+            "info": "一个Event Sourcing和CQRS框架，提供了EmbeddedEventStore，默认使用JPA存储事件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "EventSourcingHandler",
+            "info": "处理事件，用于更新聚合根的状态。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

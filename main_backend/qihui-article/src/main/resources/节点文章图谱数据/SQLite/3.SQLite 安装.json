@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个进程内的库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装SQLite的方法，包括Windows、Linux、Mac OS X。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装SQLite的方法，包括Windows、Linux、Mac OS X。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "在 Windows 上安装 SQLite",
+            "info": "从SQLite下载页面下载预编译的二进制文件，解压到C:\\sqlite，添加到PATH环境变量。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装SQLite的方法，包括Windows、Linux、Mac OS X。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "在 Linux 上安装 SQLite",
+            "info": "从SQLite下载页面下载源代码，解压后执行./configure、make、make install。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "在不同操作系统上安装SQLite的方法，包括Windows、Linux、Mac OS X。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "在 Mac OS X 上安装 SQLite",
+            "info": "从SQLite下载页面下载源代码，解压后执行./configure、make、make install。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

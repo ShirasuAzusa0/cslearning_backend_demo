@@ -1,0 +1,162 @@
+[
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "django-admin",
+            "info": "Django的管理工具，用于创建项目、应用和执行其他管理任务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "创建项目",
+            "info": "使用django-admin startproject命令创建Django项目，生成项目目录结构。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建项目",
+            "info": "使用django-admin startproject命令创建Django项目，生成项目目录结构。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "manage.py",
+            "info": "一个实用的命令行工具，可让你以各种方式与该Django项目进行交互。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建项目",
+            "info": "使用django-admin startproject命令创建Django项目，生成项目目录结构。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "settings.py",
+            "info": "该Django项目的设置/配置文件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建项目",
+            "info": "使用django-admin startproject命令创建Django项目，生成项目目录结构。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "urls.py",
+            "info": "该Django项目的URL声明，一份由Django驱动的网站目录。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "视图",
+            "info": "MTV中的V，负责业务逻辑，通过views.py文件定义。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "视图",
+            "info": "MTV中的V，负责业务逻辑，通过views.py文件定义。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "HttpResponse",
+            "info": "Django中用于返回HTTP响应的类。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "URL配置",
+            "info": "通过urls.py文件将URL路径与视图函数绑定。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

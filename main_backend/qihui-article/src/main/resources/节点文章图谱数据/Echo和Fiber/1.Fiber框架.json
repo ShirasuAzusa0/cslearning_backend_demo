@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "Echo + Fiber",
+            "info": "Go语言生态中两大高性能Web框架，Echo以简洁灵活著称，Fiber基于fasthttp强调极速响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Fiber",
+            "info": "基于fasthttp的Go Web框架，强调极速响应，适用于高并发场景。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Fiber",
+            "info": "基于fasthttp的Go Web框架，强调极速响应，适用于高并发场景。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "New",
+            "info": "创建一个新的App实例，可以传递可选的Config配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Fiber",
+            "info": "基于fasthttp的Go Web框架，强调极速响应，适用于高并发场景。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Config",
+            "info": "Fiber框架的配置结构体，包含AppName、BodyLimit、Prefork、ServerHeader等字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Config",
+            "info": "Fiber框架的配置结构体，包含AppName、BodyLimit、Prefork、ServerHeader等字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Prefork",
+            "info": "Fiber配置项，启用SO_REUSEPORT套接字选项，生成多个在同一端口上侦听的Go进程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Config",
+            "info": "Fiber框架的配置结构体，包含AppName、BodyLimit、Prefork、ServerHeader等字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "CaseSensitive",
+            "info": "Fiber配置项，启用后/Foo和/foo是不同的路由。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Fiber",
+            "info": "基于fasthttp的Go Web框架，强调极速响应，适用于高并发场景。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "NewError",
+            "info": "创建一个新的HTTPError实例，附带可选消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Fiber",
+            "info": "基于fasthttp的Go Web框架，强调极速响应，适用于高并发场景。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "IsChild",
+            "info": "确定当前进程是否是Prefork的结果。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

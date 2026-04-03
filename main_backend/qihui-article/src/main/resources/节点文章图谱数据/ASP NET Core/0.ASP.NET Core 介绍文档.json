@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "C#",
+            "info": "ASP.NET Core基于的编程语言，继承.NET生态的强类型和生产力特性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "基于其开发",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Entity Framework Core",
+            "info": "ASP.NET Core的ORM框架，用于简化数据库操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Entity Framework Core",
+            "info": "ASP.NET Core的ORM框架，用于简化数据库操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，可通过Entity Framework Core连接。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Entity Framework Core",
+            "info": "ASP.NET Core的ORM框架，用于简化数据库操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，可通过Entity Framework Core连接。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，ASP.NET Core原生支持其构建。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "原生支持构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "gRPC",
+            "info": "一个高性能RPC框架，ASP.NET Core原生支持其构建。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "原生支持构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，ASP.NET Core应用可结合其实现容器化部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，ASP.NET Core应用可结合其实现高效云部署与扩展。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现云原生部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Controller-Service-DAO",
+            "info": "ASP.NET Core采用的MVC模式，用于分离业务逻辑与视图层。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "采用该架构模式",
+            "type": "架构设计"
+        }
+    }
+]

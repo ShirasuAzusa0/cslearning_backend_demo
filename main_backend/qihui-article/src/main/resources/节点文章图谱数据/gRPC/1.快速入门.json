@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "安装与构建",
+            "info": "gRPC的安装和构建过程，包括依赖工具和从源码构建。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装与构建",
+            "info": "gRPC的安装和构建过程，包括依赖工具和从源码构建。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "cmake",
+            "info": "一个跨平台的构建工具，用于构建和安装gRPC及其示例。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "使用的构建工具",
+            "type": "工具依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装与构建",
+            "info": "gRPC的安装和构建过程，包括依赖工具和从源码构建。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Protocol Buffers",
+            "info": "一种数据序列化协议，gRPC默认使用它进行服务定义和数据序列化。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "示例运行",
+            "info": "运行gRPC官方提供的Hello World示例，验证安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "更新gRPC服务",
+            "info": "修改.proto文件定义，添加新的RPC方法，并重新生成代码和更新应用程序的过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

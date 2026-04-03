@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Go",
+            "info": "由Google开发的高性能编程语言，以简洁语法、高效编译和原生并发支持为核心优势，广泛应用于微服务、云原生及基础设施开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "内置类型",
+            "info": "Go语言自带的基本数据类型，分为值类型（如bool、int、string）和引用类型（如slice、map、chan）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "内置类型",
+            "info": "Go语言自带的基本数据类型，分为值类型（如bool、int、string）和引用类型（如slice、map、chan）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "值类型",
+            "info": "内置类型的一种，包括bool、int系列、uint系列、float系列、string、array等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "内置类型",
+            "info": "Go语言自带的基本数据类型，分为值类型（如bool、int、string）和引用类型（如slice、map、chan）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "引用类型",
+            "info": "内置类型的一种，也称为指针类型，包括slice（切片）、map（映射）、chan（管道）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Go",
+            "info": "由Google开发的高性能编程语言，以简洁语法、高效编译和原生并发支持为核心优势，广泛应用于微服务、云原生及基础设施开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "内置函数",
+            "info": "Go语言中无需导入即可使用的函数，如append、close、delete、make、new、len、cap等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Go",
+            "info": "由Google开发的高性能编程语言，以简洁语法、高效编译和原生并发支持为核心优势，广泛应用于微服务、云原生及基础设施开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "内置接口error",
+            "info": "一个内置接口，只要实现了Error() String方法，即实现了error接口，用于错误处理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

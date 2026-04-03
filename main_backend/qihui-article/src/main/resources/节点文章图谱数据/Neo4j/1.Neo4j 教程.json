@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Neo4j",
+            "info": "一个世界领先的开源的基于图的数据库，使用Java语言完全开发。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "图数据库",
+            "info": "是以图结构的形式存储数据的数据库，以节点、关系和属性的形式存储应用程序的数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Neo4j",
+            "info": "一个世界领先的开源的基于图的数据库，使用Java语言完全开发。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Neo4j特点",
+            "info": "Neo4j是开源的、无模式、noSQL、图数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

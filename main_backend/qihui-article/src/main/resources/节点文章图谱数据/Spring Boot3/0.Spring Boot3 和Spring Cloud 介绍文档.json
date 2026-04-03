@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，与Spring Boot同属主流后端框架。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "同属主流后端框架",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，Spring Boot支持开发RESTful API。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "支持开发",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "GraphQL",
+            "info": "一种API查询语言，Spring Boot支持开发GraphQL API。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "支持开发",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Spring Boot可集成实现高效数据交互。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可集成实现数据交互",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，Spring Boot可集成实现高效数据交互。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可集成实现数据交互",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Spring Cloud",
+            "info": "基于Spring Boot构建，专注于微服务架构的治理（如配置管理、服务发现）。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "基于其构建",
+            "type": "技术依赖"
+        }
+    }
+]

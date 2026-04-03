@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，广泛用于后端开发、数据分析、AI等领域。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "中文编码问题",
+            "info": "Python 2.x版本中由于默认编码为ASCII导致无法正确处理中文的问题。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "中文编码问题",
+            "info": "Python 2.x版本中由于默认编码为ASCII导致无法正确处理中文的问题。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "解决方案",
+            "info": "通过在Python文件头部添加# -*- coding: UTF-8 -*-或# coding=utf-8来指定文件编码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

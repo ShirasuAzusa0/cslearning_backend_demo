@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，与InfluxDB互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL文档存储数据库，与InfluxDB互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，与InfluxDB协同处理多样化数据需求。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "协同关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Elasticsearch",
+            "info": "一个开源的分布式搜索和分析引擎，与InfluxDB协同处理多样化数据需求。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "协同关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，通过Docker实现云原生部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其实现云原生部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "InfluxDB",
+            "info": "一个专为时序数据设计的高性能开源数据库，适用于监控、物联网和实时分析场景，支持高效写入与查询时间序列数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，通过Kubernetes实现云原生部署，支持弹性扩展和高可用性。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其实现云原生部署",
+            "type": "部署方式"
+        }
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "提取器",
+            "info": "实现了FromRequest trait的类型，用于从请求中提取信息，可作为handler函数的参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "提取器",
+            "info": "实现了FromRequest trait的类型，用于从请求中提取信息，可作为handler函数的参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Path",
+            "info": "提取器，用于从请求路径中提取信息，路径变量可以反序列化为元组或实现了Deserialize的结构体。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "提取器",
+            "info": "实现了FromRequest trait的类型，用于从请求中提取信息，可作为handler函数的参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Query",
+            "info": "提取器，用于从请求的查询参数中提取信息，参数可以反序列化为实现了Deserialize的结构体。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "提取器",
+            "info": "实现了FromRequest trait的类型，用于从请求中提取信息，可作为handler函数的参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Json",
+            "info": "提取器，用于将请求体反序列化为结构体，类型T必须实现Deserialize trait。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "提取器",
+            "info": "实现了FromRequest trait的类型，用于从请求中提取信息，可作为handler函数的参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Form",
+            "info": "提取器，用于将url编码的表单数据反序列化为结构体，类型T必须实现Deserialize trait。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "提取器",
+            "info": "实现了FromRequest trait的类型，用于从请求中提取信息，可作为handler函数的参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Data",
+            "info": "提取器，用于访问应用程序状态（state），状态仅可作为只读引用访问。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

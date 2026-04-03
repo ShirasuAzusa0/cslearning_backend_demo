@@ -1,0 +1,182 @@
+[
+  {
+    "startNode": {
+      "name": "Python",
+      "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，广泛用于后端开发、数据分析、AI等领域。",
+      "level": "1",
+      "type1": "后端",
+      "type2": "后端基础语言入门"
+    },
+    "endNode": {
+      "name": "基础语法",
+      "info": "Python编程语言的基本语法规则和构成元素。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "基础语法",
+      "info": "Python编程语言的基本语法规则和构成元素。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "标识符",
+      "info": "用于给变量、函数、类等命名的字符序列，有特定的命名规则。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "基础语法",
+      "info": "Python编程语言的基本语法规则和构成元素。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "保留字",
+      "info": "Python语言中具有特殊含义的关键字，不能用作标识符。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "基础语法",
+      "info": "Python编程语言的基本语法规则和构成元素。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "行和缩进",
+      "info": "Python使用缩进来表示代码块，是语法的重要组成部分。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "基础语法",
+      "info": "Python编程语言的基本语法规则和构成元素。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "多行语句",
+      "info": "可以使用反斜杠（\\）将一条语句分为多行书写。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "基础语法",
+      "info": "Python编程语言的基本语法规则和构成元素。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "引号",
+      "info": "Python中可以使用单引号、双引号和三引号来表示字符串。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "基础语法",
+      "info": "Python编程语言的基本语法规则和构成元素。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "注释",
+      "info": "用于在代码中添加说明性文字，Python中单行注释使用#，多行注释使用'''或"""。,
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "基础语法",
+      "info": "Python编程语言的基本语法规则和构成元素。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "空行",
+      "info": "用于分隔不同功能或含义的代码，提高可读性。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "基础语法",
+      "info": "Python编程语言的基本语法规则和构成元素。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "print输出",
+      "info": "Python中的输出函数，在Python 2和Python 3中有不同的用法。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  }
+]

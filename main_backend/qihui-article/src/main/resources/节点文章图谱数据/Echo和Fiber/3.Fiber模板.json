@@ -1,0 +1,62 @@
+[
+  {
+    "startNode": {
+      "name": "Fiber",
+      "info": "基于fasthttp的Go Web框架，强调极速响应，适用于高并发场景。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "模板",
+      "info": "Fiber的模板渲染系统，通过Views接口提供模板引擎支持。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "模板",
+      "info": "Fiber的模板渲染系统，通过Views接口提供模板引擎支持。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "Views接口",
+      "info": "包含Load和Render方法的接口，用于提供自定义模板引擎。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "模板",
+      "info": "Fiber的模板渲染系统，通过Views接口提供模板引擎支持。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "Render",
+      "info": "ctx.Render()函数，接受模板名称和绑定数据进行渲染。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  }
+]

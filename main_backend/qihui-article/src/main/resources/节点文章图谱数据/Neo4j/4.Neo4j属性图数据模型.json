@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Neo4j",
+            "info": "一个高性能的图数据库，专注于存储和查询高度关联的数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "属性图模型",
+            "info": "Neo4j图数据库遵循属性图模型来存储和管理其数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "属性图模型",
+            "info": "Neo4j图数据库遵循属性图模型来存储和管理其数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "节点",
+            "info": "图形数据库数据模型的主要构建块之一，用圆圈表示。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "属性图模型",
+            "info": "Neo4j图数据库遵循属性图模型来存储和管理其数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "关系",
+            "info": "图形数据库数据模型的主要构建块之一，用方向键表示，连接节点。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "属性图模型",
+            "info": "Neo4j图数据库遵循属性图模型来存储和管理其数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "属性",
+            "info": "图形数据库数据模型的主要构建块之一，是键值对。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

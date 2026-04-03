@@ -1,0 +1,22 @@
+[
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个开源的使用ANSI C语言编写、遵守BSD协议、支持网络、可基于内存、分布式、可选持久性的键值对存储数据库。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括String、Hash、List、Set、Sorted Set。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

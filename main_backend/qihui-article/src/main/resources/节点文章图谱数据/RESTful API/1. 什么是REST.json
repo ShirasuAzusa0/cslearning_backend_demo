@@ -1,0 +1,102 @@
+[
+  {
+    "startNode": {
+      "name": "REST",
+      "info": "Representational State Transfer的缩写，一种架构约束条件和原则，符合该风格的架构称为RESTful架构。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "资源与URI",
+      "info": "资源是任何可以被引用的东西，URI是其唯一标识符。URI的设计应遵循可寻址性原则。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "REST",
+      "info": "Representational State Transfer的缩写，一种架构约束条件和原则，符合该风格的架构称为RESTful架构。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "统一资源接口",
+      "info": "使用标准的HTTP方法（如GET、POST、PUT、DELETE）对资源进行操作，并遵循这些方法的安全性和幂等性语义。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "REST",
+      "info": "Representational State Transfer的缩写，一种架构约束条件和原则，符合该风格的架构称为RESTful架构。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "资源的表述",
+      "info": "资源在外界的具体呈现形式，如JSON、XML、图片等。客户端和服务端通过HTTP内容协商（Accept和Content-Type头）来确定表述格式。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "REST",
+      "info": "Representational State Transfer的缩写，一种架构约束条件和原则，符合该风格的架构称为RESTful架构。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "资源的链接",
+      "info": "在资源的表述中加入链接（超媒体）来引导客户端进行下一步操作，体现了“超媒体即应用状态引擎”的核心概念。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "REST",
+      "info": "Representational State Transfer的缩写，一种架构约束条件和原则，符合该风格的架构称为RESTful架构。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "状态的转移",
+      "info": "应用状态由客户端维护，并通过服务端提供的超媒体指引发生变迁。服务端只维护资源状态。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  }
+]

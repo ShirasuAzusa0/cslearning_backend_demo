@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于Chrome V8引擎的JavaScript运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Node特点",
+            "info": "Node的核心特性，包括卓越的性能表现、使用JavaScript、NPM包管理器、可移植性、活跃的社区等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Express特点",
+            "info": "Express的核心特性，包括为不同URL路径使用不同HTTP动词的路由、集成视图渲染引擎、设置常见web应用设置、添加中间件等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Hello World Express",
+            "info": "Express的第一个示例程序，通过app.get方法注册路由，返回Hello World!。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "路由处理器",
+            "info": "使用app.get、app.post等方法注册的请求处理函数，接收请求和响应对象，返回响应。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "中间件",
+            "info": "在请求处理链中对请求或响应执行操作的函数，可通过app.use注册，调用next()传递控制权。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "中间件",
+            "info": "在请求处理链中对请求或响应执行操作的函数，可通过app.use注册，调用next()传递控制权。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "morgan",
+            "info": "HTTP请求记录器中间件，用于日志记录。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "静态文件托管",
+            "info": "使用express.static中间件托管静态文件，如图片、CSS、JavaScript文件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "错误处理",
+            "info": "特殊中间件函数，有四个参数(err, req, res, next)，用于处理应用中的错误。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "模板引擎",
+            "info": "用于渲染视图的引擎，支持EJS、Pug、Handlebars等，通过app.set配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

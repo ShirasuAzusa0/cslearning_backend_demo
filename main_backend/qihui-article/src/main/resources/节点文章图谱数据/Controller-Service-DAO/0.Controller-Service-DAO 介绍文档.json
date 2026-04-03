@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud",
+            "info": "基于Spring Boot实现的微服务框架，与Controller-Service-DAO互补，体现分层解耦思想。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "CQRS和Event Sourcing",
+            "info": "一种事件驱动架构模式，与Controller-Service-DAO互补。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，可集成处理复杂数据分析需求。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "可集成处理数据分析",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供依赖注入与模块化支持，简化分层实现。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可通过其简化实现",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，通过DAO层实现数据持久化。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可通过DAO层连接",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL文档存储数据库，通过DAO层实现数据持久化。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可通过DAO层连接",
+            "type": "数据源"
+        }
+    }
+]

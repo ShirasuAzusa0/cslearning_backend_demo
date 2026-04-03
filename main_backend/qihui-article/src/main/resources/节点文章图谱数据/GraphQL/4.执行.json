@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "GraphQL",
+            "info": "一个用于 API 的查询语言，是一个使用基于类型系统来执行查询的服务端运行时。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "执行",
+            "info": "GraphQL查询在被验证后，服务器将之执行并返回结果的过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行",
+            "info": "GraphQL查询在被验证后，服务器将之执行并返回结果的过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "解析器",
+            "info": "每个类型字段背后的函数，负责返回实际数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行",
+            "info": "GraphQL查询在被验证后，服务器将之执行并返回结果的过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "根字段",
+            "info": "位于Query或Mutation类型上的字段，是API的入口点。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行",
+            "info": "GraphQL查询在被验证后，服务器将之执行并返回结果的过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "异步解析器",
+            "info": "执行异步操作（如数据库查询）的解析器，通常返回Promise。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行",
+            "info": "GraphQL查询在被验证后，服务器将之执行并返回结果的过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "标量强制",
+            "info": "解析器返回值与类型系统定义不一致时，会强制转换为预期的标量类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行",
+            "info": "GraphQL查询在被验证后，服务器将之执行并返回结果的过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "列表解析器",
+            "info": "返回列表的解析器，GraphQL会并发执行列表内每个项目的解析。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行",
+            "info": "GraphQL查询在被验证后，服务器将之执行并返回结果的过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "产生结果",
+            "info": "从叶子节点开始，将解析的值映射到与查询结构相同的JSON对象中。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

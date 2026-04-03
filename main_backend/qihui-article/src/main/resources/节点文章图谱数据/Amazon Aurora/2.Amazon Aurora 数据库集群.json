@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Amazon Aurora",
+            "info": "一个与MySQL和PostgreSQL兼容的完全托管的关系数据库引擎。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "数据库集群",
+            "info": "包含一个或多个数据库实例以及一个管理这些数据库实例的数据的集群卷。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据库集群",
+            "info": "包含一个或多个数据库实例以及一个管理这些数据库实例的数据的集群卷。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "主（写入器）数据库实例",
+            "info": "支持读取和写入操作，并执行针对集群卷的所有数据修改。每个Aurora数据库集群均有一个主数据库实例。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据库集群",
+            "info": "包含一个或多个数据库实例以及一个管理这些数据库实例的数据的集群卷。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Aurora 副本",
+            "info": "连接到同一存储卷作为主数据库实例，但仅支持读取操作，最多可拥有15个。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据库集群",
+            "info": "包含一个或多个数据库实例以及一个管理这些数据库实例的数据的集群卷。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "集群卷",
+            "info": "一个跨多个可用区的虚拟数据库存储卷，每个可用区具有一个数据库集群数据副本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

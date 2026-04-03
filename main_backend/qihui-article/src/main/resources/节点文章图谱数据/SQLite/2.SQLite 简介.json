@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个进程内的库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "为什么要用 SQLite",
+            "info": "SQLite不需要单独的服务器进程、不需要配置、完整的数据库是单一跨平台磁盘文件、非常小、自给自足、完全兼容ACID、支持SQL92标准、使用ANSI-C编写、可在多平台运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个进程内的库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "SQLite 局限性",
+            "info": "SQLite不支持的特性包括RIGHT OUTER JOIN、FULL OUTER JOIN、ALTER TABLE的部分功能、FOR EACH STATEMENT触发器、视图只读、GRANT和REVOKE。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个进程内的库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "SQLite 命令",
+            "info": "SQLite命令包括DDL（CREATE、ALTER、DROP）、DML（INSERT、UPDATE、DELETE）、DQL（SELECT）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

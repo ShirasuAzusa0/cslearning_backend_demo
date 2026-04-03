@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "创建 Web 应用项目",
+            "info": "使用dotnet new webapp命令创建新的ASP.NET Core Web应用项目。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "运行应用",
+            "info": "使用dotnet run命令运行ASP.NET Core应用，并在浏览器中访问输出的URL。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "编辑 Razor 页面",
+            "info": "修改Pages/Index.cshtml文件中的内容，并刷新浏览器查看更改。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

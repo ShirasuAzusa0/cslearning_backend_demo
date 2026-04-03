@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "K8s",
+            "info": "开源的容器编排平台，用于自动化部署、扩展和管理容器化应用，是云原生技术的核心组件。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Kubernetes API",
+            "info": "使你可以查询和操纵Kubernetes中对象的状态，控制平面的核心是API服务器和它暴露的HTTP API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Kubernetes API",
+            "info": "使你可以查询和操纵Kubernetes中对象的状态，控制平面的核心是API服务器和它暴露的HTTP API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Discovery API",
+            "info": "发布集群所支持的所有组版本和资源列表，包括聚合发现和非聚合发现两种形式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Kubernetes API",
+            "info": "使你可以查询和操纵Kubernetes中对象的状态，控制平面的核心是API服务器和它暴露的HTTP API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "OpenAPI 接口定义",
+            "info": "Kubernetes通过OpenAPI v2.0和v3.0发布API规范，OpenAPI v3是访问OpenAPI的首选方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Kubernetes API",
+            "info": "使你可以查询和操纵Kubernetes中对象的状态，控制平面的核心是API服务器和它暴露的HTTP API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "API 组和版本控制",
+            "info": "Kubernetes支持多个API版本，每个版本位于不同的API路径，API组可以被启用或禁用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Kubernetes API",
+            "info": "使你可以查询和操纵Kubernetes中对象的状态，控制平面的核心是API服务器和它暴露的HTTP API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "API 扩展",
+            "info": "有两种途径来扩展Kubernetes API：使用自定义资源或实现自己的聚合层。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

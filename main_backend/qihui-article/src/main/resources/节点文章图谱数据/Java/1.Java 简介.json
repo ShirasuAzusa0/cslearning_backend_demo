@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Java体系",
+            "info": "Java语言根据应用场景划分的三大平台：JavaSE（标准版）、JavaEE（企业版）、JavaME（微型版）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "主要特性",
+            "info": "Java语言的核心特性，包括简单性、面向对象、分布式、健壮性、安全性、体系结构中立、可移植性、解释型、高性能、多线程、动态性等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性（JVM）、强类型系统和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "发展历史",
+            "info": "Java语言从诞生至今的版本迭代和发展历程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

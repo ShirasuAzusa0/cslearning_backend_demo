@@ -1,0 +1,242 @@
+[
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "路由",
+            "info": "URL到Python函数的映射，使用@app.route装饰器定义。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "视图函数",
+            "info": "处理请求并返回响应的Python函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "请求对象",
+            "info": "包含了客户端发送的请求信息，如请求方法、URL、表单数据等，通过request对象访问。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "响应对象",
+            "info": "包含了发送给客户端的响应信息，包括状态码、响应头、响应体等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "模板",
+            "info": "Flask使用Jinja2模板引擎渲染HTML模板，通过render_template函数渲染。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "应用工厂",
+            "info": "一个Python函数，用于创建和配置Flask应用实例，允许创建多个应用实例。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "配置对象",
+            "info": "用于设置应用的各种配置选项，如数据库连接字符串、调试模式等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "蓝图",
+            "info": "组织代码的方式，允许将相关的视图函数、模板和静态文件组织在一起，可在多个应用中重用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "静态文件",
+            "info": "不会被服务器端执行的文件，如CSS、JavaScript和图片文件，放在static文件夹中。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "扩展",
+            "info": "Flask的插件，可以添加额外功能，如数据库集成、表单验证、用户认证等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "会话",
+            "info": "使用客户端会话来存储用户信息，通过session对象存取，数据存储在客户端cookie中。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "错误处理",
+            "info": "使用@app.errorhandler装饰器定义错误处理函数，处理特定的HTTP错误。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

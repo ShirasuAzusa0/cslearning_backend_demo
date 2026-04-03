@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "用户管理",
+            "info": "在 MongoDB 中进行用户管理涉及用户的创建、分配角色、认证和登录等操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "用户管理",
+            "info": "在 MongoDB 中进行用户管理涉及用户的创建、分配角色、认证和登录等操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "db.createUser",
+            "info": "用于创建用户并分配角色的命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "用户管理",
+            "info": "在 MongoDB 中进行用户管理涉及用户的创建、分配角色、认证和登录等操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "db.auth",
+            "info": "用于验证用户身份的命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "用户管理",
+            "info": "在 MongoDB 中进行用户管理涉及用户的创建、分配角色、认证和登录等操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "db.dropUser",
+            "info": "用于删除指定用户的命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

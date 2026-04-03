@@ -1,0 +1,242 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Netflix Eureka",
+            "info": "Spring Cloud Netflix 中的服务治理组件，包含服务注册中心、服务注册与发现机制的实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Netflix Ribbon",
+            "info": "Spring Cloud Netflix 中的服务调用和客户端负载均衡组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Netflix Hystrix",
+            "info": "Spring Cloud Netflix 的容错管理组件，为服务中出现的延迟和故障提供强大的容错能力。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Netflix Feign",
+            "info": "基于 Ribbon 和 Hystrix 的声明式服务调用组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Netflix Zuul",
+            "info": "Spring Cloud Netflix 中的网关组件，提供了智能路由、访问过滤等功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Gateway",
+            "info": "一个基于 Spring 5.0，Spring Boot 2.0 和 Project Reactor 等技术开发的网关框架。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Config",
+            "info": "Spring Cloud 的配置管理工具，支持使用 Git 存储配置内容。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Bus",
+            "info": "Spring Cloud 的事件和消息总线，主要用于在集群中传播事件或状态变化。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Stream",
+            "info": "Spring Cloud 的消息中间件组件，它集成了 Apache Kafka 和 RabbitMQ 等消息中间件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud Sleuth",
+            "info": "Spring Cloud 分布式链路跟踪组件，能够完美的整合 Twitter 的 Zipkin。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Boot",
+            "info": "一个基于 Spring 的快速开发框架，它能够帮助开发者迅速搭 Web 工程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "基于其实现",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "版本",
+            "info": "Spring Cloud使用英国伦敦地铁站的站名来命名版本，如Angel、Brixton、Camden、Dalston、Edgware、Finchley、Greenwich、Hoxton等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

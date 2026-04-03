@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，广泛用于后端开发、数据分析、AI等领域。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Python特点",
+            "info": "Python语言的核心特点，包括易于学习、易于阅读、易于维护、丰富的标准库、互动模式、可移植性、可扩展性等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，广泛用于后端开发、数据分析、AI等领域。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "发展历史",
+            "info": "Python语言从诞生到现在的版本迭代历程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

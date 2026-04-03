@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Express应用生成器",
+            "info": "用于生成Express应用骨架的工具，可通过npm install express-generator -g全局安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express应用生成器",
+            "info": "用于生成Express应用骨架的工具，可通过npm install express-generator -g全局安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "视图引擎选择",
+            "info": "生成器支持EJS、Hbs、Pug、Twig、Vash等视图引擎，默认使用Pug。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express应用生成器",
+            "info": "用于生成Express应用骨架的工具，可通过npm install express-generator -g全局安装。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "创建项目",
+            "info": "使用express命令创建项目，如express express-locallibrary-tutorial --view=pug。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建项目",
+            "info": "使用express命令创建项目，如express express-locallibrary-tutorial --view=pug。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "项目结构",
+            "info": "生成的项目包含app.js、bin/www、package.json、routes目录、views目录、public目录等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "项目结构",
+            "info": "生成的项目包含app.js、bin/www、package.json、routes目录、views目录、public目录等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "app.js",
+            "info": "Express应用的核心文件，创建express应用对象，设置视图引擎，配置中间件，导入路由。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "项目结构",
+            "info": "生成的项目包含app.js、bin/www、package.json、routes目录、views目录、public目录等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "routes目录",
+            "info": "存放路由模块的目录，包含index.js和users.js等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "项目结构",
+            "info": "生成的项目包含app.js、bin/www、package.json、routes目录、views目录、public目录等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "views目录",
+            "info": "存放模板文件的目录，默认使用.pug扩展名。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "项目结构",
+            "info": "生成的项目包含app.js、bin/www、package.json、routes目录、views目录、public目录等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "public目录",
+            "info": "存放静态文件的目录，如图片、CSS、JavaScript文件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建项目",
+            "info": "使用express命令创建项目，如express express-locallibrary-tutorial --view=pug。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "运行站点",
+            "info": "使用npm install安装依赖，使用DEBUG=express-locallibrary-tutorial:* npm start或npm run devstart启动服务器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

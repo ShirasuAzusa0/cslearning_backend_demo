@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "K8s",
+            "info": "开源的容器编排平台，用于自动化部署、扩展和管理容器化应用，是云原生技术的核心组件。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "控制平面组件",
+            "info": "管理集群的整体状态的组件，包括kube-apiserver、etcd、kube-scheduler、kube-controller-manager、cloud-controller-manager。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "K8s",
+            "info": "开源的容器编排平台，用于自动化部署、扩展和管理容器化应用，是云原生技术的核心组件。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Node 组件",
+            "info": "在每个节点上运行，维护运行的Pod并提供Kubernetes运行时环境，包括kubelet、kube-proxy、容器运行时。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "K8s",
+            "info": "开源的容器编排平台，用于自动化部署、扩展和管理容器化应用，是云原生技术的核心组件。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "插件",
+            "info": "扩展了Kubernetes的功能，包括DNS、Web界面、容器资源监控、集群层面日志。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

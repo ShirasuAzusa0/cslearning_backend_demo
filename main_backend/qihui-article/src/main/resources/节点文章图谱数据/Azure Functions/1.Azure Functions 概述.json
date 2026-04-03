@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "一种无服务器解决方案，可以使用户减少代码编写、减少需要维护的基础结构并节省成本。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "触发器和绑定",
+            "info": "提供了一组全面的事件驱动触发器和绑定，无需编写额外的代码即可将函数连接到其他服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "一种无服务器解决方案，可以使用户减少代码编写、减少需要维护的基础结构并节省成本。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "托管选项",
+            "info": "Functions提供多种托管选项，包括消耗计划、高级计划、应用服务计划、容器部署等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

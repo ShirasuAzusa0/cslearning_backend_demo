@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "HttpServer",
+            "info": "Actix中负责为HTTP请求提供服务的类型，接受应用程序工厂作为参数，可以绑定到特定套接字地址。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "HttpServer",
+            "info": "Actix中负责为HTTP请求提供服务的类型，接受应用程序工厂作为参数，可以绑定到特定套接字地址。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "多线程",
+            "info": "HttpServer会自动启动多个HTTP工作线程，默认数量等于系统中逻辑CPU的数量，可使用workers()方法重写。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "HttpServer",
+            "info": "Actix中负责为HTTP请求提供服务的类型，接受应用程序工厂作为参数，可以绑定到特定套接字地址。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "SSL",
+            "info": "Actix支持通过bind_openssl或bind_rustls方法绑定SSL套接字，实现HTTPS服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "HttpServer",
+            "info": "Actix中负责为HTTP请求提供服务的类型，接受应用程序工厂作为参数，可以绑定到特定套接字地址。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Keep-Alive",
+            "info": "actix可以在keep-alive连接上等待请求，通过keep_alive()方法设置保活行为。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "HttpServer",
+            "info": "Actix中负责为HTTP请求提供服务的类型，接受应用程序工厂作为参数，可以绑定到特定套接字地址。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "正常关闭",
+            "info": "HttpServer支持正常关闭，工作线程在收到停止信号后有一定时间完成服务请求，可通过shutdown_timeout()设置超时。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

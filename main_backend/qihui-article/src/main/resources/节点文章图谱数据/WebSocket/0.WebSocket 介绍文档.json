@@ -1,0 +1,242 @@
+[
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种常见的API设计风格，与WebSocket互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "技术对比"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "GraphQL",
+            "info": "一种API查询语言，与WebSocket互补。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "技术对比"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "gRPC",
+            "info": "一个高性能RPC框架，与WebSocket互补。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "技术对比"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Django",
+            "info": "一个Python后端框架，通过Channels库支持WebSocket集成。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可通过其集成",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Flask",
+            "info": "一个Python后端框架，通过Flask-SocketIO库支持WebSocket集成。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可通过其集成",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Express.js",
+            "info": "一个Node.js后端框架，通过Socket.IO库支持WebSocket集成。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可通过其集成",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，可结合WebSocket实时推送数据变更（如消息通知）。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可结合实现实时数据推送",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，可结合WebSocket实时推送数据变更（如库存更新）。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可结合实现实时数据推送",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，可用于缓存WebSocket的实时会话状态。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可借助其缓存会话状态",
+            "type": "性能优化"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Kafka",
+            "info": "一种分布式消息队列，可处理高并发WebSocket产生的消息流。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可处理其产生的消息流",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可用于封装WebSocket服务。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其容器化封装",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "WebSocket",
+            "info": "一种基于 TCP 的双向通信协议，支持客户端与服务器间的实时全双工交互。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，可实现WebSocket服务的负载均衡与自动扩缩容。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其进行编排，实现高可用",
+            "type": "部署方式"
+        }
+    }
+]

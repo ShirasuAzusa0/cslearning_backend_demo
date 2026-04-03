@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spark Shell",
+            "info": "Spark的交互式shell，在Scala或Python中学习API和交互式分析数据的工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spark Shell",
+            "info": "Spark的交互式shell，在Scala或Python中学习API和交互式分析数据的工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "DataFrame",
+            "info": "在Python中，Dataset[Row]被称为DataFrame，可以从文本文件创建。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spark Shell",
+            "info": "Spark的交互式shell，在Scala或Python中学习API和交互式分析数据的工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Dataset",
+            "info": "Spark的主要抽象，是一个分布式项目集合，可以从Hadoop InputFormat创建或通过转换其他Dataset创建。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Dataset",
+            "info": "Spark的主要抽象，是一个分布式项目集合，可以从Hadoop InputFormat创建或通过转换其他Dataset创建。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "filter",
+            "info": "Dataset的转换操作，返回一个包含文件中部分行的新的Dataset。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Dataset",
+            "info": "Spark的主要抽象，是一个分布式项目集合，可以从Hadoop InputFormat创建或通过转换其他Dataset创建。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "cache",
+            "info": "将Dataset拉入集群范围的内存缓存中，当数据被重复访问时非常有用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "spark-submit",
+            "info": "Spark的应用程序提交脚本，用于将应用程序提交到集群运行。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "CQRS + Event Sourcing",
+            "info": "CQRS（命令查询职责分离）将数据读写操作分离，Event Sourcing（事件溯源）通过记录事件序列而非直接修改状态来维护数据。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "CQRS实现",
+            "info": "在Event Sourcing基础上实现CQRS，建立View实体和Repository，通过EventHandler将事件存储后更新View。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS实现",
+            "info": "在Event Sourcing基础上实现CQRS，建立View实体和Repository，通过EventHandler将事件存储后更新View。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "ContractView",
+            "info": "View实体，用于存储聚合根的当前状态，供查询使用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS实现",
+            "info": "在Event Sourcing基础上实现CQRS，建立View实体和Repository，通过EventHandler将事件存储后更新View。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "ContractViewHandler",
+            "info": "EventHandler，监听AbstractContractEvent事件，将事件处理后更新ContractView。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS实现",
+            "info": "在Event Sourcing基础上实现CQRS，建立View实体和Repository，通过EventHandler将事件存储后更新View。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "CustomEmbeddedEventStore",
+            "info": "自定义EventStore，支持按时间戳过滤读取事件，实现查询历史状态。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS实现",
+            "info": "在Event Sourcing基础上实现CQRS，建立View实体和Repository，通过EventHandler将事件存储后更新View。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "CustomEventSourcingRepository",
+            "info": "自定义Repository，支持按时间戳加载聚合根，实现历史状态查询。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS实现",
+            "info": "在Event Sourcing基础上实现CQRS，建立View实体和Repository，通过EventHandler将事件存储后更新View。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "QueryGateway",
+            "info": "Axon提供的查询网关，用于发送Query Command并获取查询结果。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个进程内的库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "点命令",
+            "info": "SQLite编程人员使用的命令，不以分号结束，包括.help、.backup、.dump、.exit、.header、.import、.mode、.output、.quit、.read、.schema、.show、.tables等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "点命令",
+            "info": "SQLite编程人员使用的命令，不以分号结束，包括.help、.backup、.dump、.exit、.header、.import、.mode、.output、.quit、.read、.schema、.show、.tables等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": ".header",
+            "info": "点命令，用于开启或关闭输出头信息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "点命令",
+            "info": "SQLite编程人员使用的命令，不以分号结束，包括.help、.backup、.dump、.exit、.header、.import、.mode、.output、.quit、.read、.schema、.show、.tables等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": ".mode",
+            "info": "点命令，用于设置输出模式，包括csv、column、html、insert、line、list、tabs、tcl。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "点命令",
+            "info": "SQLite编程人员使用的命令，不以分号结束，包括.help、.backup、.dump、.exit、.header、.import、.mode、.output、.quit、.read、.schema、.show、.tables等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "sqlite_master",
+            "info": "SQLite主表，保存数据库表的关键信息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

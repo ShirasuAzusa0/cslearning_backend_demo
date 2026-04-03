@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "故障注入",
+            "info": "Istio的功能，用于测试应用程序的弹性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "故障注入",
+            "info": "Istio的功能，用于测试应用程序的弹性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "延迟故障",
+            "info": "故障注入的一种类型，在服务之间注入延迟。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "故障注入",
+            "info": "Istio的功能，用于测试应用程序的弹性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "abort故障",
+            "info": "故障注入的一种类型，引入HTTP abort。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "延迟故障",
+            "info": "故障注入的一种类型，在服务之间注入延迟。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "fixedDelay",
+            "info": "延迟故障的配置参数，指定固定的延迟时间。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "abort故障",
+            "info": "故障注入的一种类型，引入HTTP abort。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "httpStatus",
+            "info": "abort故障的配置参数，指定返回的HTTP状态码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "本地图书馆网站",
+            "info": "本教程将要构建的示例项目，用于管理本地图书馆编目。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "本地图书馆网站",
+            "info": "本教程将要构建的示例项目，用于管理本地图书馆编目。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "教程内容",
+            "info": "本系列教程涵盖的内容：创建应用骨架、启动服务器、使用数据库、创建路由、渲染视图、表单处理、部署应用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

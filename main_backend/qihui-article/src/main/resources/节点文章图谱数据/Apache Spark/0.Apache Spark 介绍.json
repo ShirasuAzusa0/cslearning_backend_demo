@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "CQRS和Event Sourcing",
+            "info": "一种架构模式，与Spark协同处理事件溯源产生的高吞吐数据流。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "可协同处理事件溯源数据",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Spark可从其中提取结构化数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可从中提取结构化数据",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，Spark可从其中提取结构化数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可从中提取结构化数据",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Elasticsearch",
+            "info": "一个分布式搜索和分析引擎，Spark可结合其实现实时分析与检索。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可结合实现实时分析与检索",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式流处理平台，Spark可集成其处理实时流数据，实现流批一体计算。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可集成处理实时流数据",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可通过Docker容器化Spark集群。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，结合Kubernetes动态管理资源，提升云原生环境下的扩展性与稳定性。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现资源管理",
+            "type": "部署方式"
+        }
+    }
+]

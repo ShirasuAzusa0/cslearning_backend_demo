@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "gRPC",
+            "info": "一个高性能、跨语言的远程过程调用（RPC）框架，基于 HTTP/2 和 Protocol Buffers 实现，适用于微服务间通信。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "异步API (基于完成队列)",
+            "info": "gRPC提供的一种基于CompletionQueue的非阻塞API，允许并发处理多个RPC。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "异步API (基于完成队列)",
+            "info": "gRPC提供的一种基于CompletionQueue的非阻塞API，允许并发处理多个RPC。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "CompletionQueue",
+            "info": "异步API的核心对象，用于绑定RPC调用和等待操作完成。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "异步API (基于完成队列)",
+            "info": "gRPC提供的一种基于CompletionQueue的非阻塞API，允许并发处理多个RPC。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "异步客户端",
+            "info": "使用异步API实现gRPC客户端，需要将RPC绑定到CompletionQueue并等待完成。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "异步API (基于完成队列)",
+            "info": "gRPC提供的一种基于CompletionQueue的非阻塞API，允许并发处理多个RPC。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "异步服务器",
+            "info": "使用异步API实现gRPC服务器，通常使用CallData对象管理每个RPC的状态和生命周期。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

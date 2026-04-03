@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "控制平面",
+            "info": "采用您所需的配置及其对服务的视图，并动态地编程代理服务器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "数据平面",
+            "info": "服务之间的通信。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据平面",
+            "info": "服务之间的通信。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Sidecar 模式",
+            "info": "与您在集群中启动的每个 Pod 一起部署一个 Envoy 代理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据平面",
+            "info": "服务之间的通信。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Ambient 模式",
+            "info": "使用每个节点的四层代理，并且可选地使用每个命名空间的 Envoy 代理来实现七层功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

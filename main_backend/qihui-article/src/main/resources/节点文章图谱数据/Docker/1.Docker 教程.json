@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Docker",
+            "info": "一个开源的应用容器引擎，基于 Go 语言并遵从 Apache2.0 协议开源。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Go",
+            "info": "由Google开发的高性能编程语言，Docker基于Go语言开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "relationship": {
+            "info": "基于其开发",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Docker",
+            "info": "一个开源的应用容器引擎，基于 Go 语言并遵从 Apache2.0 协议开源。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Docker的优点",
+            "info": "Docker的优点包括快速一致地交付应用程序、响应式部署和扩展、在同一硬件上运行更多工作负载。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Neo4j",
+            "info": "一个高性能的图数据库，专注于存储和查询高度关联的数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "图",
+            "info": "是一组节点和连接这些节点的关系，图形数据存储在节点和关系在属性的形式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "图",
+            "info": "是一组节点和连接这些节点的关系，图形数据存储在节点和关系在属性的形式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "节点",
+            "info": "用圆圈表示，可以包含属性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "图",
+            "info": "是一组节点和连接这些节点的关系，图形数据存储在节点和关系在属性的形式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "关系",
+            "info": "用箭头标记表示，连接节点，可以是单向或双向。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

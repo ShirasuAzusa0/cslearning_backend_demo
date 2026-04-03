@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "安装",
+            "info": "通过rustup工具安装Rust编译器和相关工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "通过rustup工具安装Rust编译器和相关工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "rustup",
+            "info": "管理Rust版本和相关工具的命令行工具，用于安装、更新和卸载Rust。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "通过rustup工具安装Rust编译器和相关工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "在 Linux 或 macOS 上安装 rustup",
+            "info": "在Linux或macOS操作系统上通过curl命令安装rustup和Rust的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "通过rustup工具安装Rust编译器和相关工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "在 Windows 上安装 rustup",
+            "info": "在Windows操作系统上通过rustup安装Rust的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "通过rustup工具安装Rust编译器和相关工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "更新和卸载",
+            "info": "使用rustup update更新Rust版本，使用rustup self uninstall卸载Rust和rustup。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "通过rustup工具安装Rust编译器和相关工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "rustc",
+            "info": "Rust的编译器，用于将.rs源文件编译成可执行文件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装",
+            "info": "通过rustup工具安装Rust编译器和相关工具。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "本地文档",
+            "info": "Rust安装自带的文档本地副本，运行rustup doc可打开浏览器查看。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

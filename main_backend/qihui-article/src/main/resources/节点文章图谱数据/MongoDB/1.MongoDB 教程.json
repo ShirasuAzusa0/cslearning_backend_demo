@@ -1,0 +1,22 @@
+[
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个流行的开源文档型数据库，使用类似 JSON 的文档模型存储数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MongoDB特点",
+            "info": "MongoDB的关键特点，包括文档导向、高性能、水平扩展、高可用性、灵活的聚合框架、丰富的查询语言、GridFS等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

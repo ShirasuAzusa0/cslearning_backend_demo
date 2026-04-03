@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，广泛用于后端开发、数据分析、AI等领域。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "环境搭建",
+            "info": "Python开发环境的搭建，包括Python的下载、安装和环境变量配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "环境搭建",
+            "info": "Python开发环境的搭建，包括Python的下载、安装和环境变量配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Windows安装",
+            "info": "在Windows操作系统上安装Python的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "环境搭建",
+            "info": "Python开发环境的搭建，包括Python的下载、安装和环境变量配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Linux/Unix安装",
+            "info": "在Linux/Unix操作系统上安装Python的步骤，通常涉及源码编译。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "环境搭建",
+            "info": "Python开发环境的搭建，包括Python的下载、安装和环境变量配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Mac安装",
+            "info": "在Mac操作系统上安装Python的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "环境搭建",
+            "info": "Python开发环境的搭建，包括Python的下载、安装和环境变量配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Python环境变量",
+            "info": "与Python相关的环境变量，如PYTHONPATH、PYTHONSTARTUP等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，广泛用于后端开发、数据分析、AI等领域。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "PyCharm",
+            "info": "JetBrains公司开发的一款专为Python设计的集成开发环境（IDE）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

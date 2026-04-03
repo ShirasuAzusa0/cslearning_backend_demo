@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "REPL",
+            "info": "Read-Eval-Print Loop，Node.js内置的交互式编程环境，可以在终端中直接运行JavaScript代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "REPL",
+            "info": "Read-Eval-Print Loop，Node.js内置的交互式编程环境，可以在终端中直接运行JavaScript代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "简单表达式运算",
+            "info": "在REPL中可以直接执行数学运算，如1+4、5/2等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "REPL",
+            "info": "Read-Eval-Print Loop，Node.js内置的交互式编程环境，可以在终端中直接运行JavaScript代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "使用变量",
+            "info": "在REPL中可以声明变量并存储数据，使用var关键字或不使用var。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "REPL",
+            "info": "Read-Eval-Print Loop，Node.js内置的交互式编程环境，可以在终端中直接运行JavaScript代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "多行表达式",
+            "info": "REPL支持输入多行表达式，系统会自动检测并显示...提示符。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "REPL",
+            "info": "Read-Eval-Print Loop，Node.js内置的交互式编程环境，可以在终端中直接运行JavaScript代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "下划线变量",
+            "info": "在REPL中可以使用下划线(_)获取上一个表达式的运算结果。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "REPL",
+            "info": "Read-Eval-Print Loop，Node.js内置的交互式编程环境，可以在终端中直接运行JavaScript代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "REPL命令",
+            "info": "REPL中可用的特殊命令，如.help、.exit、.save、.load等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

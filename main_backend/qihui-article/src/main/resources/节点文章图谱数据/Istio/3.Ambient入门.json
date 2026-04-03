@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Istio",
+            "info": "一种开源服务网格，可透明地分层到现有的分布式应用程序上。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Ambient 模式",
+            "info": "Istio的另一种数据平面模式，使用每个节点的四层代理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Ambient 模式",
+            "info": "Istio的另一种数据平面模式，使用每个节点的四层代理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "istioctl",
+            "info": "Istio的命令行工具，用于配置和管理Istio。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Ambient 模式",
+            "info": "Istio的另一种数据平面模式，使用每个节点的四层代理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "ambient 配置文件",
+            "info": "Istio的配置文件，包含对Ambient模式的支持。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

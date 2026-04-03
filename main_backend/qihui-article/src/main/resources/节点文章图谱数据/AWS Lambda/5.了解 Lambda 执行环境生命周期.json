@@ -1,0 +1,162 @@
+[
+    {
+        "startNode": {
+            "name": "AWS Lambda",
+            "info": "您可以使用 AWS Lambda 运行代码而无需预置或管理服务器。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "执行环境生命周期",
+            "info": "执行环境管理运行函数所需的资源，为函数的运行时以及与函数关联的外部扩展提供生命周期支持。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行环境生命周期",
+            "info": "执行环境管理运行函数所需的资源，为函数的运行时以及与函数关联的外部扩展提供生命周期支持。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Init 阶段",
+            "info": "Lambda 执行三项任务：开启所有扩展、引导运行时、运行函数的静态代码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行环境生命周期",
+            "info": "执行环境管理运行函数所需的资源，为函数的运行时以及与函数关联的外部扩展提供生命周期支持。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "还原阶段",
+            "info": "仅限 Lambda SnapStart，当您首次调用 SnapStart 函数时，Lambda 会从永久保存的快照中恢复新的执行环境。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行环境生命周期",
+            "info": "执行环境管理运行函数所需的资源，为函数的运行时以及与函数关联的外部扩展提供生命周期支持。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "调用阶段",
+            "info": "当调用 Lambda 函数以响应 Next API 请求时，Lambda 向运行时和每个扩展发送一个 Invoke 事件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行环境生命周期",
+            "info": "执行环境管理运行函数所需的资源，为函数的运行时以及与函数关联的外部扩展提供生命周期支持。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "关闭阶段",
+            "info": "若 Lambda 即将关闭运行时，它会向每个已注册的外部扩展发送一个 Shutdown 事件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行环境生命周期",
+            "info": "执行环境管理运行函数所需的资源，为函数的运行时以及与函数关联的外部扩展提供生命周期支持。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "冷启动",
+            "info": "当 Lambda 收到运行函数的请求时，该服务会首先准备执行环境，此过程称为冷启动。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "冷启动",
+            "info": "当 Lambda 收到运行函数的请求时，该服务会首先准备执行环境，此过程称为冷启动。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "预置并发",
+            "info": "预先初始化执行环境，从而减少冷启动。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "执行环境生命周期",
+            "info": "执行环境管理运行函数所需的资源，为函数的运行时以及与函数关联的外部扩展提供生命周期支持。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "静态初始化",
+            "info": "发生在处理程序代码开始在函数中运行之前，通常用于导入库和依赖项、设置配置和初始化与其他服务的连接。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

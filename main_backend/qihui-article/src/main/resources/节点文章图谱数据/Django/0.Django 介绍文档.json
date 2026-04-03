@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称，Django基于其开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "relationship": {
+            "info": "基于其开发",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Django通过ORM无缝支持。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，Django通过ORM无缝支持。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，Django可通过Django REST framework构建。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可通过DRF构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，Django应用可借助其实现容器化部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，Django应用可借助其实现高可用云原生部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现云原生部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Controller-Service-DAO",
+            "info": "Django通过分层设计（如Model层对应DAO）适配该架构模式。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "relationship": {
+            "info": "适配该架构模式",
+            "type": "架构设计"
+        }
+    }
+]

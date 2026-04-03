@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式发布-订阅消息系统和一个强大的队列，可以处理大量的数据，并使你能够将消息从一个端点传递到另一个端点。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "工作流程",
+            "info": "Kafka的发布-订阅消息和队列消息/用户组的工作流程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "工作流程",
+            "info": "Kafka的发布-订阅消息和队列消息/用户组的工作流程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Pub-Sub 消息",
+            "info": "发布-订阅消息的逐步工作流程，包括生产者发送消息、消费者订阅主题、确认机制等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "工作流程",
+            "info": "Kafka的发布-订阅消息和队列消息/用户组的工作流程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "队列消息/用户组的工作流",
+            "info": "具有相同Group ID的一组消费者订阅主题，消息在它们之间共享。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式发布-订阅消息系统和一个强大的队列，可以处理大量的数据，并使你能够将消息从一个端点传递到另一个端点。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "ZooKeeper 的作用",
+            "info": "Zookeeper是Kafka代理和消费者之间的协调接口，存储基本元数据，提供零停机时间。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

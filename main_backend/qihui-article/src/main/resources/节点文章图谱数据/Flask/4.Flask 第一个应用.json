@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "创建Flask实例",
+            "info": "通过app = Flask(__name__)创建Flask应用实例。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "路由装饰器",
+            "info": "@app.route('/')装饰器用于将URL映射到视图函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "视图函数",
+            "info": "处理请求并返回响应的Python函数，如hello_world。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Flask",
+            "info": "Python生态中的轻量级Web框架，以简洁灵活为核心设计理念，适合快速构建小型到中型Web应用或API服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "运行应用",
+            "info": "使用app.run(debug=True)启动Flask内置开发服务器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

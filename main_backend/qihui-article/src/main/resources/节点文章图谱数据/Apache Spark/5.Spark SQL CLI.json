@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spark SQL CLI",
+            "info": "一款方便的交互式命令工具，用于运行Hive元数据存储服务并执行从命令行输入的SQL查询。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spark SQL CLI",
+            "info": "一款方便的交互式命令工具，用于运行Hive元数据存储服务并执行从命令行输入的SQL查询。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "命令行选项",
+            "info": "Spark SQL CLI支持的命令行选项，如-d, --database, -e, -f, -i, -S, -v等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spark SQL CLI",
+            "info": "一款方便的交互式命令工具，用于运行Hive元数据存储服务并执行从命令行输入的SQL查询。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "交互式 Shell 命令",
+            "info": "Spark SQL CLI交互式shell支持的命令，如quit, exit, !<command>, dfs <HDFS dfs command>, source <filepath>。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,362 @@
+[
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源的、分布式的、高性能的消息传递系统，用于构建分布式和微服务应用程序。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "部署",
+            "info": "NATS的部署方式，包括core-nats单节点部署和集群部署，以及nats-jetstream单机部署和集群部署。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "部署",
+            "info": "NATS的部署方式，包括core-nats单节点部署和集群部署，以及nats-jetstream单机部署和集群部署。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "core-nats单节点部署",
+            "info": "使用nats.conf配置文件启动单个NATS服务器实例。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "部署",
+            "info": "NATS的部署方式，包括core-nats单节点部署和集群部署，以及nats-jetstream单机部署和集群部署。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "core-nats集群部署(三节点)",
+            "info": "配置三个节点的nats.conf文件，实现NATS集群部署。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "部署",
+            "info": "NATS的部署方式，包括core-nats单节点部署和集群部署，以及nats-jetstream单机部署和集群部署。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "nats-jetstream单机部署",
+            "info": "配置jetstream相关配置，启用NATS JetStream持久化引擎。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "部署",
+            "info": "NATS的部署方式，包括core-nats单节点部署和集群部署，以及nats-jetstream单机部署和集群部署。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "nats-jetstream集群部署",
+            "info": "配置多个节点的nats.conf文件，启用jetstream并配置集群。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源的、分布式的、高性能的消息传递系统，用于构建分布式和微服务应用程序。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "NATS产品分类和产品选择",
+            "info": "NATS产品分为Core-Nats核心和Nats-JetStream，主要区别在于消息质量和消息存储。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS产品分类和产品选择",
+            "info": "NATS产品分为Core-Nats核心和Nats-JetStream，主要区别在于消息质量和消息存储。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Core-Nats核心",
+            "info": "只提供最多交付一次的消息质量，不提供消息持久化。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS产品分类和产品选择",
+            "info": "NATS产品分为Core-Nats核心和Nats-JetStream，主要区别在于消息质量和消息存储。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Nats-JetStream",
+            "info": "提供至少一次/恰好一次QoS，提供消息存储和过期策略和删除策略。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源的、分布式的、高性能的消息传递系统，用于构建分布式和微服务应用程序。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "NATS主题-讲解",
+            "info": "NATS主题的格式和通配符讲解，包括*和>通配符。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源的、分布式的、高性能的消息传递系统，用于构建分布式和微服务应用程序。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "订阅",
+            "info": "NATS的订阅机制，包括普通订阅和消费者组订阅（Queue Subscribe）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "订阅",
+            "info": "NATS的订阅机制，包括普通订阅和消费者组订阅（Queue Subscribe）。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "消费者组订阅",
+            "info": "不同的客户端用相同的消费者组去订阅同一个主题，服务端保证每个消息只被消费者组中的一个消费者消费。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源的、分布式的、高性能的消息传递系统，用于构建分布式和微服务应用程序。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "Nats-JetStream",
+            "info": "NATS内置的持久性引擎，允许存储消息并在以后重播。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Nats-JetStream",
+            "info": "NATS内置的持久性引擎，允许存储消息并在以后重播。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "流创建及配置",
+            "info": "使用js.AddStream创建流，配置Name、Subjects、Storage、Retention、Discard、MaxAge等参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Nats-JetStream",
+            "info": "NATS内置的持久性引擎，允许存储消息并在以后重播。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "订阅-消费者",
+            "info": "JetStream的消费者配置，包括Durable、DeliverPolicy、AckPolicy、MaxDeliver等参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Nats-JetStream",
+            "info": "NATS内置的持久性引擎，允许存储消息并在以后重播。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "PullSubscribe",
+            "info": "JetStream的拉取订阅方式，消费者主动去服务端拉取消息，在NATS服务器上产生的CPU负载较少，扩展性更好。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源的、分布式的、高性能的消息传递系统，用于构建分布式和微服务应用程序。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "nats如何保证消息不重复",
+            "info": "NATS核心只提供交付一次的消息质量，要保证消息不重复需在消息发送端做唯一限制；NATS-JetStream提供恰好一次和至少一次的消息质量，依赖于发布应用程序在消息头中附加唯一的消息或发布ID。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源的、分布式的、高性能的消息传递系统，用于构建分布式和微服务应用程序。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "如何保证消息不丢失",
+            "info": "订阅方每条消息需要主动向NATS服务回复ACK确认，否则NATS则认为丢失进行消息重播；NATS服务提供持久的消息保留策略；发布方每发布一条消息都会收到NATS的ACK回复。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "NATS",
+            "info": "一个开源的、分布式的、高性能的消息传递系统，用于构建分布式和微服务应用程序。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "顺序消费问题",
+            "info": "单个分区可以实现顺序消费，同步消费（重要消息放到单个分区）；NATS也提供队列消费，Group的概念，进而提供负载均衡。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

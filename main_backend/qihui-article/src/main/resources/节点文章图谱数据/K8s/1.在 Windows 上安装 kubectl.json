@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "K8s",
+            "info": "开源的容器编排平台，用于自动化部署、扩展和管理容器化应用，是云原生技术的核心组件。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "kubectl",
+            "info": "Kubernetes的命令行工具，允许你对Kubernetes集群运行命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "kubectl",
+            "info": "Kubernetes的命令行工具，允许你对Kubernetes集群运行命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Windows安装",
+            "info": "在Windows系统上安装kubectl的方法，包括直接下载、使用curl、Chocolatey、Scoop、winget。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "kubectl",
+            "info": "Kubernetes的命令行工具，允许你对Kubernetes集群运行命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "kubectl convert",
+            "info": "kubectl的插件，允许你将清单在不同API版本间转换。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "kubectl",
+            "info": "Kubernetes的命令行工具，允许你对Kubernetes集群运行命令。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "shell 自动补全功能",
+            "info": "kubectl为Bash、Zsh、Fish和PowerShell提供自动补全功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

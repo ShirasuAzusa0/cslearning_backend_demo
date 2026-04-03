@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "基本路由",
+            "info": "FastAPI中定义API端点的核心机制，每个路由映射到一个处理函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "基本路由",
+            "info": "FastAPI中定义API端点的核心机制，每个路由映射到一个处理函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "根路径路由",
+            "info": "@app.get('/')定义根路径的路由操作，返回JSON响应。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "基本路由",
+            "info": "FastAPI中定义API端点的核心机制，每个路由映射到一个处理函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "路径参数",
+            "info": "在路径中使用{item_id}语法定义路径参数，函数参数item_id自动接收。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "基本路由",
+            "info": "FastAPI中定义API端点的核心机制，每个路由映射到一个处理函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "查询参数",
+            "info": "通过函数参数声明查询参数，如q: str = None定义可选的查询参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

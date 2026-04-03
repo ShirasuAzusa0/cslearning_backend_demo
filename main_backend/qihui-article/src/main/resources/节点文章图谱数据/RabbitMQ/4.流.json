@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "流",
+            "info": "一个持久化的复制数据结构，模拟消息的追加式日志，可以重复读取直到过期，始终是持久化和复制的。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "流",
+            "info": "一个持久化的复制数据结构，模拟消息的追加式日志，可以重复读取直到过期，始终是持久化和复制的。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "声明流",
+            "info": "将x-queue-type队列参数设置为stream来声明流，必须通过客户端提供此参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "流",
+            "info": "一个持久化的复制数据结构，模拟消息的追加式日志，可以重复读取直到过期，始终是持久化和复制的。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "消费",
+            "info": "消费者可以从日志中的任何点开始读取/消费，由x-stream-offset消费者参数控制，支持first、last、next、偏移量、时间戳、间隔等值。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "流",
+            "info": "一个持久化的复制数据结构，模拟消息的追加式日志，可以重复读取直到过期，始终是持久化和复制的。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "数据保留",
+            "info": "通过max-age和max-length-bytes参数控制流的保留，根据总日志数据大小和/或年龄丢弃日志中最旧的数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "流",
+            "info": "一个持久化的复制数据结构，模拟消息的追加式日志，可以重复读取直到过期，始终是持久化和复制的。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "过滤",
+            "info": "RabbitMQ Stream提供的服务器端过滤功能，使用x-stream-filter-value标头和x-stream-filter参数实现，避免读取流的所有消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "流",
+            "info": "一个持久化的复制数据结构，模拟消息的追加式日志，可以重复读取直到过期，始终是持久化和复制的。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "超级流",
+            "info": "一种通过将大型流划分为较小流来扩展的方法，与单活动消费者集成以保留分区内的消息顺序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

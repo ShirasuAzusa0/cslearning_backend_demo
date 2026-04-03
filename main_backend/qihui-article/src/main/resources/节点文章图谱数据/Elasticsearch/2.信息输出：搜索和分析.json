@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一种分布式文档存储，提供一种简单、一致的 REST API，用于管理集群以及索引和搜索数据。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "搜索",
+            "info": "Elasticsearch的核心功能，支持结构化查询、全文查询以及结合二者的复杂查询。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "搜索",
+            "info": "Elasticsearch的核心功能，支持结构化查询、全文查询以及结合二者的复杂查询。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "结构化查询",
+            "info": "类似于在 SQL 中构造的查询类型，在索引中搜索特定字段并排序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "搜索",
+            "info": "Elasticsearch的核心功能，支持结构化查询、全文查询以及结合二者的复杂查询。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "全文查询",
+            "info": "查找查询字符串匹配的所有文档，且返回按相关性排序的文档。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一种分布式文档存储，提供一种简单、一致的 REST API，用于管理集群以及索引和搜索数据。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "聚合",
+            "info": "使你能够构建数据的复杂摘要，并深入了解关键度量、模式和趋势。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一种分布式文档存储，提供一种简单、一致的 REST API，用于管理集群以及索引和搜索数据。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "机器学习",
+            "info": "用于自动分析时序数据，创建正常行为的准确基线，并识别异常模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

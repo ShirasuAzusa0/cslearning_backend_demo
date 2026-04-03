@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "发布者",
+            "info": "发布（产生）消息的应用程序，可以发布到交换机（AMQP 0-9-1）、链接（AMQP 1.0）、主题（MQTT）等目标。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "发布者",
+            "info": "发布（产生）消息的应用程序，可以发布到交换机（AMQP 0-9-1）、链接（AMQP 1.0）、主题（MQTT）等目标。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "发布者生命周期",
+            "info": "发布者通常是长生命周期的，在应用程序启动期间打开连接，并持续发布多条消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "发布者",
+            "info": "发布（产生）消息的应用程序，可以发布到交换机（AMQP 0-9-1）、链接（AMQP 1.0）、主题（MQTT）等目标。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "发布者确认",
+            "info": "发布者端确认机制，允许发布应用程序跟踪代理已成功接受或未成功接受的消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "发布者",
+            "info": "发布（产生）消息的应用程序，可以发布到交换机（AMQP 0-9-1）、链接（AMQP 1.0）、主题（MQTT）等目标。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "消息属性",
+            "info": "发布时设置的消息属性，包括delivery mode, type, headers, content type, content encoding, message id, correlation id, reply to, expiration, timestamp, user id, app id。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "发布者",
+            "info": "发布（产生）消息的应用程序，可以发布到交换机（AMQP 0-9-1）、链接（AMQP 1.0）、主题（MQTT）等目标。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "不可路由消息处理",
+            "info": "当已发布的消息无法路由到任何队列时，根据mandatory标志设置，消息将被丢弃、返回或发布到备用交换机。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

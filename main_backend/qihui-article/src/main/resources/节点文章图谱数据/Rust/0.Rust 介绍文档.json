@@ -1,0 +1,162 @@
+[
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的Web框架，支撑高性能HTTP服务开发。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可基于其构建Web服务",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Rocket",
+            "info": "Rust生态中易用且安全的Web框架，支撑高性能HTTP服务开发。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可基于其构建Web服务",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Rust可通过库（如Diesel）连接，实现高效数据操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，Rust可通过库连接，实现高效数据操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可连接实现数据操作",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，Rust可结合其构建低延迟通信接口。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可结合构建通信接口",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "gRPC",
+            "info": "一个高性能RPC框架，Rust可结合其构建低延迟通信接口。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可结合构建通信接口",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，Rust应用可借助其实现容器化部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，Rust应用可借助其实现弹性扩展与云原生部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可借助其实现云原生部署",
+            "type": "部署方式"
+        }
+    }
+]

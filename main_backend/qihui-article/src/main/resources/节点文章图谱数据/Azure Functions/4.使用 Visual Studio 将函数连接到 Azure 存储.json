@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "可使用 Visual Studio 将在前一篇快速入门文章中创建的函数连接到 Azure 存储。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "输出绑定",
+            "info": "添加到此函数的输出绑定会将 HTTP 请求中的数据写入到 Azure 队列存储队列中的消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "输出绑定",
+            "info": "添加到此函数的输出绑定会将 HTTP 请求中的数据写入到 Azure 队列存储队列中的消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "QueueOutput",
+            "info": "用于定义队列输出绑定的属性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "可使用 Visual Studio 将在前一篇快速入门文章中创建的函数连接到 Azure 存储。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Azure 存储资源管理器",
+            "info": "一项工具，可以用来检查输出绑定生成的队列消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

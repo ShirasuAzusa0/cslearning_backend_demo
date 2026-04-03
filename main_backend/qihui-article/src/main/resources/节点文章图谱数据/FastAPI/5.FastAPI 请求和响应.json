@@ -1,0 +1,242 @@
+[
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "请求数据",
+            "info": "FastAPI中解析客户端请求数据的方式，包括查询参数、路径参数和请求体。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "请求数据",
+            "info": "FastAPI中解析客户端请求数据的方式，包括查询参数、路径参数和请求体。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "查询参数",
+            "info": "通过函数参数声明，如skip: int = 0, limit: int = 10。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "请求数据",
+            "info": "FastAPI中解析客户端请求数据的方式，包括查询参数、路径参数和请求体。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "路径参数",
+            "info": "在路径中使用{item_id}语法定义，函数参数item_id:int自动接收。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "请求数据",
+            "info": "FastAPI中解析客户端请求数据的方式，包括查询参数、路径参数和请求体。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "请求体",
+            "info": "使用Pydantic模型定义请求体，如item: Item。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "响应数据",
+            "info": "FastAPI中生成响应数据的方式，包括返回JSON数据、返回Pydantic模型等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "响应数据",
+            "info": "FastAPI中生成响应数据的方式，包括返回JSON数据、返回Pydantic模型等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "返回JSON数据",
+            "info": "路由处理函数返回字典，FastAPI自动转换为JSON格式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "响应数据",
+            "info": "FastAPI中生成响应数据的方式，包括返回JSON数据、返回Pydantic模型等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "返回Pydantic模型",
+            "info": "路由处理函数返回Pydantic模型实例，FastAPI自动转换为JSON格式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "请求头和Cookie",
+            "info": "使用Header和Cookie类型注解获取请求头和Cookie数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "重定向和状态码",
+            "info": "使用RedirectResponse实现重定向，使用HTTPException返回自定义状态码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "重定向和状态码",
+            "info": "使用RedirectResponse实现重定向，使用HTTPException返回自定义状态码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "RedirectResponse",
+            "info": "FastAPI的响应类，用于将客户端重定向到其他URL。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "重定向和状态码",
+            "info": "使用RedirectResponse实现重定向，使用HTTPException返回自定义状态码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "HTTPException",
+            "info": "FastAPI的异常类，用于返回自定义的HTTP状态码和错误信息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "FastAPI",
+            "info": "Python生态中高性能的现代化Web框架，以异步支持和自动API文档生成为核心优势，专为高效构建API服务设计。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "自定义响应头",
+            "info": "使用JSONResponse或其他响应类自定义响应头。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

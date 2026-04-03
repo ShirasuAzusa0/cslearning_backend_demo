@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Go",
+            "info": "由Google开发的高性能编程语言，以简洁语法、高效编译和原生并发支持为核心优势，广泛应用于微服务、云原生及基础设施开发。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Go语言安装与环境配置",
+            "info": "Go语言的安装步骤以及相关环境变量的配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Go语言安装与环境配置",
+            "info": "Go语言的安装步骤以及相关环境变量的配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Windows安装Go语言",
+            "info": "在Windows操作系统上安装Go的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Go语言安装与环境配置",
+            "info": "Go语言的安装步骤以及相关环境变量的配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Linux安装Go语言",
+            "info": "在Linux操作系统上安装Go的步骤，包括下载、解压、配置环境变量等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Go语言安装与环境配置",
+            "info": "Go语言的安装步骤以及相关环境变量的配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Mac安装Go语言",
+            "info": "在Mac操作系统上安装Go的步骤。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

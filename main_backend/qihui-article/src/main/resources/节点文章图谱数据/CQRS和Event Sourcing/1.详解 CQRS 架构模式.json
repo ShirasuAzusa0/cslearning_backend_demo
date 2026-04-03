@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "CQRS + Event Sourcing",
+            "info": "CQRS（命令查询职责分离）将数据读写操作分离，Event Sourcing（事件溯源）通过记录事件序列而非直接修改状态来维护数据。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "CQRS",
+            "info": "命令查询责任分离，将读取数据（查询）和写入数据（命令）的操作分开的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS",
+            "info": "命令查询责任分离，将读取数据（查询）和写入数据（命令）的操作分开的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "命令模型",
+            "info": "用于有效地执行写/更新操作的数据模型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS",
+            "info": "命令查询责任分离，将读取数据（查询）和写入数据（命令）的操作分开的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "查询模型",
+            "info": "用于有效地支持各种读模式的数据模型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS",
+            "info": "命令查询责任分离，将读取数据（查询）和写入数据（命令）的操作分开的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "什么时候应该使用 CQRS",
+            "info": "当同一个数据模型不能有效地满足系统的读和写模式时，或将读负载与写负载分开时适合使用CQRS。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "CQRS",
+            "info": "命令查询责任分离，将读取数据（查询）和写入数据（命令）的操作分开的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "什么时候不该使用 CQRS",
+            "info": "使用CQRS会带来显著的认知负担和复杂性，以及最终一致性所带来的后果，应谨慎使用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

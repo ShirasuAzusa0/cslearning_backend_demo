@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于Spring Boot实现的微服务框架，是微服务架构下的一站式解决方案，专注于全局微服务的协调和治理工作。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud常用组件",
+            "info": "Spring Cloud包含的常用服务组件，如Eureka、Ribbon、Hystrix、Feign、Zuul、Gateway、Config、Bus等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud常用组件",
+            "info": "Spring Cloud包含的常用服务组件，如Eureka、Ribbon、Hystrix、Feign、Zuul、Gateway、Config、Bus等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Spring Cloud Netflix Eureka",
+            "info": "Spring Cloud Netflix中的服务治理组件，包含服务注册中心、服务注册与发现机制的实现。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud常用组件",
+            "info": "Spring Cloud包含的常用服务组件，如Eureka、Ribbon、Hystrix、Feign、Zuul、Gateway、Config、Bus等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Spring Cloud Netflix Ribbon",
+            "info": "Spring Cloud Netflix中的客户端负载均衡组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于Spring Boot实现的微服务框架，是微服务架构下的一站式解决方案，专注于全局微服务的协调和治理工作。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，Spring Cloud基于其实现。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "基于其实现",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于Spring Boot实现的微服务框架，是微服务架构下的一站式解决方案，专注于全局微服务的协调和治理工作。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spring Cloud版本",
+            "info": "Spring Cloud使用伦敦地铁站名命名版本，如Angel、Brixton、Camden、Dalston、Edgware、Finchley、Greenwich、Hoxton等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

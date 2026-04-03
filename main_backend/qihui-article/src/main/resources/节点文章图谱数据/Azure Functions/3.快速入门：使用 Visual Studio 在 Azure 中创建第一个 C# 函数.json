@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "可使用 Visual Studio 创建本地 C# 函数项目，然后轻松发布此项目以在 Azure 中的可缩放无服务器环境中运行。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "Azure Functions 项目模板",
+            "info": "Visual Studio 中的 Azure Functions 项目模板创建了一个 C# 类库项目，该项目可发布到 Azure 中的函数应用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "可使用 Visual Studio 创建本地 C# 函数项目，然后轻松发布此项目以在 Azure 中的可缩放无服务器环境中运行。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "HTTP 触发器",
+            "info": "会创建由 HTTP 请求触发的函数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Azure Functions",
+            "info": "可使用 Visual Studio 创建本地 C# 函数项目，然后轻松发布此项目以在 Azure 中的可缩放无服务器环境中运行。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "发布",
+            "info": "在解决方案资源管理器中右键单击项目并选择发布，将本地项目部署到 Azure。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

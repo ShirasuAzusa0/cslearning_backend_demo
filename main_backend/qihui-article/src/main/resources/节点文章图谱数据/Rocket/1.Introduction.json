@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Rocket",
+            "info": "Rust生态中注重开发体验的Web框架，以类型安全和简洁声明式语法为核心特色，通过宏简化路由与请求处理逻辑。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "core philosophies",
+            "info": "Rocket设计的三大核心理念：Security, correctness, and developer experience are paramount；All request handling information should be typed and self-contained；Decisions should not be forced。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "core philosophies",
+            "info": "Rocket设计的三大核心理念：Security, correctness, and developer experience are paramount；All request handling information should be typed and self-contained；Decisions should not be forced。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Security, correctness, and developer experience are paramount",
+            "info": "Rocket的第一个核心理念：The path of least resistance should lead you to the most secure, correct web application。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "core philosophies",
+            "info": "Rocket设计的三大核心理念：Security, correctness, and developer experience are paramount；All request handling information should be typed and self-contained；Decisions should not be forced。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "All request handling information should be typed and self-contained",
+            "info": "Rocket的第二个核心理念：handlers are regular functions with regular arguments。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "core philosophies",
+            "info": "Rocket设计的三大核心理念：Security, correctness, and developer experience are paramount；All request handling information should be typed and self-contained；Decisions should not be forced。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Decisions should not be forced",
+            "info": "Rocket的第三个核心理念：Templates, serialization, sessions, and just about everything else are all pluggable, optional components。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

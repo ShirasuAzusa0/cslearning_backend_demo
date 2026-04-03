@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Controller",
+            "info": "业务控制层，架起了外界与业务层沟通的桥梁，移动端、前端在调用接口访问相关业务时都会通过Controller。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Service",
+            "info": "业务层/服务层，所有的内部的业务逻辑都会在这里处理，比如用户的增删改查，或者发送个验证码或邮件等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Dao",
+            "info": "数据库持久化层，就是和数据库打交道的，而实现持久化层的框架常用的有两种：JPA和MyBatis。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Dao",
+            "info": "数据库持久化层，就是和数据库打交道的，而实现持久化层的框架常用的有两种：JPA和MyBatis。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "JPA",
+            "info": "SpringBoot官方的持久化框架，前身是Hibernate，好处是不用手写SQL，国外用的比较多。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Dao",
+            "info": "数据库持久化层，就是和数据库打交道的，而实现持久化层的框架常用的有两种：JPA和MyBatis。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "MyBatis",
+            "info": "在国内比较流行的持久化框架，灵活性非常高，但是需要手写SQL语句。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Controller-Service-DAO",
+            "info": "一种分层架构模式，用于分离业务逻辑与数据访问逻辑，包括Controller处理请求与响应、Service实现核心业务逻辑、DAO封装数据库操作。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "关系",
+            "info": "一个Controller对应一个Service，一个Service对应一个Dao，一个Dao对应一个数据库表。Controller不应互调，Service不应互调，遵循高内聚低耦合原则。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

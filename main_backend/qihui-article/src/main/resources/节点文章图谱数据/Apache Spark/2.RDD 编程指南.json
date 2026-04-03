@@ -1,0 +1,182 @@
+[
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "RDD",
+            "info": "弹性分布式数据集，Spark的主要抽象，是一个分布在集群节点上的元素集合，可以并行操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RDD",
+            "info": "弹性分布式数据集，Spark的主要抽象，是一个分布在集群节点上的元素集合，可以并行操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "SparkContext",
+            "info": "Spark应用程序的入口，告诉Spark如何访问集群，每个JVM只能有一个活动的SparkContext。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RDD",
+            "info": "弹性分布式数据集，Spark的主要抽象，是一个分布在集群节点上的元素集合，可以并行操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "转换",
+            "info": "从现有数据集创建新数据集的操作，如map、filter、flatMap等，是惰性的。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RDD",
+            "info": "弹性分布式数据集，Spark的主要抽象，是一个分布在集群节点上的元素集合，可以并行操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "操作",
+            "info": "在对数据集运行计算后将值返回给驱动程序的操作，如reduce、count、collect等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RDD",
+            "info": "弹性分布式数据集，Spark的主要抽象，是一个分布在集群节点上的元素集合，可以并行操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "持久化",
+            "info": "将RDD缓存到内存中，使用persist()或cache()方法，以便在后续操作中重复使用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RDD",
+            "info": "弹性分布式数据集，Spark的主要抽象，是一个分布在集群节点上的元素集合，可以并行操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "洗牌",
+            "info": "Spark用于重新分配数据的机制，涉及在执行器和机器之间复制数据，是一项复杂且昂贵的操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RDD",
+            "info": "弹性分布式数据集，Spark的主要抽象，是一个分布在集群节点上的元素集合，可以并行操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "共享变量",
+            "info": "Spark支持的两种有限类型的共享变量：广播变量和累加器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "共享变量",
+            "info": "Spark支持的两种有限类型的共享变量：广播变量和累加器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "广播变量",
+            "info": "允许程序员将只读变量缓存在每台机器上，而不是将它的副本与任务一起发送。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "共享变量",
+            "info": "Spark支持的两种有限类型的共享变量：广播变量和累加器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "累加器",
+            "info": "仅通过关联和可交换操作添加的变量，可以用来实现计数器或总和。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,202 @@
+[
+    {
+        "startNode": {
+            "name": "Echo + Fiber",
+            "info": "Go语言生态中两大高性能Web框架，Echo以简洁灵活著称，Fiber基于fasthttp强调极速响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Echo",
+            "info": "Go语言的Web框架，以简洁灵活著称，适合构建RESTful API和微服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo",
+            "info": "Go语言的Web框架，以简洁灵活著称，适合构建RESTful API和微服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "安装",
+            "info": "使用go get命令安装Echo框架。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo",
+            "info": "Go语言的Web框架，以简洁灵活著称，适合构建RESTful API和微服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Hello World",
+            "info": "Echo的第一个示例程序，通过e.GET方法注册路由，返回Hello, World!。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo",
+            "info": "Go语言的Web框架，以简洁灵活著称，适合构建RESTful API和微服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "路由",
+            "info": "Echo的路由注册方法，包括GET、POST、PUT、DELETE等HTTP方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "路由",
+            "info": "Echo的路由注册方法，包括GET、POST、PUT、DELETE等HTTP方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "URL路径参数",
+            "info": "使用:param语法定义路径参数，通过c.Param方法获取。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "路由",
+            "info": "Echo的路由注册方法，包括GET、POST、PUT、DELETE等HTTP方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "请求参数",
+            "info": "使用c.QueryParam方法获取URL查询参数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo",
+            "info": "Go语言的Web框架，以简洁灵活著称，适合构建RESTful API和微服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "表单处理",
+            "info": "使用c.FormValue获取表单值，支持application/x-www-form-urlencoded和multipart/form-data。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo",
+            "info": "Go语言的Web框架，以简洁灵活著称，适合构建RESTful API和微服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "处理请求",
+            "info": "根据Content-Type请求标头将请求负载绑定到Go结构体中。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo",
+            "info": "Go语言的Web框架，以简洁灵活著称，适合构建RESTful API和微服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "静态资源",
+            "info": "使用e.Static方法定义静态文件目录。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Echo",
+            "info": "Go语言的Web框架，以简洁灵活著称，适合构建RESTful API和微服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "中间件",
+            "info": "Echo的中间件系统，支持Root级、Group级和Route级中间件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

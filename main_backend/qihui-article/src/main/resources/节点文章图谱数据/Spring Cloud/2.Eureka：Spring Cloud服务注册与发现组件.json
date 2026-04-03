@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Eureka",
+            "info": "Netflix 公司开发的一款开源的服务注册与发现组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Eureka",
+            "info": "Netflix 公司开发的一款开源的服务注册与发现组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Eureka Server",
+            "info": "Eureka 服务注册中心，主要用于提供服务注册功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Eureka",
+            "info": "Netflix 公司开发的一款开源的服务注册与发现组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Eureka Client",
+            "info": "Eureka 客户端，通常指的是微服务系统中各个微服务，主要用于和 Eureka Server 进行交互。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Eureka Server",
+            "info": "Eureka 服务注册中心，主要用于提供服务注册功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "@EnableEurekaServer",
+            "info": "开启 Eureka server,接受其他微服务的注册的注解。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Eureka Client",
+            "info": "Eureka 客户端，通常指的是微服务系统中各个微服务，主要用于和 Eureka Server 进行交互。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "@EnableEurekaClient",
+            "info": "开启 Eureka 客户端功能，将服务注册到服务注册中心。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Eureka",
+            "info": "Netflix 公司开发的一款开源的服务注册与发现组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "自我保护机制",
+            "info": "Eureka 的一种应对网络异常的安全保护措施，开启时不会盲目移除健康的服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "自我保护机制",
+            "info": "Eureka 的一种应对网络异常的安全保护措施，开启时不会盲目移除健康的服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "enable-self-preservation",
+            "info": "配置项，用于关闭或开启Eureka的自我保护机制。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

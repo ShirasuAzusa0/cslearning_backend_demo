@@ -1,0 +1,113 @@
+server:
+  port: 8180
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8280/eureka
+spring:
+  application:
+    name: qihui-gateway
+
+  # 添加 Redis 配置（限流需要）
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      timeout: 5000ms
+
+  cloud:
+    gateway:
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowed-origins:
+              - "http://8.134.211.162"
+            allowed-methods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+            allowed-headers: "*"
+            allow-credentials: true
+      routes:
+        # 静态资源（必须放前面）
+        - id: qihui-static-upload
+          uri: http://localhost:8082
+          predicates:
+            - Path=/upload/**
+
+        - id: qihui-auth
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/auth/**
+          filters:
+            - name: RequestRateLimiter
+              args:
+                key-resolver: "#{@ipKeyResolver}"
+                redis-rate-limiter.replenishRate: 100
+                redis-rate-limiter.burstCapacity: 150
+
+        - id: qihui-auth
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/auth/**
+          # 认证接口：限流宽松
+          filters:
+            - name: RequestRateLimiter
+              args:
+                key-resolver: "#{@ipKeyResolver}"
+                redis-rate-limiter.replenishRate: 100
+                redis-rate-limiter.burstCapacity: 150
+
+        - id: qihui-admin
+          uri: http://localhost:8084
+          predicates:
+            - Path=/api/admin/**
+          # 管理接口：限流严格
+          filters:
+            - name: RequestRateLimiter
+              args:
+                key-resolver: "#{@ipKeyResolver}"
+                redis-rate-limiter.replenishRate: 20
+                redis-rate-limiter.burstCapacity: 30
+
+        - id: qihui-post
+          uri: http://localhost:8082
+          predicates:
+            - Path=/api/forum/**,/api/user/**
+          # 帖子接口：中等限流
+          filters:
+            - name: RequestRateLimiter
+              args:
+                key-resolver: "#{@ipKeyResolver}"
+                redis-rate-limiter.replenishRate: 50
+                redis-rate-limiter.burstCapacity: 80
+
+        - id: qihui-ai
+          uri: http://localhost:8083
+          predicates:
+            - Path=/api/ai/**,/api/learn/**
+          # AI接口（大模型）：限流宽松，因为响应慢
+          filters:
+            - name: RequestRateLimiter
+              args:
+                key-resolver: "#{@ipKeyResolver}"
+                redis-rate-limiter.replenishRate: 30
+                redis-rate-limiter.burstCapacity: 50
+
+        - id: qihui-article
+          uri: http://localhost:8085
+          predicates:
+            - Path=/api/article/**
+          # 文章接口：中等限流
+          filters:
+            - name: RequestRateLimiter
+              args:
+                key-resolver: "#{@ipKeyResolver}"
+                redis-rate-limiter.replenishRate: 60
+                redis-rate-limiter.burstCapacity: 100
+
+  security:
+    jwt:
+      key: ab1226

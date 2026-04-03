@@ -1,0 +1,202 @@
+[
+    {
+        "startNode": {
+            "name": "Redis",
+            "info": "一个开源的内存数据库，遵守BSD协议，提供了一个高性能的键值存储系统，常用于缓存、消息队列、会话存储等应用场景。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括string、hash、list、set、zset、Bitmaps、HyperLogLogs、Geospatial、Pub/Sub、Streams、Modules。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括string、hash、list、set、zset、Bitmaps、HyperLogLogs、Geospatial、Pub/Sub、Streams、Modules。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "string",
+            "info": "Redis最基本的数据类型，可以存储字符串、整数或者浮点数，最大能存储512MB。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括string、hash、list、set、zset、Bitmaps、HyperLogLogs、Geospatial、Pub/Sub、Streams、Modules。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "hash",
+            "info": "一个键值对集合，可以存储多个字段，每个哈希最多可以存储2^32-1个键值对。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括string、hash、list、set、zset、Bitmaps、HyperLogLogs、Geospatial、Pub/Sub、Streams、Modules。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "list",
+            "info": "简单的字符串列表，按照插入顺序排序，列表最多可以存储2^32-1个元素。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括string、hash、list、set、zset、Bitmaps、HyperLogLogs、Geospatial、Pub/Sub、Streams、Modules。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "set",
+            "info": "字符串类型的无序集合，集合是通过哈希表实现的，添加、删除、查找的复杂度都是O(1)。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括string、hash、list、set、zset、Bitmaps、HyperLogLogs、Geospatial、Pub/Sub、Streams、Modules。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "zset",
+            "info": "有序集合，每个元素关联一个double类型的分数，通过分数进行排序，成员唯一但分数可以重复。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括string、hash、list、set、zset、Bitmaps、HyperLogLogs、Geospatial、Pub/Sub、Streams、Modules。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "HyperLogLog",
+            "info": "用于基数估计算法的数据结构，常用于统计唯一值的近似值。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括string、hash、list、set、zset、Bitmaps、HyperLogLogs、Geospatial、Pub/Sub、Streams、Modules。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Bitmaps",
+            "info": "位数组，可以对字符串进行位操作，常用于实现布隆过滤器等位操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括string、hash、list、set、zset、Bitmaps、HyperLogLogs、Geospatial、Pub/Sub、Streams、Modules。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Geospatial",
+            "info": "用于存储地理位置信息，支持地理空间索引和半径查询。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "数据类型",
+            "info": "Redis支持的数据结构，包括string、hash、list、set、zset、Bitmaps、HyperLogLogs、Geospatial、Pub/Sub、Streams、Modules。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Streams",
+            "info": "日志数据类型，支持时间序列数据，用于消息队列和实时数据处理。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

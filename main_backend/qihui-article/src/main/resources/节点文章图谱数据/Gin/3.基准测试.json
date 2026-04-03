@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Gin",
+            "info": "Go语言生态中高性能的轻量级Web框架，以极简设计和高并发处理能力著称，适用于构建API服务、微服务及高吞吐量应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "基准测试",
+            "info": "Gin与Ace、Aero、Beego、Echo、HttpRouter等框架的性能对比数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "基准测试",
+            "info": "Gin与Ace、Aero、Beego、Echo、HttpRouter等框架的性能对比数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "HttpRouter",
+            "info": "Gin使用的底层路由库，基准测试中表现优异。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "基准测试",
+            "info": "Gin与Ace、Aero、Beego、Echo、HttpRouter等框架的性能对比数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Echo",
+            "info": "Go生态中的高性能Web框架，与Gin进行性能对比。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

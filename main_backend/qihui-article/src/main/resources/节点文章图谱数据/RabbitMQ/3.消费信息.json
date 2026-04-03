@@ -1,0 +1,162 @@
+[
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "消费者",
+            "info": "使用并确认消息的应用程序，从队列中消费消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "消费者",
+            "info": "使用并确认消息的应用程序，从队列中消费消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "消费者生命周期",
+            "info": "消费者应该具有较长的生命周期，在应用程序启动期间注册，并持续接收多个传递。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "消费者",
+            "info": "使用并确认消息的应用程序，从队列中消费消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "确认模式",
+            "info": "注册消费者时可以选择自动（不需要确认）或手动（需要客户端确认）传递模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "消费者",
+            "info": "使用并确认消息的应用程序，从队列中消费消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "预取",
+            "info": "在手动确认模式下，消费者可以限制正在传输的消息数量，避免消费者过载。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "消费者",
+            "info": "使用并确认消息的应用程序，从队列中消费消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "消费者容量",
+            "info": "计算队列能够立即将消息传递给消费者的时间的比例，帮助发现是否值得添加更多消费者。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "消费者",
+            "info": "使用并确认消息的应用程序，从队列中消费消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "单个活动消费者",
+            "info": "允许一次只有一个消费者从队列中消费，并在活动消费者被取消或死亡时故障转移到另一个已注册的消费者。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "消费者",
+            "info": "使用并确认消息的应用程序，从队列中消费消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "传递确认超时",
+            "info": "RabbitMQ对消费者传递确认实施超时，默认30分钟，用于检测从不确认传递的消费者。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "消费者",
+            "info": "使用并确认消息的应用程序，从队列中消费消息。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "消费者优先级",
+            "info": "允许高优先级消费者在处于活动状态时接收消息，仅当高优先级消费者被阻塞时消息才会传递给低优先级消费者。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

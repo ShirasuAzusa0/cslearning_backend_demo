@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，Actix与其深度绑定，提供零成本抽象。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "relationship": {
+            "info": "与其深度绑定",
+            "type": "技术依赖"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，Actix支持快速构建标准化接口。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "支持构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "gRPC",
+            "info": "一个高性能RPC框架，Actix支持构建低延迟通信接口。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "支持构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Actix可通过库（如sqlx）无缝集成，实现高效数据存取。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可集成实现数据存取",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，Actix可通过库（如sqlx）无缝集成，实现高效数据存取。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可集成实现数据存取",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，Actix应用可结合其实现容器化部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现容器化部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，Actix应用可结合其实现弹性扩缩容与云原生部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现云原生部署",
+            "type": "部署方式"
+        }
+    }
+]

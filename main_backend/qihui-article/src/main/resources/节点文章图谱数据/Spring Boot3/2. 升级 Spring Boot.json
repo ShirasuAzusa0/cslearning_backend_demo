@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "升级",
+            "info": "从Spring Boot早期版本升级到新版本的方法和注意事项。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "升级",
+            "info": "从Spring Boot早期版本升级到新版本的方法和注意事项。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "从1.x升级",
+            "info": "从Spring Boot 1.x升级到2.x的迁移指南。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "升级",
+            "info": "从Spring Boot早期版本升级到新版本的方法和注意事项。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "spring-boot-properties-migrator",
+            "info": "帮助迁移属性的依赖，可在启动时分析环境并打印诊断结果。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

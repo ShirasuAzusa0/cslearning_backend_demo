@@ -1,0 +1,49 @@
+{
+  "1": {
+    "Java": 0,
+    "Python": 0,
+    "Go": 0,
+    "Node.js": 0,
+    "Rust": 0
+  },
+  "2": {
+    "RESTful API": 0,
+    "Controller-Service-DAO": 0,
+    "Spring Boot": 0,
+    "Django": 0,
+    "Flask": 0,
+    "Gin": 0,
+    "FastAPI": 0,
+    "Echo + Fiber": 0,
+    "ASP.NET Core": 0,
+    "Express.js": 0,
+    "Actix": 0,
+    "Rocket": 0,
+    "MySQL": 0,
+    "MongoDB": 0,
+    "Redis": 0,
+    "SQLite": 0,
+    "InfluxDB": 0,
+    "Neo4j": 0
+  },
+  "3": {
+    "GraphQL": 0,
+    "gRPC": 0,
+    "WebSocket": 0,
+    "Kafka": 0,
+    "RabbitMQ": 0,
+    "NATS": 0,
+    "Docker": 0,
+    "K8s": 0,
+    "Azure Functions": 0,
+    "AWS Lambda": 0,
+    "Istio": 0,
+    "Elasticsearch": 0,
+    "Amazon Aurora": 0
+  },
+  "4": {
+    "Spring Cloud": 0,
+    "CQRS和Event Sourcing": 0,
+    "Apache Spark": 0
+  }
+}

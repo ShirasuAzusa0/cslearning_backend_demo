@@ -1,0 +1,122 @@
+[
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一个开源的分布式搜索和分析引擎，基于 Lucene 构建，支持实时数据检索、日志分析和全文搜索，适用于大数据场景。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，与Elasticsearch互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一个开源的分布式搜索和分析引擎，基于 Lucene 构建，支持实时数据检索、日志分析和全文搜索，适用于大数据场景。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL文档存储数据库，与Elasticsearch互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一个开源的分布式搜索和分析引擎，基于 Lucene 构建，支持实时数据检索、日志分析和全文搜索，适用于大数据场景。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，与Elasticsearch互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一个开源的分布式搜索和分析引擎，基于 Lucene 构建，支持实时数据检索、日志分析和全文搜索，适用于大数据场景。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "InfluxDB",
+            "info": "一种时序数据库，与Elasticsearch互补。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一个开源的分布式搜索和分析引擎，基于 Lucene 构建，支持实时数据检索、日志分析和全文搜索，适用于大数据场景。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，常通过Docker进行云原生部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "常通过其进行云原生部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一个开源的分布式搜索和分析引擎，基于 Lucene 构建，支持实时数据检索、日志分析和全文搜索，适用于大数据场景。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，常通过Kubernetes进行云原生部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "常通过其进行云原生部署",
+            "type": "部署方式"
+        }
+    }
+]

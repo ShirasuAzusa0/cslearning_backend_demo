@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "安装配置",
+            "info": "Node.js在不同操作系统上的安装方法和环境配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装配置",
+            "info": "Node.js在不同操作系统上的安装方法和环境配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Windows安装",
+            "info": "在Windows系统上安装Node.js的多种方式，包括.msi安装包、.exe二进制文件、命令行安装等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装配置",
+            "info": "Node.js在不同操作系统上的安装方法和环境配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Linux安装",
+            "info": "在Linux系统上安装Node.js的多种方式，包括使用安装脚本、预编译二进制包、源码编译等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装配置",
+            "info": "Node.js在不同操作系统上的安装方法和环境配置。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Mac安装",
+            "info": "在macOS系统上安装Node.js的多种方式，包括使用安装脚本、.pkg安装包、预编译二进制包等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

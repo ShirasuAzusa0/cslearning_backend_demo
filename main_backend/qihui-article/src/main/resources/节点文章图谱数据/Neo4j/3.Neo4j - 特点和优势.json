@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Neo4j",
+            "info": "一个高性能的图数据库，专注于存储和查询高度关联的数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Neo4j的特点",
+            "info": "Neo4j的特点包括：SQL就像简单的查询语言Neo4j CQL、遵循属性图数据模型、通过使用Apache Lucence支持索引、支持UNIQUE约束、包含Neo4j数据浏览器、支持完整的ACID规则、采用原生图形库与本地GPE、支持查询的数据导出到JSON和XLS格式、提供REST API、提供Java脚本、支持两种Java API。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Neo4j",
+            "info": "一个高性能的图数据库，专注于存储和查询高度关联的数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Neo4j的优点",
+            "info": "Neo4j的优点包括：很容易表示连接的数据、检索/遍历/导航更多的连接数据是非常容易和快速的、非常容易地表示半结构化数据、CQL查询语言命令是人性化的可读格式、使用简单而强大的数据模型、不需要复杂的连接来检索连接的/相关的数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,242 @@
+[
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "GraphQL",
+            "info": "一种API查询语言，与RESTful API互补，提供更灵活的数据查询能力。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "技术对比"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "gRPC",
+            "info": "一个高性能RPC框架，与RESTful API互补。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "技术对比"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "WebSocket",
+            "info": "一种基于TCP的双向通信协议，与RESTful API互补。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "技术对比"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Django",
+            "info": "一个Python后端框架，可快速构建RESTful服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可基于其构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Flask",
+            "info": "一个Python后端框架，可快速构建RESTful服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可基于其构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Express.js",
+            "info": "一个Node.js后端框架，可快速构建RESTful服务。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可基于其构建",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，用于为RESTful API存储和检索数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "从中存取数据",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，用于为RESTful API存储和检索数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "从中存取数据",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，可用于缓存RESTful API的高频响应。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可借助其缓存高频响应",
+            "type": "性能优化"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Kafka",
+            "info": "一种分布式消息队列，可处理RESTful API的异步任务流。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可处理其产生的异步任务",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可用于封装RESTful服务。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其容器化封装",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RESTful API",
+            "info": "基于 HTTP 协议的接口设计风格，通过标准方法操作资源，以 JSON/XML 格式传输数据，强调无状态、可缓存和分层架构。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，可保障RESTful API服务的高可用与弹性扩展。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其进行编排，实现高可用",
+            "type": "部署方式"
+        }
+    }
+]

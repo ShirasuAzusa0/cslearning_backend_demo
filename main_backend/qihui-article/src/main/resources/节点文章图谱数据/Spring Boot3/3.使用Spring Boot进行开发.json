@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "依赖管理",
+            "info": "Spring Boot的每个版本都提供了一个它所支持的依赖列表，通过spring-boot-dependencies管理版本。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spring Boot",
+            "info": "简化Java应用开发的框架，提供自动配置和快速启动能力，帮助创建可以运行的独立的、基于Spring的生产级应用程序。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Starter",
+            "info": "一系列开箱即用的依赖，在项目中导入即可获得所有需要的Spring和相关技术的一站式服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Starter",
+            "info": "一系列开箱即用的依赖，在项目中导入即可获得所有需要的Spring和相关技术的一站式服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "spring-boot-starter-web",
+            "info": "用于构建Web（包括RESTful）应用的starter，使用Tomcat作为默认嵌入式容器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Starter",
+            "info": "一系列开箱即用的依赖，在项目中导入即可获得所有需要的Spring和相关技术的一站式服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "spring-boot-starter-data-jpa",
+            "info": "用于使用Spring Data JPA和Hibernate的starter。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Starter",
+            "info": "一系列开箱即用的依赖，在项目中导入即可获得所有需要的Spring和相关技术的一站式服务。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "spring-boot-starter-actuator",
+            "info": "用于添加生产就绪功能的starter，帮助监控和管理应用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

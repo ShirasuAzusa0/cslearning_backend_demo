@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "作用域",
+            "info": "使用web::scope()方法设置资源组前缀，充当所有路由的命名空间，使同一作用域内的所有路由都具有相同的url路径前缀。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "状态",
+            "info": "被同一作用域内的所有路由和资源共享的应用程序数据，可以使用web::Data<T>提取器访问。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "状态",
+            "info": "被同一作用域内的所有路由和资源共享的应用程序数据，可以使用web::Data<T>提取器访问。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "共享可变状态",
+            "info": "使用web::Data内部Arc（原子引用计数器）和Mutex或AtomicUsize等同步原语，在不同线程之间安全地共享和修改状态。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "卫语句",
+            "info": "实现了Guard trait的对象，用于基于请求信息（如Header）进行过滤，决定路由是否匹配。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Actix",
+            "info": "Rust生态中高性能的异步Web框架，专为高并发和低延迟场景设计，基于Actor模型，充分利用Rust的内存安全特性。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "configure",
+            "info": "App和web::Scope提供的configure方法，用于将配置部分移动到不同的模块或库中，提高代码复用性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

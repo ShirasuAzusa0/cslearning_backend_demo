@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "ASP.NET Core Blazor",
+            "info": "一个全栈Web UI框架，建议用于大多数Web UI方案，支持使用C#生成丰富的交互式Web UI组件。",
+            "level": null,
+            "type1": "全栈",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "ASP.NET Core Razor Pages",
+            "info": "一个基于页面的模型，用于生成服务器呈现的Web UI，页面代码与页面一起保存，保持UI和业务逻辑分离。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "ASP.NET Core MVC",
+            "info": "在服务器上呈现UI，使用模型-视图-控制器结构模式，明确分离关注点以获得最大灵活性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core",
+            "info": "微软推出的高性能、跨平台开源Web框架，专为构建现代云原生应用设计，核心优势包括模块化中间件管道、依赖注入和高性能Kestrel服务器。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "ASP.NET Core SPA",
+            "info": "采用前端JavaScript框架的单页应用程序，支持Angular、React、Vue等热门框架。",
+            "level": null,
+            "type1": "全栈",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core SPA",
+            "info": "采用前端JavaScript框架的单页应用程序，支持Angular、React、Vue等热门框架。",
+            "level": null,
+            "type1": "全栈",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Angular",
+            "info": "一个热门的前端JavaScript框架，ASP.NET Core提供了Angular项目模板。",
+            "level": 2,
+            "type1": "前端",
+            "type2": "前端主流框架"
+        },
+        "relationship": {
+            "info": "支持使用",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core SPA",
+            "info": "采用前端JavaScript框架的单页应用程序，支持Angular、React、Vue等热门框架。",
+            "level": null,
+            "type1": "全栈",
+            "type2": null
+        },
+        "endNode": {
+            "name": "React",
+            "info": "一个热门的前端JavaScript框架，ASP.NET Core提供了React项目模板。",
+            "level": 2,
+            "type1": "前端",
+            "type2": "前端主流框架"
+        },
+        "relationship": {
+            "info": "支持使用",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "ASP.NET Core SPA",
+            "info": "采用前端JavaScript框架的单页应用程序，支持Angular、React、Vue等热门框架。",
+            "level": null,
+            "type1": "全栈",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Vue3",
+            "info": "一个热门的前端JavaScript框架，ASP.NET Core提供了Vue项目模板。",
+            "level": 2,
+            "type1": "前端",
+            "type2": "前端主流框架"
+        },
+        "relationship": {
+            "info": "支持使用",
+            "type": "技术集成"
+        }
+    }
+]

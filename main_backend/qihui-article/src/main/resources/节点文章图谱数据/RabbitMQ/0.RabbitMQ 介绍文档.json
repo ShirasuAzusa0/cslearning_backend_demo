@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "Kafka",
+            "info": "Apache Kafka是一个分布式流处理平台，与RabbitMQ互补。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "NATS",
+            "info": "一个轻量级、高性能的开源消息系统，与RabbitMQ互补。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "互补关系",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "Redis",
+            "info": "一种内存数据存储，可作为缓存加速RabbitMQ的消息处理。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "relationship": {
+            "info": "可作为缓存加速",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "一种容器化平台，可通过Docker快速部署RabbitMQ集群。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其快速部署",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "K8s",
+            "info": "容器编排平台，结合Kubernetes实现自动扩缩容与高可用性。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可结合实现自动扩缩容",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，RabbitMQ可与之协同，通过消息驱动异步更新数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可协同实现消息驱动",
+            "type": "技术集成"
+        }
+    },
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，RabbitMQ可与之协同，通过消息驱动异步更新数据。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可协同实现消息驱动",
+            "type": "技术集成"
+        }
+    }
+]

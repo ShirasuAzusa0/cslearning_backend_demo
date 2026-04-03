@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "GraphQL",
+            "info": "一个用于 API 的查询语言，是一个使用基于类型系统来执行查询的服务端运行时。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "查询",
+            "info": "GraphQL的核心操作，用于从服务端获取数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "GraphQL",
+            "info": "一个用于 API 的查询语言，是一个使用基于类型系统来执行查询的服务端运行时。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "变更",
+            "info": "GraphQL的核心操作，用于修改服务端数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "GraphQL",
+            "info": "一个用于 API 的查询语言，是一个使用基于类型系统来执行查询的服务端运行时。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "类型系统",
+            "info": "GraphQL的核心概念，用于描述可以查询的数据，包括对象类型、标量类型等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "GraphQL",
+            "info": "一个用于 API 的查询语言，是一个使用基于类型系统来执行查询的服务端运行时。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "endNode": {
+            "name": "解析函数",
+            "info": "GraphQL服务的核心，为类型上的每个字段提供，用于返回实际数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

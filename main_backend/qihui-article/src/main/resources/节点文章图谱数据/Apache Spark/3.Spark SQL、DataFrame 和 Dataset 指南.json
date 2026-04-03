@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "Apache Spark",
+            "info": "一个开源的分布式计算框架，专为大规模数据处理设计，支持批处理、流处理、机器学习和图计算。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "Spark SQL",
+            "info": "一个用于结构化数据处理的Spark模块，提供SQL和Dataset API接口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spark SQL",
+            "info": "一个用于结构化数据处理的Spark模块，提供SQL和Dataset API接口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Dataset",
+            "info": "一个分布式数据集合，提供了RDD的优势以及Spark SQL优化执行引擎的优势。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Spark SQL",
+            "info": "一个用于结构化数据处理的Spark模块，提供SQL和Dataset API接口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "DataFrame",
+            "info": "组织成命名列的Dataset，在概念上等效于关系数据库中的表。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

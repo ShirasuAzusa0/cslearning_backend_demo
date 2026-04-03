@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一种分布式文档存储，存储已序列化为 JSON 文档的复杂数据结构。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "文档",
+            "info": "已序列化为 JSON 文档的复杂数据结构，当被存储时会被索引。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一种分布式文档存储，存储已序列化为 JSON 文档的复杂数据结构。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "索引",
+            "info": "一种文档的优化集合，每个文档都是字段的集合。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "索引",
+            "info": "一种文档的优化集合，每个文档都是字段的集合。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "倒排索引",
+            "info": "一种数据结构，列出任何文档中出现的唯一单词，并标识每个单词出现的所有文档，支持非常快的全文搜索。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "索引",
+            "info": "一种文档的优化集合，每个文档都是字段的集合。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "动态映射",
+            "info": "Elasticsearch自动检测和向索引中添加新的字段的功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "索引",
+            "info": "一种文档的优化集合，每个文档都是字段的集合。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "映射",
+            "info": "定义控制字段如何存储和索引的规则。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

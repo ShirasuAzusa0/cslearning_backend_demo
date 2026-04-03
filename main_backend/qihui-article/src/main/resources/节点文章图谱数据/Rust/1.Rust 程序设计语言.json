@@ -1,0 +1,22 @@
+[
+    {
+        "startNode": {
+            "name": "Rust",
+            "info": "一种强调内存安全与零成本抽象的系统级编程语言，以高性能和并发能力见长，适用于构建高可靠后端服务、嵌入式系统等。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Rust 程序设计语言",
+            "info": "由Steve Klabnik和Carol Nichols撰写的Rust官方书籍，是学习Rust的权威指南。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

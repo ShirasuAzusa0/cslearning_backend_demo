@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Django",
+            "info": "Python生态中高度封装的全栈Web框架，以开箱即用为核心理念，提供ORM、模板引擎、认证系统等模块，适用于快速构建企业级应用。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "在线练习",
+            "info": "使用MarsCode IDE在线平台进行Django开发和测试的方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "在线练习",
+            "info": "使用MarsCode IDE在线平台进行Django开发和测试的方法。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "MarsCode IDE",
+            "info": "一个云端AI IDE平台，基于Linux，可以安装Django测试环境。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

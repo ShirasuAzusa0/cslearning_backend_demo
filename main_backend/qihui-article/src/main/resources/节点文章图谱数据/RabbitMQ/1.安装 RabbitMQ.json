@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "RabbitMQ",
+            "info": "一个开源消息代理，基于 AMQP 协议实现，支持消息队列、发布/订阅和路由功能，适用于异步任务处理、系统解耦和流量削峰。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "缓存与消息队列"
+        },
+        "endNode": {
+            "name": "安装指南",
+            "info": "RabbitMQ在不同操作系统上的安装方法，包括Linux、BSD、UNIX、Windows、MacOS等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装指南",
+            "info": "RabbitMQ在不同操作系统上的安装方法，包括Linux、BSD、UNIX、Windows、MacOS等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Docker",
+            "info": "可通过Docker快速试用RabbitMQ，运行docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:4.0-management。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过其快速试用",
+            "type": "部署方式"
+        }
+    },
+    {
+        "startNode": {
+            "name": "安装指南",
+            "info": "RabbitMQ在不同操作系统上的安装方法，包括Linux、BSD、UNIX、Windows、MacOS等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Kubernetes",
+            "info": "RabbitMQ支持通过Kubernetes运算符进行部署。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "relationship": {
+            "info": "可通过Kubernetes运算符部署",
+            "type": "部署方式"
+        }
+    }
+]

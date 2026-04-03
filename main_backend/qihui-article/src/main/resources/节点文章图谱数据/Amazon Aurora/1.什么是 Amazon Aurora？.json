@@ -1,0 +1,42 @@
+[
+    {
+        "startNode": {
+            "name": "Amazon Aurora",
+            "info": "一个与MySQL和PostgreSQL兼容的完全托管的关系数据库引擎。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "Amazon RDS",
+            "info": "Amazon Relational Database Service，Aurora是托管式数据库服务Amazon RDS的一部分。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Amazon RDS",
+            "info": "Amazon Relational Database Service，Aurora是托管式数据库服务Amazon RDS的一部分。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "责任共担模式",
+            "info": "Amazon RDS负责托管数据库实例和数据库集群的软件组件和基础设施，用户负责查询优化。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

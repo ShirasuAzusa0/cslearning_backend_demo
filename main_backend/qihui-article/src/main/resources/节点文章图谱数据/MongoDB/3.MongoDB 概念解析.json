@@ -1,0 +1,202 @@
+[
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "文档",
+            "info": "MongoDB 的基本数据单元，通常是一个 JSON-like 的结构，可以包含多种数据类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "文档",
+            "info": "MongoDB 的基本数据单元，通常是一个 JSON-like 的结构，可以包含多种数据类型。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "ObjectId",
+            "info": "MongoDB 为每个文档自动生成的唯一标识符，包含12字节：时间戳、机器标识码、进程ID、随机数。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "集合",
+            "info": "一组文档的容器，类似于关系型数据库中的表，一个集合中的文档不需要有固定的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "集合",
+            "info": "一组文档的容器，类似于关系型数据库中的表，一个集合中的文档不需要有固定的模式。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "capped collections",
+            "info": "固定大小的collection，具有高性能以及队列过期的特性，非常适合记录日志。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "索引",
+            "info": "用于优化查询性能的数据结构，可以基于集合中的一个或多个字段创建索引。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "分片",
+            "info": "一种分布数据到多个服务器的方法，用于处理大数据集和高吞吐量应用。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "副本集",
+            "info": "一组维护相同数据集的 MongoDB 服务器，提供数据的冗余备份和高可用性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "副本集",
+            "info": "一组维护相同数据集的 MongoDB 服务器，提供数据的冗余备份和高可用性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "主节点",
+            "info": "副本集中负责处理所有写入操作的服务器。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "副本集",
+            "info": "一组维护相同数据集的 MongoDB 服务器，提供数据的冗余备份和高可用性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "从节点",
+            "info": "副本集中的服务器，用于读取数据和在主节点故障时接管为主节点。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "MongoDB",
+            "info": "一个文档型数据库，数据以类似 JSON 的文档形式存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "BSON",
+            "info": "Binary JSON 的缩写，是 MongoDB 用来存储和传输文档的二进制形式的 JSON。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

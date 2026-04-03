@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "MySQL",
+            "info": "一个开源关系型数据库管理系统（RDBMS），以高性能、可靠性和易用性著称，支持事务处理、复杂查询和海量数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "连接",
+            "info": "使用MySQL二进制方式或PHP脚本连接到MySQL数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "连接",
+            "info": "使用MySQL二进制方式或PHP脚本连接到MySQL数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "mysql -u",
+            "info": "MySQL二进制方式连接命令，-u指定用户名，-p表示需要输入密码。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "连接",
+            "info": "使用MySQL二进制方式或PHP脚本连接到MySQL数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "mysqli_connect",
+            "info": "PHP函数，用于连接MySQL数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "mysqli_connect",
+            "info": "PHP函数，用于连接MySQL数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "mysqli_close",
+            "info": "PHP函数，用于断开与MySQL数据库的链接。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

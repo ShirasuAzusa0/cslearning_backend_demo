@@ -1,0 +1,262 @@
+[
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Mongoose",
+            "info": "MongoDB的对象建模工具，用于在Node.js中定义和操作MongoDB数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Mongoose",
+            "info": "MongoDB的对象建模工具，用于在Node.js中定义和操作MongoDB数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Schema",
+            "info": "Mongoose中的模式，定义文档中存储的字段、字段类型、验证要求和默认值。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Mongoose",
+            "info": "MongoDB的对象建模工具，用于在Node.js中定义和操作MongoDB数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Model",
+            "info": "通过mongoose.model方法从模式编译的模型，用于查找、创建、更新和删除文档。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Schema",
+            "info": "Mongoose中的模式，定义文档中存储的字段、字段类型、验证要求和默认值。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Schema类型",
+            "info": "Mongoose支持的字段类型，包括String、Number、Date、Buffer、Boolean、ObjectId、Array、Mixed等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Schema",
+            "info": "Mongoose中的模式，定义文档中存储的字段、字段类型、验证要求和默认值。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "验证",
+            "info": "Mongoose提供的内置和自定义验证器，如required、min、max、enum、match等。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Schema",
+            "info": "Mongoose中的模式，定义文档中存储的字段、字段类型、验证要求和默认值。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "虚拟属性",
+            "info": "可以获取和设置但不会保存到MongoDB的文档属性，用于格式化或组合字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Model",
+            "info": "通过mongoose.model方法从模式编译的模型，用于查找、创建、更新和删除文档。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "创建文档",
+            "info": "通过new Model()创建实例并调用save()，或使用Model.create()方法创建并保存文档。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Model",
+            "info": "通过mongoose.model方法从模式编译的模型，用于查找、创建、更新和删除文档。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "查询文档",
+            "info": "使用Model.find、Model.findOne、Model.findById等方法查询文档，支持链式查询。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Model",
+            "info": "通过mongoose.model方法从模式编译的模型，用于查找、创建、更新和删除文档。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "Population",
+            "info": "使用populate方法将ObjectId引用替换为实际文档内容，实现文档间的关联查询。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Mongoose",
+            "info": "MongoDB的对象建模工具，用于在Node.js中定义和操作MongoDB数据库。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "连接数据库",
+            "info": "使用mongoose.connect方法连接到MongoDB数据库，并监听连接事件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Author模型",
+            "info": "LocalLibrary项目的作者模型，包含first_name、family_name、date_of_birth、date_of_death字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "Book模型",
+            "info": "LocalLibrary项目的藏书模型，包含title、author、summary、isbn、genre字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中最流行的轻量级Web框架，以中间件架构和路由系统为核心，简化服务端开发流程。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "endNode": {
+            "name": "BookInstance模型",
+            "info": "LocalLibrary项目的藏书副本模型，包含book、imprint、status、due_back字段。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

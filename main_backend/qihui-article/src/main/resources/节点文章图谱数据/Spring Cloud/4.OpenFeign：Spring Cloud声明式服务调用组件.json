@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Spring Cloud",
+            "info": "基于 Spring Boot 实现的微服务框架，是一款基于 Spring Boot 实现的微服务框架。",
+            "level": 4,
+            "type1": "后端",
+            "type2": "架构模式"
+        },
+        "endNode": {
+            "name": "OpenFeign",
+            "info": "Spring 官方推出的一种声明式服务调用与负载均衡组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "OpenFeign",
+            "info": "Spring 官方推出的一种声明式服务调用与负载均衡组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "@FeignClient",
+            "info": "该注解用于通知 OpenFeign 组件对 @RequestMapping 注解下的接口进行解析。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "OpenFeign",
+            "info": "Spring 官方推出的一种声明式服务调用与负载均衡组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "@EnableFeignClients",
+            "info": "该注解用于开启 OpenFeign 功能。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "OpenFeign",
+            "info": "Spring 官方推出的一种声明式服务调用与负载均衡组件。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "fallback",
+            "info": "@FeignClient注解的属性，用于指定服务降级的实现类。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

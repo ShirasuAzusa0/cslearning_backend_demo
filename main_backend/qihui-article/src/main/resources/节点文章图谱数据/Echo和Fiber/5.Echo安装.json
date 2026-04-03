@@ -1,0 +1,102 @@
+[
+  {
+    "startNode": {
+      "name": "Echo",
+      "info": "Go语言的Web框架，以简洁灵活著称，适合构建RESTful API和微服务。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "安装",
+      "info": "在不同包管理工具下安装Echo框架的方法。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "安装",
+      "info": "在不同包管理工具下安装Echo框架的方法。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "go get",
+      "info": "使用go get命令安装Echo框架。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "安装",
+      "info": "在不同包管理工具下安装Echo框架的方法。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "dep",
+      "info": "使用dep包管理工具安装Echo框架。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "安装",
+      "info": "在不同包管理工具下安装Echo框架的方法。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "glide",
+      "info": "使用glide包管理工具安装Echo框架。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  },
+  {
+    "startNode": {
+      "name": "安装",
+      "info": "在不同包管理工具下安装Echo框架的方法。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "endNode": {
+      "name": "govender",
+      "info": "使用govender包管理工具安装Echo框架。",
+      "level": null,
+      "type1": "后端",
+      "type2": null
+    },
+    "relationship": {
+      "info": "下属知识点",
+      "type": "包含"
+    }
+  }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一种分布式文档存储，存储已序列化为 JSON 文档的复杂数据结构。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "索引文档",
+            "info": "通过PUT请求将JSON文档存入Elasticsearch索引中。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "索引文档",
+            "info": "通过PUT请求将JSON文档存入Elasticsearch索引中。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "PUT",
+            "info": "HTTP方法，用于向Elasticsearch索引添加文档，指定索引名称和文档ID。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Elasticsearch",
+            "info": "一种分布式文档存储，存储已序列化为 JSON 文档的复杂数据结构。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "批量 API",
+            "info": "用于批量提交文档，极简网络往返，比单独提交请求显著更快。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "批量 API",
+            "info": "用于批量提交文档，极简网络往返，比单独提交请求显著更快。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "_bulk",
+            "info": "Elasticsearch的批量API端点。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

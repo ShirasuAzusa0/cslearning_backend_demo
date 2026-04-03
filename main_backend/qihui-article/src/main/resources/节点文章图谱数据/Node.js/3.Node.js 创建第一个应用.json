@@ -1,0 +1,102 @@
+[
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "创建第一个应用",
+            "info": "使用Node.js内置的http模块创建HTTP服务器的完整过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建第一个应用",
+            "info": "使用Node.js内置的http模块创建HTTP服务器的完整过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "require指令",
+            "info": "用于加载和引入模块，可以引入内置模块、第三方模块或自定义模块。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建第一个应用",
+            "info": "使用Node.js内置的http模块创建HTTP服务器的完整过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "创建服务器",
+            "info": "使用http.createServer()方法创建服务器实例，并通过listen方法绑定端口。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "创建第一个应用",
+            "info": "使用Node.js内置的http模块创建HTTP服务器的完整过程。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "接收请求与响应请求",
+            "info": "服务器接收客户端请求，并通过response对象返回响应数据。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "工作机制",
+            "info": "Node.js通过V8引擎执行JavaScript代码，使用Libuv处理异步I/O操作，并通过事件循环和工作线程确保非阻塞特性。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

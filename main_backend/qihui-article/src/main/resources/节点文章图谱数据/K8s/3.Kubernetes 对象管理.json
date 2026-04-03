@@ -1,0 +1,82 @@
+[
+    {
+        "startNode": {
+            "name": "K8s",
+            "info": "开源的容器编排平台，用于自动化部署、扩展和管理容器化应用，是云原生技术的核心组件。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "容器化与云原生"
+        },
+        "endNode": {
+            "name": "kubectl",
+            "info": "Kubernetes的命令行工具，支持多种不同的方式来创建和管理Kubernetes对象。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "kubectl",
+            "info": "Kubernetes的命令行工具，支持多种不同的方式来创建和管理Kubernetes对象。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "指令式命令",
+            "info": "用户可以在集群中的活动对象上进行操作，将操作传给kubectl命令作为参数或标志。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "kubectl",
+            "info": "Kubernetes的命令行工具，支持多种不同的方式来创建和管理Kubernetes对象。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "指令式对象配置",
+            "info": "kubectl命令指定操作和至少一个文件名，指定的文件必须包含YAML或JSON格式的对象的完整定义。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "kubectl",
+            "info": "Kubernetes的命令行工具，支持多种不同的方式来创建和管理Kubernetes对象。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "endNode": {
+            "name": "声明式对象配置",
+            "info": "用户对本地存储的对象配置文件进行操作，但用户未定义要对该文件执行的操作，kubectl会自动检测每个文件的创建、更新和删除操作。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

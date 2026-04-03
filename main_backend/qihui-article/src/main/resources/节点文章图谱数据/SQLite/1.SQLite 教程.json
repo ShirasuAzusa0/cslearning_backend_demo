@@ -1,0 +1,62 @@
+[
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个软件库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "SQLite 在线 IDE",
+            "info": "可以在 https://sqliteonline.com/ 在线编译和执行SQL程序。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个软件库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "SQLite 函数参考手册",
+            "info": "本教程提供了所有重要的内置的 SQLite 函数的参考手册。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    },
+    {
+        "startNode": {
+            "name": "SQLite",
+            "info": "一个软件库，实现了自给自足的、无服务器的、零配置的、事务性的 SQL 数据库引擎。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "endNode": {
+            "name": "SQLite 有用的网站",
+            "info": "包括SQLite Home Page、PHP SQLite3、SQLite JDBC Driver、DBD-SQLite-0.31、DBI-1.625、SQLite Python。",
+            "level": null,
+            "type1": "后端",
+            "type2": null
+        },
+        "relationship": {
+            "info": "下属知识点",
+            "type": "包含"
+        }
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Java",
+            "info": "面向对象的高性能编程语言，以跨平台性和丰富的企业级生态著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "relationship": {
+            "info": "同为后端基础语言",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Python",
+            "info": "一种高级、多用途的编程语言，以简洁语法和丰富的生态库著称。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "relationship": {
+            "info": "同为后端基础语言",
+            "type": "同级关系"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "Express.js",
+            "info": "Node.js生态中用于简化Web服务开发的主流框架。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "后端主流框架"
+        },
+        "relationship": {
+            "info": "可基于其构建Web服务",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "MySQL",
+            "info": "一种关系型数据库，Node.js应用可与之交互以支撑数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可与之交互存储数据",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "MongoDB",
+            "info": "一种NoSQL数据库，Node.js应用可与之交互以支撑数据存储。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "数据库"
+        },
+        "relationship": {
+            "info": "可与之交互存储数据",
+            "type": "数据源"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "RESTful API",
+            "info": "一种API设计风格，Node.js可基于其构建标准化接口。",
+            "level": 2,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可基于其构建API",
+            "type": "技术实现"
+        }
+    },
+    {
+        "startNode": {
+            "name": "Node.js",
+            "info": "基于 Chrome V8 引擎的 JavaScript 运行时环境，专为高性能服务器端应用设计，核心优势在于异步非阻塞I/O模型。",
+            "level": 1,
+            "type1": "后端",
+            "type2": "后端基础语言入门"
+        },
+        "endNode": {
+            "name": "GraphQL",
+            "info": "一种API查询语言，Node.js可基于其构建灵活的API接口。",
+            "level": 3,
+            "type1": "后端",
+            "type2": "API开发与通信"
+        },
+        "relationship": {
+            "info": "可基于其构建API",
+            "type": "技术实现"
+        }
+    }
+]
