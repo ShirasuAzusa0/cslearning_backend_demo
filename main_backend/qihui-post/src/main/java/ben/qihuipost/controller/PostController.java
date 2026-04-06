@@ -42,6 +42,9 @@ public class PostController {
     // 获取指定标签对应的帖子列表
     @GetMapping("/{tag}/posts")
     public ResponseEntity<?> getPostsByTag(@PathVariable(name = "tag") int tag) {
+        if (ObjectUtils.isEmpty(tag)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("tag不能为空"));
+        }
         PostListVO vos = postService.getPostListByTag(tag);
         return ResponseEntity.ok(RestBean.successType1("通过指定标签获取帖子列表成功", vos));
     }
@@ -53,6 +56,9 @@ public class PostController {
         if (ObjectUtils.isEmpty(postId)) {
             return ResponseEntity.badRequest().body(RestBean.failure("postId不能为空"));
         }
+        if (ObjectUtils.isEmpty(userId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("userId不能为空"));
+        }
         PostDetailVO vo = postService.getPostDetails(postId, userId);
         return ResponseEntity.ok(RestBean.successType1("获取具体帖子内容成功", vo));
     }
@@ -60,6 +66,15 @@ public class PostController {
     // 发布新帖子
     @PostMapping("/newpost")
     public ResponseEntity<?> newPost(@RequestBody NewPostDto dto, @RequestParam(name = "userId") long userId) {
+        if (dto.getTitle() == null) {
+            return ResponseEntity.badRequest().body(RestBean.failure("title不能为空"));
+        }
+        if (dto.getContent() == null) {
+            return ResponseEntity.badRequest().body(RestBean.failure("content不能为空"));
+        }
+        if (ObjectUtils.isEmpty(userId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("userId不能为空"));
+        }
         NewPostVO vo = postService.newPost(dto, userId);
         return ResponseEntity.ok(RestBean.successType1("新帖子发布成功", vo));
     }
@@ -69,7 +84,12 @@ public class PostController {
     public ResponseEntity<?> newComment(@RequestBody NewCommentDto dto,
                                         @RequestParam(name = "userId") long userId,
                                         @RequestParam(name = "postId") long postId) {
-
+        if (ObjectUtils.isEmpty(userId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("userId不能为空"));
+        }
+        if (ObjectUtils.isEmpty(postId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("postId不能为空"));
+        }
         NewCommentVO vo = postService.newComment(dto, userId, postId);
         return ResponseEntity.ok(RestBean.successType1("评论发布成功", vo));
     }

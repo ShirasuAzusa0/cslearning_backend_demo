@@ -374,6 +374,9 @@ public class AiService {
 
     // 创建新会话
     public NewSessionVO createNewSession(NewSessionDto dto) {
+        if (userRepository.findById(dto.getUserId()).isEmpty()) {
+            return null;
+        }
         Sessions session = new Sessions();
         session.setUser(userRepository.findByUserId(dto.getUserId()));
         session.setSessionName("会话_id_"+LocalDateTime.now());
@@ -397,12 +400,16 @@ public class AiService {
     }
 
     // 修改会话
-    public void editSession(EditSessionDto dto) {
+    public boolean editSession(EditSessionDto dto) {
         Sessions session = sessionRepository.getSessionsBySessionId(dto.getSessionId());
+        if (session == null) {
+            return false;
+        }
         if (StringUtils.hasText(dto.getSessionName())) session.setSessionName(dto.getSessionName());
         if (StringUtils.hasText(dto.getModelName())) session.setModel(modelRepository.findByModelName(dto.getModelName()));
         session.setLastUpdatedAt(LocalDateTime.now());
         sessionRepository.save(session);
+        return true;
     }
 
     // 清空消息
@@ -432,6 +439,9 @@ public class AiService {
     // 获取文档详细信息
     public DocumentVO getDocDetails(long documentId) {
         Documents doc = documentRepository.findDocDetails(documentId);
+        if (doc == null) {
+            return null;
+        }
         return new DocumentVO(
                 doc.getDocumentId(),
                 doc.getDocumentName(),

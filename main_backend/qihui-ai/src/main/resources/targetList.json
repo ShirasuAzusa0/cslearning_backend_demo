@@ -1,0 +1,10 @@
+{
+  "target": ["Java", "Python", "Go", "Node.js", "Rust", "HTML5", "CSS3", "Java Script ES6", "ESLint和Prettier",
+    "RESTful API", "Controller-Service-DAO", "Spring Boot", "Django", "Flask", "Gin", "FastAPI",
+    "Echo + Fiber", "ASP.NET Core", "Express.js", "Actix", "Rocket", "MySQL", "MongoDB", "Redis", "SQLite",
+    "InfluxDB", "Neo4j", "TypeScript", "React", "Vue3", "Angular", "Vite前端", "Webpack", "Rollup",
+    "npm", "yarn", "pnpm", "GraphQL", "gRPC", "WebSocket", "Kafka", "RabbitMQ", "NATS", "Docker", "K8s",
+    "Azure Functions", "AWS Lambda", "Istio", "Elasticsearch", "Amazon Aurora", "Redux", "Pinia", "Zustand",
+    "RxJS", "Tailwind CSS", "Element Plus", "Next.js", "Nuxt.js", "Astro", "Spring Cloud",
+    "CQRS和Event Sourcing", "Apache Spark", "qiankun", "Module Federation", "WebAssembly"]
+}

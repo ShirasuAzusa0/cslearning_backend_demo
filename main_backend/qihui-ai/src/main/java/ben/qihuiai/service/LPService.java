@@ -14,6 +14,8 @@ import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import okhttp3.*;
+import org.springframework.core.io.Resource;
+import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 import org.springframework.stereotype.Service;
 
 import java.util.*;
@@ -147,6 +149,18 @@ public class LPService {
                 NodeRelToJSON(user.getLearningPath()),
                 user.getLearningPathDescription()
         );
+    }
+
+    // 获取可选的学习目标列表
+    public cltVO getLearningTarget() {
+        try {
+            PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
+            Resource resource = resolver.getResource("classpath:targetList.json");
+            ObjectMapper mapper = new ObjectMapper();
+            return mapper.readValue(resource.getInputStream(), cltVO.class);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
     // 获取测试题目

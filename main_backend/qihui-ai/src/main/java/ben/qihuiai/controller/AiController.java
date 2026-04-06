@@ -6,6 +6,7 @@ import ben.qihuiai.entity.vo.*;
 import ben.qihuiai.service.AiService;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
@@ -52,6 +53,9 @@ public class AiController {
     // 获取当前用户指定会话下的所有消息
     @GetMapping("/session/{sessionId}/messages")
     public ResponseEntity<?> getMessages(@PathVariable(name = "sessionId") int sessionId) {
+        if (ObjectUtils.isEmpty(sessionId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("sessionId不能为空"));
+        }
         List<MessageListElementVO> vos = aiService.getMessageList(sessionId);
         return ResponseEntity.ok(RestBean.successType1("获取当前用户指定会话下的所有信息成功", vos));
     }
@@ -59,6 +63,9 @@ public class AiController {
     // 获取当前用户的所有聊天会话
     @GetMapping("/session/list")
     public ResponseEntity<?> getSessionList(@RequestParam(name = "userId") int userId) {
+        if (ObjectUtils.isEmpty(userId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("userId不能为空"));
+        }
         List<SessionListElementVO> vos = aiService.getSessionList(userId);
         return ResponseEntity.ok(RestBean.successType1("获取当前用户的所有聊天会话成功", vos));
     }
@@ -66,13 +73,22 @@ public class AiController {
     // 创建新的聊天会话
     @PostMapping("/session/create")
     public ResponseEntity<?> newSession(@RequestBody NewSessionDto dto) {
+        if (dto.getModelName() == null || dto.getModelName().isEmpty()) {
+            return ResponseEntity.badRequest().body(RestBean.failure("模型名称参数不能为空"));
+        }
         NewSessionVO vo = aiService.createNewSession(dto);
+        if (vo == null) {
+            return ResponseEntity.badRequest().body(RestBean.failure("用户Id不匹配"));
+        }
         return ResponseEntity.ok(RestBean.successType1("创建新的聊天会话成功", vo));
     }
 
     // 删除聊天会话
     @DeleteMapping("/session/delete")
     public ResponseEntity<?> deleteSession(@RequestParam(name = "sessionId") int sessionId) {
+        if (ObjectUtils.isEmpty(sessionId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("sessionId不能为空"));
+        }
         aiService.clearAllMessages(sessionId);
         aiService.deleteSession(sessionId);
         return ResponseEntity.ok(RestBean.successType3("删除聊天会话成功", sessionId));
@@ -81,13 +97,19 @@ public class AiController {
     // 修改聊天会话
     @PutMapping("/session/update")
     public ResponseEntity<?> updateSession(@RequestBody EditSessionDto dto) {
-        aiService.editSession(dto);
+        boolean res = aiService.editSession(dto);
+        if (!res) {
+            return ResponseEntity.badRequest().body(RestBean.failure("当前修改的聊天会话的Id不存在"));
+        }
         return ResponseEntity.ok(RestBean.successType3("修改聊天会话成功", dto.getSessionId()));
     }
 
     // 清空会话历史
     @DeleteMapping("/message/clear/{sessionId}")
     public ResponseEntity<?> deleteAllMessage(@PathVariable(name = "sessionId") int sessionId) {
+        if (ObjectUtils.isEmpty(sessionId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("sessionId不能为空"));
+        }
         aiService.clearAllMessages(sessionId);
         return ResponseEntity.ok(RestBean.successType3("清空会话历史成功", sessionId));
     }
@@ -95,6 +117,9 @@ public class AiController {
     // 删除单条消息
     @DeleteMapping("/message/delete/{messageId}")
     public ResponseEntity<?> deleteOneMessage(@PathVariable(name = "messageId") int messageId) {
+        if (ObjectUtils.isEmpty(messageId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("messageId不能为空"));
+        }
         aiService.deleteOneMessage(messageId);
         return ResponseEntity.ok(RestBean.successType4("删除单条信息成功", messageId));
     }
@@ -109,13 +134,22 @@ public class AiController {
     // 获取文档详细信息
     @GetMapping("/knowledgebase/document/{documentId}")
     public ResponseEntity<?> getDocumentDetails(@PathVariable(name = "documentId") long documentId) {
+        if (ObjectUtils.isEmpty(documentId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("documentId不能为空"));
+        }
         DocumentVO vo = aiService.getDocDetails(documentId);
+        if (vo == null) {
+            return ResponseEntity.badRequest().body(RestBean.failure("当前文档的Id不存在"));
+        }
         return ResponseEntity.ok(RestBean.successType1("获取文档详细信息成功", vo));
     }
 
     // 获取知识库概要信息
     @GetMapping("/knowledgebase/list/{userId}")
     public ResponseEntity<?> getKnowledgeBaseList(@PathVariable(name = "userId") long userId) {
+        if (ObjectUtils.isEmpty(userId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("userId不能为空"));
+        }
         List<KnowledgeBaseElementVO> vos = aiService.getKbList(userId);
         return ResponseEntity.ok(RestBean.successType1("获取知识库概要信息成功", vos));
     }
@@ -123,6 +157,9 @@ public class AiController {
     // 获取知识库详细信息
     @GetMapping("/knowledgebase/detail/{userId}")
     public ResponseEntity<?> getKnowledgeBaseDetail(@PathVariable(name = "userId") long userId) {
+        if (ObjectUtils.isEmpty(userId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("userId不能为空"));
+        }
         KnowledgeBaseVO vo = aiService.getKbDetails(userId);
         return ResponseEntity.ok(RestBean.successType1("获取知识库详细信息成功", vo));
     }
@@ -130,6 +167,9 @@ public class AiController {
     // 创建知识库
     @PostMapping("/knowledgebase/create")
     public ResponseEntity<?> createKnowledgeBase(@RequestBody KbDto dto, @RequestParam(name = "userId") long userId) {
+        if (ObjectUtils.isEmpty(userId)) {
+            return ResponseEntity.badRequest().body(RestBean.failure("userId不能为空"));
+        }
         KnowledgeBaseCreateVO vo = aiService.createKnowledgeBase(dto, userId);
         return ResponseEntity.ok(RestBean.successType1("创建知识库成功", vo));
     }

@@ -9,11 +9,11 @@ import java.util.List;
 
 public interface KbRepository extends JpaRepository<KnowledgeBases, Integer> {
     @Query(value = """
-            SELECT *
-            FROM knowledge_bases
-            WHERE userId = :userId
-            ORDER BY createdAt ASC
-            """, nativeQuery = true)
+            SELECT kb
+            FROM KnowledgeBases kb
+            WHERE kb.user.userId = :userId
+            ORDER BY kb.createdAt ASC
+            """)
     List<KnowledgeBases> findAllByUserId(@Param("userId") long userId);
 
     @Query("""

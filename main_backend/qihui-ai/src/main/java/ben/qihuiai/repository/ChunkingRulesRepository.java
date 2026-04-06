@@ -7,6 +7,6 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 public interface ChunkingRulesRepository extends JpaRepository<ChunkingRules, Integer> {
-    @Query(value = "SELECT * FROM chunking_rules", nativeQuery = true)
+    @Query(value = "SELECT cr FROM ChunkingRules cr")
     List<ChunkingRules> findAllRules();
 }
