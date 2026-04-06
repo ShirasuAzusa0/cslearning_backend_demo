@@ -16,8 +16,8 @@ public interface CommentRepository extends JpaRepository<Comments, Integer> {
                      WHERE cl.comment.commentId = :commentId
                       AND cl.user.userId = :userId
                 )
-                THEN TRUE
-                ELSE FALSE
+                THEN 1
+                ELSE 0
             END
             """)
     long likedCheck(@Param("commentId") long commentId, @Param("userId") long userId);
