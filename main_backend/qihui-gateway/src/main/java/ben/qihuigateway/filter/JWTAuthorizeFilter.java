@@ -34,12 +34,12 @@ public class JWTAuthorizeFilter implements GlobalFilter, Ordered {
     // 接口白名单
     private static final List<String> WHITELIST = List.of(
             "/api/auth/login",
+            "/api/auth/admin/login",
             "/api/auth/register",
             "/api/auth/publicKey",
             "/api/auth/captcha",
             "/api/auth/popular/posts"
     );
-
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {

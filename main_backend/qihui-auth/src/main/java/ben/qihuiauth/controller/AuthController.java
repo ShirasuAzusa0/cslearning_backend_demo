@@ -2,6 +2,7 @@ package ben.qihuiauth.controller;
 
 import ben.qihuiauth.entity.RestBean;
 import ben.qihuiauth.entity.dto.LoginDto;
+import ben.qihuiauth.entity.dto.NewAdminDto;
 import ben.qihuiauth.entity.dto.RegisterDto;
 import ben.qihuiauth.entity.entity_users.Users;
 import ben.qihuiauth.entity.dto.UserEditDto;
@@ -9,8 +10,6 @@ import ben.qihuiauth.entity.entity_users.userType;
 import ben.qihuiauth.entity.vo.AccountVO;
 import ben.qihuiauth.repository.UserRepository;
 import ben.qihuiauth.service.UserService;
-import ben.qihuiauth.util.RSAKeyUtils;
-import com.alibaba.fastjson2.JSON;
 import jakarta.annotation.Resource;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.http.ResponseEntity;
@@ -22,17 +21,12 @@ import org.springframework.web.multipart.MultipartFile;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-import static ben.qihuiauth.util.JsonUtils.loadBKT;
-
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {
 
     @Resource
     private UserRepository userRepository;
-
-    @Resource
-    private RSAKeyUtils rsaKeyUtil;
 
     private final UserService userService;
 
@@ -90,14 +84,8 @@ public class AuthController {
         String encryptedPassword = null;
         if (dto.getPassword() != null && !dto.getPassword().isEmpty()) {
             String rawPassword = dto.getPassword();
-            // 替换空白字符、空格转回 + 号
-            String fixedPassword = rawPassword.replace(' ', '+');
-            String encryptedPasswordClean = fixedPassword.replaceAll("\\s", "");
-
-            System.out.println(encryptedPasswordClean);
-
             // 解密
-            String decryptedPassword = rsaKeyUtil.decrypt(encryptedPasswordClean);
+            String decryptedPassword = userService.passwordDecrypted(rawPassword);
             // 加密存储
             encryptedPassword = passwordEncoder.encode(decryptedPassword);
         }
@@ -106,19 +94,7 @@ public class AuthController {
             return ResponseEntity.badRequest().body(RestBean.failure("密码加密存储失败"));
         }
 
-        Users user = new Users();
-        user.setUserName(dto.getUserName());
-        user.setPassword(encryptedPassword);
-        user.setEmail(dto.getEmail());
-        user.setAvatarURL("https://avatars.githubusercontent.com/u/19370775");
-        user.setSelfDescription("这个用户很懒,什么都没有留下");
-        user.setReplies(0);
-        user.setTopics(0);
-        user.setFollower(0);
-        user.setFollowing(0);
-        user.setLastConnectedDate(LocalDateTime.now());
-        user.setType(userType.user);
-        user.setBktTable(JSON.toJSONString(loadBKT()));
+        Users user = userService.newUser(dto, encryptedPassword);
 
         AccountVO vo = userService.register(user);
 
@@ -150,12 +126,7 @@ public class AuthController {
         // 对密码进行解密
         if (dto.getPassword() != null && !dto.getPassword().isEmpty()) {
             String rawPassword = dto.getPassword();
-            String fixedPassword = rawPassword.replace(' ', '+');
-            String encryptedPasswordClean = fixedPassword.replaceAll("\\s+", "");
-
-            System.out.println(encryptedPasswordClean);
-
-            String decryptedPassword = rsaKeyUtil.decrypt(encryptedPasswordClean);
+            String decryptedPassword = userService.passwordDecrypted(rawPassword);
 
             // 使用BCrypt验证密码
             if (!passwordEncoder.matches(decryptedPassword, user.getPassword())) {
@@ -196,12 +167,7 @@ public class AuthController {
         // 对密码进行解密
         if (dto.getPassword() != null && !dto.getPassword().isEmpty()) {
             String rawPassword = dto.getPassword();
-            String fixedPassword = rawPassword.replace(' ', '+');
-            String encryptedPasswordClean = fixedPassword.replaceAll("\\s+", "");
-
-            System.out.println(encryptedPasswordClean);
-
-            String decryptedPassword = rsaKeyUtil.decrypt(encryptedPasswordClean);
+            String decryptedPassword = userService.passwordDecrypted(rawPassword);
 
             // 使用BCrypt验证密码
             if (!passwordEncoder.matches(decryptedPassword, user.getPassword())) {
@@ -215,6 +181,23 @@ public class AuthController {
         AccountVO vo = userService.login(user);
 
         return ResponseEntity.ok(RestBean.successType1("管理员登录成功", vo));
+    }
+
+    // 创建管理员
+    @PostMapping("/admin/create")
+    public ResponseEntity<?> createAdmin(@RequestBody NewAdminDto dto) {
+        String rawPassword = dto.getPassword();
+        // 先解密
+        String decryptedPassword = userService.passwordDecrypted(rawPassword);
+        // 再加密存储
+        String encryptedPassword = passwordEncoder.encode(decryptedPassword);
+        Users user = userService.newAdmin((RegisterDto) dto, encryptedPassword);
+        if (user != null) {
+            return ResponseEntity.ok(RestBean.successType2("创建新的管理员成功"));
+        }
+        else {
+            return ResponseEntity.badRequest().body("新管理员创建失败");
+        }
     }
 
     // 修改用户个人信息
