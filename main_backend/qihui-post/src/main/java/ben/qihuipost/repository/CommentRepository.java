@@ -12,14 +12,14 @@ public interface CommentRepository extends JpaRepository<Comments, Integer> {
             SELECT CASE
                  WHEN EXISTS (
                      SELECT 1
-                     FROM comment_like
-                     WHERE commentId = :commentId
-                      AND userId = :userId
+                     FROM comment_like cl
+                     WHERE cl.comment.commentId = :commentId
+                      AND cl.user.userId = :userId
                 )
-                THEN TRUE
-                ELSE FALSE
+                THEN 1
+                ELSE 0
             END
-            """, nativeQuery = true)
+            """)
     long likedCheck(@Param("commentId") long commentId, @Param("userId") long userId);
 
     Comments findByCommentId(@Param("commentId") long commentId);
@@ -33,9 +33,9 @@ public interface CommentRepository extends JpaRepository<Comments, Integer> {
 
     @Modifying
     @Query(value = """
-            DELETE FROM comment_like
-            WHERE commentId = :commentId
-              AND userId = :userId
-            """, nativeQuery = true)
+            DELETE FROM comment_like cl
+            WHERE cl.comment.commentId = :commentId
+              AND cl.user.userId = :userId
+            """)
     void deleteByCommentIdAndUserId(@Param("commentId") long commentId, @Param("userId") long userId);
 }

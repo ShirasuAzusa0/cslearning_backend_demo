@@ -11,11 +11,11 @@ import java.util.List;
 
 public interface MessageRepository extends JpaRepository<Messages, Integer> {
     @Query(value = """
-            SELECT *
-            FROM messages
-            WHERE sessionId = :sessionId
-            Order by createdAt ASC
-            """, nativeQuery = true)
+            SELECT m
+            FROM Messages m
+            WHERE m.session.sessionId = :sessionId
+            Order by m.createdAt ASC
+            """)
     List<Messages> findBySessionIdOrderByCreatedAtAsc(@Param("sessionId") int sessionId);
 
     void deleteBySession(Sessions session);

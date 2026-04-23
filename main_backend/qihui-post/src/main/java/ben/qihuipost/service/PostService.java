@@ -25,17 +25,19 @@ public class PostService {
     private final post_categoriesRepository PCRepository;
     private final CommentRepository commentRepository;
     private final UserRepository userRepository;
+    private final CategoriesRepository categoriesRepository;
 
     public PostService(PostRepository postRepository,
                        PostCategoryRepository postCategoryRepository,
                        post_categoriesRepository PCRepository,
                        CommentRepository commentRepository,
-                       UserRepository userRepository) {
+                       UserRepository userRepository, CategoriesRepository categoriesRepository) {
         this.postRepository = postRepository;
         this.postCategoryRepository = postCategoryRepository;
         this.PCRepository = PCRepository;
         this.commentRepository = commentRepository;
         this.userRepository = userRepository;
+        this.categoriesRepository = categoriesRepository;
     }
 
     public List<TagDetailVO> getAllTags() {
@@ -141,12 +143,10 @@ public class PostService {
 
         // 处理存储新帖子的 tag 分类
         for (TagVO tag : dto.getTags()) {
+            Categories category = categoriesRepository.findByTagId(tag.getTagId());
             post_categories pc = new post_categories();
             pc.setPost(post);
-            pc.setTag(new Categories() {{
-                setTagId(tag.getTagId());
-                setTagName(tag.getTagName());
-            }});
+            pc.setTag(category);
             PCRepository.save(pc);
         }
 

@@ -31,7 +31,7 @@ public class Comments {
     private int likesCount;
 
     @Column(name = "repliedId")
-    private long repliedId;
+    private Long repliedId;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "postId", referencedColumnName = "postId")

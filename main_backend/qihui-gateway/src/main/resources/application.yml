@@ -41,17 +41,6 @@ spring:
           uri: http://localhost:8081
           predicates:
             - Path=/api/auth/**
-          filters:
-            - name: RequestRateLimiter
-              args:
-                key-resolver: "#{@ipKeyResolver}"
-                redis-rate-limiter.replenishRate: 100
-                redis-rate-limiter.burstCapacity: 150
-
-        - id: qihui-auth
-          uri: http://localhost:8081
-          predicates:
-            - Path=/api/auth/**
           # 认证接口：限流宽松
           filters:
             - name: RequestRateLimiter

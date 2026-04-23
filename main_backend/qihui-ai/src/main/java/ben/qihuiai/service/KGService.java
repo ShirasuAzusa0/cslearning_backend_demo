@@ -74,6 +74,9 @@ public class KGService {
     // 获取节点同级的关系
     public List<NodeRelVO> getSameLevelNodes(String nodeName) {
         NodeVO node = graphRepository.getNodeProfile(nodeName);
+        if (node == null) {
+            return null;
+        }
         return graphRepository.getSameLevelRelationships(Integer.toString(node.getLevel()));
     }
 }

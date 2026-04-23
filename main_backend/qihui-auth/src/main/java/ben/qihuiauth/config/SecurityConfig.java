@@ -61,6 +61,7 @@ public class SecurityConfig {
                         .dispatcherTypeMatchers(DispatcherType.ASYNC).permitAll()         // 放行 SSE 接口
                         .requestMatchers("/api/auth/register").permitAll()              // 允许匿名访问注册接口
                         .requestMatchers("/api/auth/login").permitAll()                 // 允许匿名访问登录接口
+                        .requestMatchers("/api/auth/admin/login").permitAll()           // 允许匿名访问管理员登录接口
                         .requestMatchers("/api/auth/publicKey").permitAll()             // 允许匿名访问公钥获取接口
                         .requestMatchers("/api/auth/captcha").permitAll()               // 允许匿名访问验证码获取接口
                         .requestMatchers("/api/auth/popular/posts").permitAll()         // 允许匿名访问热门帖子列表获取接口

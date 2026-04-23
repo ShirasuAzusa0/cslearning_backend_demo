@@ -42,6 +42,9 @@ public class KGController {
     @GetMapping("/knowledge_graph/same_level_relationship")
     public ResponseEntity<?> getSameLevelRelationship(@RequestParam(name = "nodeName") String nodeName) {
         List<NodeRelVO> vos = kgService.getSameLevelNodes(nodeName);
+        if (vos.isEmpty()) {
+            return ResponseEntity.badRequest().body(RestBean.failure("指定节点不存在"));
+        }
         return ResponseEntity.ok(RestBean.successType1("获取指定节点的同级关系成功", vos));
     }
 }

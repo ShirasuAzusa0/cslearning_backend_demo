@@ -34,7 +34,3 @@ build/
 
 ### Key ###
 /qihui-auth/src/main/resources/key/
-
-### Articles ###
-/qihui-article/src/main/resources/节点文章/
-/qihui-ai/src/main/resources/节点文章/

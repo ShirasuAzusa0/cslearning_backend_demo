@@ -9,10 +9,10 @@ import java.util.List;
 
 public interface SessionRepository extends CrudRepository<Sessions, Integer> {
     @Query(value = """
-            SELECT *
-            FROM sessions
-            WHERE userId = :userId
-            """, nativeQuery = true)
+            SELECT s
+            FROM Sessions s
+            WHERE s.user.userId = :userId
+            """)
     List<Sessions> findAllByUserId(@Param("userId") long userId);
 
     Sessions getSessionsBySessionId(@Param("sessionId") int sessionId);
